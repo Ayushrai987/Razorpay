@@ -1,0 +1,111 @@
+payment_id,customer_id,order_id,amount,currency,status,method,card_id,vpa,bank,description,international,created_at
+pay_800249,cust_00061,order_600241,199.76,INR,captured,upi,,user2@okaxis,,Service payment,False,1717344398
+pay_800181,cust_00092,order_600173,199.97,INR,captured,netbanking,,,HDFC,Order payment,False,1717221482
+pay_800175,cust_00163,order_600167,1499.11,INR,captured,netbanking,,,KOTAK,Subscription renewal,False,1717209706
+pay_800255,cust_00190,order_600247,2499.89,INR,captured,upi,,user31@okaxis,,Recharge,False,1717349461
+pay_800235,cust_00049,order_600227,1499.67,INR,failed,wallet,,,,Booking fee,False,1717327811
+pay_800239,cust_00056,order_600231,2499.88,INR,captured,wallet,,,,Bill payment,False,1717331930
+pay_800201,cust_00046,order_600193,999.7,INR,failed,netbanking,,,HDFC,Subscription renewal,False,1717262864
+pay_800216,cust_00037,order_600208,999.2,INR,captured,card,card_0011,,AXIS,Order payment,False,1717294578
+pay_800267,cust_00188,order_600256,299.0,INR,captured,card,card_0024,,KOTAK,Product purchase,False,1717330821
+pay_800182,cust_00070,order_600174,499.96,INR,captured,card,card_0042,,ICICI,Recharge,False,1717224985
+pay_800250,cust_00139,order_600242,1499.81,INR,captured,wallet,,,,Recharge,False,1717345145
+pay_800251,cust_00122,order_600243,299.8,INR,captured,wallet,,,,Product purchase,False,1717345433
+pay_800171,cust_00042,order_600163,999.9,INR,failed,netbanking,,,SBI,Booking fee,False,1717202003
+pay_800252,cust_00075,order_600244,499.04,INR,failed,netbanking,,,SBI,Bill payment,False,1717346280
+pay_800189,cust_00157,order_600181,99.72,INR,captured,netbanking,,,AXIS,Recharge,False,1717241476
+pay_800241,cust_00182,order_600233,1499.78,INR,captured,wallet,,,,Recharge,False,1717332887
+pay_800227,cust_00152,order_600219,199.31,INR,captured,netbanking,,,ICICI,Recharge,False,1717311737
+pay_800243,cust_00038,order_600235,4999.93,INR,captured,card,card_0049,,SBI,Subscription renewal,False,1717335461
+pay_800279,cust_00141,order_600267,299.0,INR,captured,card,card_0019,,AXIS,Recharge,False,1717360418
+pay_800213,cust_00027,order_600205,499.43,INR,captured,wallet,,,,Booking fee,False,1717285476
+pay_800183,cust_00163,order_600175,9999.96,INR,captured,upi,,user8@okaxis,,Booking fee,False,1717225222
+pay_800207,cust_00014,order_600199,99.2,INR,captured,netbanking,,,SBI,Service payment,False,1717272356
+pay_800236,cust_00072,order_600228,1999.5,INR,failed,upi,,user38@okaxis,,Subscription renewal,False,1717329555
+pay_800197,cust_00170,order_600189,1999.86,INR,captured,netbanking,,,KOTAK,Service payment,False,1717255751
+pay_800193,cust_00055,order_600185,1999.45,INR,captured,wallet,,,,Order payment,False,1717248749
+pay_800202,cust_00036,order_600194,9999.65,INR,captured,card,card_0005,,KOTAK,Subscription renewal,False,1717263179
+pay_800218,cust_00112,order_600210,199.46,INR,captured,netbanking,,,KOTAK,Product purchase,False,1717299062
+pay_800247,cust_00170,order_600239,199.52,INR,captured,card,card_0024,,AXIS,Product purchase,False,1717340289
+pay_800186,cust_00064,order_600178,299.11,INR,captured,card,card_0022,,ICICI,Bill payment,False,1717234435
+pay_800215,cust_00198,order_600207,1499.35,INR,captured,upi,,user15@okaxis,,Product purchase,False,1717292081
+pay_800260,cust_00163,order_600252,99.07,INR,captured,upi,,user1@okaxis,,Subscription renewal,False,1717361118
+pay_800261,cust_00155,order_600253,2499.0,INR,failed,card,card_0015,,SBI,Service payment,False,1717209122
+pay_800180,cust_00104,order_600172,999.03,INR,captured,wallet,,,,Subscription renewal,False,1717219948
+pay_800204,cust_00021,order_600196,99.15,INR,captured,card,card_0017,,AXIS,Recharge,False,1717266973
+pay_800226,cust_00149,order_600218,299.91,INR,failed,wallet,,,,Subscription renewal,False,1717310165
+pay_800240,cust_00095,order_600232,499.38,INR,captured,card,card_0020,,HDFC,Booking fee,False,1717332294
+pay_800199,cust_00027,order_600191,1499.84,INR,captured,netbanking,,,KOTAK,Subscription renewal,False,1717258187
+pay_800211,cust_00146,order_600203,1999.7,INR,captured,wallet,,,,Product purchase,False,1717281245
+pay_800176,cust_00165,order_600168,199.63,INR,failed,netbanking,,,AXIS,Product purchase,False,1717211637
+pay_800224,cust_00198,order_600216,1499.67,INR,captured,netbanking,,,HDFC,Service payment,False,1717307672
+pay_800233,cust_00011,order_600225,1999.36,INR,captured,wallet,,,,Bill payment,False,1717324436
+pay_800210,cust_00189,order_600202,99.43,INR,failed,netbanking,,,KOTAK,Order payment,False,1717279505
+pay_800206,cust_00072,order_600198,9999.48,INR,captured,upi,,user25@okaxis,,Bill payment,False,1717271461
+pay_800187,cust_00082,order_600179,99.17,INR,captured,wallet,,,,Bill payment,False,1717234679
+pay_800275,cust_00076,order_600263,299.0,INR,captured,netbanking,,,KOTAK,Subscription renewal,False,1717386596
+pay_800205,cust_00108,order_600197,2499.6,INR,captured,card,card_0022,,AXIS,Product purchase,False,1717268699
+pay_800238,cust_00031,order_600230,999.08,INR,captured,upi,,user27@okaxis,,Product purchase,False,1717331791
+pay_800178,cust_00034,order_600170,1999.45,INR,failed,wallet,,,,Bill payment,False,1717215689
+pay_800214,cust_00079,order_600206,1499.22,INR,captured,card,card_0033,,KOTAK,Subscription renewal,False,1717288697
+pay_800237,cust_00064,order_600229,99.63,INR,captured,card,card_0045,,KOTAK,Booking fee,False,1717331105
+pay_800244,cust_00077,order_600236,199.05,INR,captured,wallet,,,,Product purchase,False,1717337210
+pay_800198,cust_00090,order_600190,199.57,INR,captured,wallet,,,,Subscription renewal,False,1717256652
+pay_800190,cust_00007,order_600182,99.99,INR,captured,card,card_0031,,AXIS,Product purchase,False,1717244976
+pay_800259,cust_00089,order_600251,2499.04,INR,failed,wallet,,,,Service payment,False,1717358477
+pay_800264,cust_00154,order_600254,299.0,INR,captured,netbanking,,,HDFC,Bill payment,False,1717378031
+pay_800196,cust_00033,order_600188,4999.06,INR,captured,card,card_0026,,SBI,Booking fee,False,1717252768
+pay_800179,cust_00190,order_600171,299.88,INR,captured,wallet,,,,Bill payment,False,1717218401
+pay_800272,cust_00051,order_600260,199.0,INR,captured,upi,,user4@okaxis,,Subscription renewal,False,1717235664
+pay_800220,cust_00165,order_600212,199.61,INR,captured,card,card_0028,,KOTAK,Recharge,False,1717303089
+pay_800184,cust_00144,order_600176,499.07,INR,captured,upi,,user14@okaxis,,Service payment,False,1717228386
+pay_800248,cust_00162,order_600240,1999.97,INR,captured,netbanking,,,HDFC,Service payment,False,1717341357
+pay_800195,cust_00121,order_600187,199.09,INR,captured,card,card_0047,,SBI,Booking fee,False,1717250438
+pay_800174,cust_00137,order_600166,199.45,INR,captured,netbanking,,,KOTAK,Order payment,False,1717208719
+pay_800188,cust_00029,order_600180,199.47,INR,captured,card,card_0028,,KOTAK,Subscription renewal,False,1717237895
+pay_800209,cust_00180,order_600201,499.5,INR,captured,netbanking,,,HDFC,Order payment,False,1717277592
+pay_800256,cust_00127,order_600248,1499.92,INR,captured,card,card_0046,,AXIS,Product purchase,False,1717351617
+pay_800177,cust_00035,order_600169,99.94,INR,failed,card,card_0006,,ICICI,Bill payment,False,1717212913
+pay_800276,cust_00076,order_600264,299.0,INR,captured,netbanking,,,HDFC,Subscription renewal,False,1717386599
+pay_800266,cust_00035,order_600255,4999.0,INR,captured,card,card_0020,,HDFC,Product purchase,False,1717296197
+pay_800262,cust_00155,order_600253,2499.0,INR,captured,card,card_0024,,KOTAK,Product purchase,False,1717209131
+pay_800225,cust_00024,order_600217,4999.67,INR,captured,upi,,user21@okaxis,,Product purchase,False,1717308865
+pay_800221,cust_00048,order_600213,1499.6,INR,captured,card,card_0028,,HDFC,Booking fee,False,1717305172
+pay_800269,cust_00066,order_600257,2499.0,INR,failed,upi,,user18@okaxis,,Recharge,False,1717256248
+pay_800217,cust_00193,order_600209,9999.75,INR,captured,netbanking,,,SBI,Subscription renewal,False,1717296446
+pay_800254,cust_00199,order_600246,99.86,INR,captured,netbanking,,,AXIS,Order payment,False,1717347848
+pay_800232,cust_00039,order_600224,299.18,INR,captured,upi,,user46@okaxis,,Order payment,False,1717321459
+pay_800277,cust_00035,order_600265,499.0,INR,captured,card,card_0023,,KOTAK,Bill payment,False,1717407191
+pay_800271,cust_00051,order_600259,199.0,INR,failed,upi,,user4@okaxis,,Order payment,False,1717235580
+pay_800212,cust_00083,order_600204,299.79,INR,captured,netbanking,,,HDFC,Order payment,False,1717283806
+pay_800229,cust_00079,order_600221,299.94,INR,failed,wallet,,,,Subscription renewal,False,1717315942
+pay_800219,cust_00090,order_600211,4999.07,INR,captured,card,card_0023,,SBI,Product purchase,False,1717300983
+pay_800265,cust_00035,order_600255,4999.0,INR,captured,card,card_0020,,SBI,Subscription renewal,False,1717296193
+pay_800228,cust_00179,order_600220,4999.09,INR,captured,netbanking,,,HDFC,Service payment,False,1717314513
+pay_800246,cust_00074,order_600238,1999.0,INR,captured,wallet,,,,Subscription renewal,False,1717338782
+pay_800203,cust_00096,order_600195,1999.45,INR,captured,netbanking,,,KOTAK,Bill payment,False,1717263853
+pay_800274,cust_00182,order_600262,2499.0,INR,captured,netbanking,,,KOTAK,Service payment,False,1717223019
+pay_800230,cust_00057,order_600222,299.15,INR,captured,card,card_0032,,KOTAK,Booking fee,False,1717317183
+pay_800234,cust_00072,order_600226,2499.23,INR,captured,wallet,,,,Booking fee,False,1717325445
+pay_800278,cust_00035,order_600266,499.0,INR,captured,card,card_0023,,AXIS,Booking fee,False,1717407211
+pay_800208,cust_00030,order_600200,99.49,INR,captured,wallet,,,,Bill payment,False,1717274149
+pay_800200,cust_00109,order_600192,4999.96,INR,captured,card,card_0038,,SBI,Product purchase,False,1717261569
+pay_800268,cust_00188,order_600256,299.0,INR,captured,card,card_0024,,SBI,Booking fee,False,1717330826
+pay_800172,cust_00029,order_600164,2499.95,INR,captured,upi,,user43@okaxis,,Recharge,False,1717202609
+pay_800223,cust_00134,order_600215,4999.6,INR,captured,netbanking,,,AXIS,Order payment,False,1717307428
+pay_800192,cust_00135,order_600184,999.45,INR,captured,card,card_0041,,KOTAK,Recharge,False,1717247784
+pay_800173,cust_00172,order_600165,1999.96,INR,captured,card,card_0025,,HDFC,Service payment,False,1717205934
+pay_800194,cust_00106,order_600186,199.31,INR,captured,netbanking,,,ICICI,Recharge,False,1717250059
+pay_800258,cust_00083,order_600250,999.3,INR,captured,upi,,user44@okaxis,,Order payment,False,1717354884
+pay_800270,cust_00066,order_600258,2499.0,INR,captured,upi,,user18@okaxis,,Order payment,False,1717256317
+pay_800245,cust_00028,order_600237,2499.59,INR,captured,upi,,user45@okaxis,,Subscription renewal,False,1717337307
+pay_800257,cust_00110,order_600249,9999.99,INR,captured,netbanking,,,HDFC,Product purchase,False,1717352386
+pay_800253,cust_00101,order_600245,4999.47,INR,captured,upi,,user18@okaxis,,Service payment,False,1717346459
+pay_800280,cust_00141,order_600268,299.0,INR,captured,card,card_0046,,AXIS,Bill payment,False,1717360425
+pay_800191,cust_00020,order_600183,1499.6,INR,captured,netbanking,,,AXIS,Bill payment,False,1717245275
+pay_800231,cust_00189,order_600223,4999.04,INR,captured,upi,,user38@okaxis,,Order payment,False,1717318592
+pay_800242,cust_00035,order_600234,2499.44,INR,failed,card,card_0016,,ICICI,Booking fee,False,1717332938
+pay_800185,cust_00198,order_600177,299.78,INR,captured,upi,,user8@okaxis,,Bill payment,False,1717230857
+pay_800263,cust_00154,order_600254,299.0,INR,failed,netbanking,,,SBI,Order payment,False,1717378012
+pay_800222,cust_00087,order_600214,199.5,INR,captured,wallet,,,,Order payment,False,1717305908
+pay_800273,cust_00182,order_600261,2499.0,INR,captured,netbanking,,,HDFC,Bill payment,False,1717223013

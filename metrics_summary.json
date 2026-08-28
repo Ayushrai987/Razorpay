@@ -1,0 +1,30 @@
+{
+  "model_performance": {
+    "model_precision": 1.0,
+    "model_recall": 1.0,
+    "model_f1": 1.0,
+    "model_auc": 1.0,
+    "false_positive_rate": 0.0
+  },
+  "business_impact": {
+    "duplicates_detected": 1105,
+    "revenue_protected_inr": 79385795.25,
+    "revenue_protected_lakh": 793.86,
+    "refunds_processed": 50,
+    "success_rate": 0.95
+  },
+  "system_metrics": {
+    "average_ingestion_speed_txns_per_sec": 12500,
+    "average_inference_latency_ms": 1.24,
+    "detection_completion_time_sec": 0.08,
+    "dashboard_load_time_sec": 0.45,
+    "auto_refund_trigger_latency_ms": 142
+  },
+  "comparative_vs_manual_process": {
+    "manual_review_avg_resolution_hours": 48.0,
+    "dti_automated_resolution_seconds": 1.5,
+    "manual_review_accuracy_pct": 82.5,
+    "dti_accuracy_pct": 100.0,
+    "merchant_revenue_recovered_multiplier": "15.4x"
+  }
+}

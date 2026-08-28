@@ -1,0 +1,49 @@
+{
+  "logistic_regression": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "roc_auc": 1.0,
+    "accuracy": 1.0,
+    "false_positive_rate": 0.0,
+    "threshold": 0.5,
+    "confusion_matrix": {
+      "tn": 25,
+      "fp": 0,
+      "fn": 0,
+      "tp": 18
+    }
+  },
+  "random_forest": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "roc_auc": 1.0,
+    "accuracy": 1.0,
+    "false_positive_rate": 0.0,
+    "threshold": 0.5,
+    "confusion_matrix": {
+      "tn": 25,
+      "fp": 0,
+      "fn": 0,
+      "tp": 18
+    }
+  },
+  "xgboost_optimised": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "roc_auc": 1.0,
+    "accuracy": 1.0,
+    "false_positive_rate": 0.0,
+    "threshold": 0.5,
+    "confusion_matrix": {
+      "tn": 25,
+      "fp": 0,
+      "fn": 0,
+      "tp": 18
+    },
+    "cv_f1": 1.0,
+    "cv_roc": 1.0
+  }
+}

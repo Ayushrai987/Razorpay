@@ -1,0 +1,1106 @@
+payment_id_a,payment_id_b,customer_id,order_id_a,order_id_b,amount_a,amount_b,created_at_a,created_at_b,status_a,status_b,method_a,method_b,time_gap_seconds,scenario,confidence_score,is_double_capture,refundable_amount
+pay_900947,pay_900948,cust_00029,order_700824,order_700824,249999,249999,1787541213,1787541214,captured,captured,wallet,wallet,1,Double-Click Issue,99.5,True,249999
+pay_900777,pay_900778,cust_00122,order_700739,order_700739,14999,14999,1787583663,1787583666,captured,captured,card,card,3,Double-Click Issue,99.5,True,14999
+pay_902351,pay_902352,cust_00122,order_701601,order_701602,19999,19999,1787592140,1787592145,captured,captured,wallet,wallet,5,Multiple Browser Tabs Checkout,99.5,True,19999
+pay_901045,pay_901046,cust_00183,order_700873,order_700873,14999,14999,1787674623,1787674624,captured,captured,netbanking,netbanking,1,Double-Click Issue,99.5,True,14999
+pay_900703,pay_900704,cust_00184,order_700702,order_700702,9999,9999,1787525732,1787525733,captured,captured,netbanking,netbanking,1,Double-Click Issue,99.5,True,9999
+pay_901011,pay_901012,cust_00184,order_700856,order_700856,34999,34999,1787532278,1787532281,captured,captured,card,card,3,Double-Click Issue,99.5,True,34999
+pay_901051,pay_901052,cust_00123,order_700876,order_700876,74999,74999,1787631950,1787631953,captured,captured,wallet,wallet,3,Double-Click Issue,99.5,True,74999
+pay_901023,pay_901024,cust_00184,order_700862,order_700862,19999,19999,1787646276,1787646277,captured,captured,card,card,1,Double-Click Issue,99.5,True,19999
+pay_900747,pay_900748,cust_00124,order_700724,order_700724,149999,149999,1787589974,1787589977,captured,captured,card,card,3,Double-Click Issue,99.5,True,149999
+pay_900729,pay_900730,cust_00164,order_700715,order_700715,149999,149999,1787592619,1787592621,captured,captured,netbanking,netbanking,2,Double-Click Issue,99.5,True,149999
+pay_900849,pay_900850,cust_00174,order_700775,order_700775,49999,49999,1787616440,1787616441,captured,captured,wallet,wallet,1,Double-Click Issue,99.5,True,49999
+pay_901005,pay_901006,cust_00164,order_700853,order_700853,14999,14999,1787628555,1787628557,captured,captured,upi,upi,2,Double-Click Issue,99.5,True,14999
+pay_901049,pay_901050,cust_00164,order_700875,order_700875,19999,19999,1787646903,1787646906,captured,captured,card,card,3,Double-Click Issue,99.5,True,19999
+pay_901019,pay_901020,cust_00185,order_700860,order_700860,24999,24999,1787559382,1787559383,captured,captured,card,card,1,Double-Click Issue,99.5,True,24999
+pay_901075,pay_901076,cust_00181,order_700888,order_700888,149999,149999,1787645923,1787645926,captured,captured,netbanking,netbanking,3,Double-Click Issue,99.5,True,149999
+pay_900843,pay_900844,cust_00166,order_700772,order_700772,9999,9999,1787554108,1787554111,captured,captured,card,card,3,Double-Click Issue,99.5,True,9999
+pay_900867,pay_900868,cust_00182,order_700784,order_700784,74999,74999,1787574740,1787574743,captured,captured,upi,upi,3,Double-Click Issue,99.5,True,74999
+pay_901047,pay_901048,cust_00182,order_700874,order_700874,99999,99999,1787602514,1787602517,captured,captured,upi,upi,3,Double-Click Issue,99.5,True,99999
+pay_901137,pay_901138,cust_00008,order_700919,order_700919,34999,34999,1787607624,1787607625,captured,captured,upi,upi,1,Double-Click Issue,99.5,True,34999
+pay_901063,pay_901064,cust_00009,order_700882,order_700882,19999,19999,1787533149,1787533152,captured,captured,wallet,wallet,3,Double-Click Issue,99.5,True,19999
+pay_900779,pay_900780,cust_00009,order_700740,order_700740,49999,49999,1787536226,1787536228,captured,captured,upi,upi,2,Double-Click Issue,99.5,True,49999
+pay_901111,pay_901112,cust_00167,order_700906,order_700906,12499,12499,1787604242,1787604243,captured,captured,netbanking,netbanking,1,Double-Click Issue,99.5,True,12499
+pay_900741,pay_900742,cust_00009,order_700721,order_700721,14999,14999,1787570515,1787570516,captured,captured,card,card,1,Double-Click Issue,99.5,True,14999
+pay_901169,pay_901170,cust_00183,order_700935,order_700935,149999,149999,1787563251,1787563253,captured,captured,wallet,wallet,2,Double-Click Issue,99.5,True,149999
+pay_901195,pay_901196,cust_00169,order_700948,order_700948,249999,249999,1787642608,1787642610,captured,captured,upi,upi,2,Double-Click Issue,99.5,True,249999
+pay_900781,pay_900782,cust_00045,order_700741,order_700741,9999,9999,1787655143,1787655144,captured,captured,upi,upi,1,Double-Click Issue,99.5,True,9999
+pay_900763,pay_900764,cust_00030,order_700732,order_700732,14999,14999,1787596820,1787596823,captured,captured,wallet,wallet,3,Double-Click Issue,99.5,True,14999
+pay_900981,pay_900982,cust_00004,order_700841,order_700841,149999,149999,1787684421,1787684424,captured,captured,upi,upi,3,Double-Click Issue,99.5,True,149999
+pay_900965,pay_900966,cust_00030,order_700833,order_700833,24999,24999,1787681728,1787681730,captured,captured,wallet,wallet,2,Double-Click Issue,99.5,True,24999
+pay_901115,pay_901116,cust_00172,order_700908,order_700908,99999,99999,1787664904,1787664906,captured,captured,upi,upi,2,Double-Click Issue,99.5,True,99999
+pay_900941,pay_900942,cust_00052,order_700821,order_700821,19999,19999,1787566478,1787566479,captured,captured,wallet,wallet,1,Double-Click Issue,99.5,True,19999
+pay_900937,pay_900938,cust_00031,order_700819,order_700819,14999,14999,1787651047,1787651049,captured,captured,card,card,2,Double-Click Issue,99.5,True,14999
+pay_901117,pay_901118,cust_00027,order_700909,order_700909,12499,12499,1787627167,1787627168,captured,captured,wallet,wallet,1,Double-Click Issue,99.5,True,12499
+pay_901131,pay_901132,cust_00012,order_700916,order_700916,149999,149999,1787577251,1787577254,captured,captured,card,card,3,Double-Click Issue,99.5,True,149999
+pay_900875,pay_900876,cust_00190,order_700788,order_700788,14999,14999,1787679069,1787679071,captured,captured,upi,upi,2,Double-Click Issue,99.5,True,14999
+pay_901073,pay_901074,cust_00052,order_700887,order_700887,74999,74999,1787658862,1787658865,captured,captured,wallet,wallet,3,Double-Click Issue,99.5,True,74999
+pay_901055,pay_901056,cust_00028,order_700878,order_700878,4999,4999,1787540553,1787540556,captured,captured,wallet,wallet,3,Double-Click Issue,99.5,True,4999
+pay_901119,pay_901120,cust_00192,order_700910,order_700910,99999,99999,1787519545,1787519548,captured,captured,upi,upi,3,Double-Click Issue,99.5,True,99999
+pay_900835,pay_900836,cust_00192,order_700768,order_700768,249999,249999,1787564701,1787564703,captured,captured,card,card,2,Double-Click Issue,99.5,True,249999
+pay_901159,pay_901160,cust_00033,order_700930,order_700930,99999,99999,1787532729,1787532732,captured,captured,upi,upi,3,Double-Click Issue,99.5,True,99999
+pay_901113,pay_901114,cust_00043,order_700907,order_700907,199999,199999,1787623775,1787623776,captured,captured,card,card,1,Double-Click Issue,99.5,True,199999
+pay_900719,pay_900720,cust_00033,order_700710,order_700710,9999,9999,1787679391,1787679394,captured,captured,card,card,3,Double-Click Issue,99.5,True,9999
+pay_901139,pay_901140,cust_00192,order_700920,order_700920,24999,24999,1787681352,1787681353,captured,captured,netbanking,netbanking,1,Double-Click Issue,99.5,True,24999
+pay_900969,pay_900970,cust_00043,order_700835,order_700835,7499,7499,1787635739,1787635740,captured,captured,upi,upi,1,Double-Click Issue,99.5,True,7499
+pay_900977,pay_900978,cust_00034,order_700839,order_700839,34999,34999,1787534956,1787534958,captured,captured,wallet,wallet,2,Double-Click Issue,99.5,True,34999
+pay_900727,pay_900728,cust_00043,order_700714,order_700714,99999,99999,1787657424,1787657427,captured,captured,card,card,3,Double-Click Issue,99.5,True,99999
+pay_901017,pay_901018,cust_00043,order_700859,order_700859,34999,34999,1787657455,1787657458,captured,captured,upi,upi,3,Double-Click Issue,99.5,True,34999
+pay_900863,pay_900864,cust_00007,order_700782,order_700782,99999,99999,1787687804,1787687806,captured,captured,wallet,wallet,2,Double-Click Issue,99.5,True,99999
+pay_900887,pay_900888,cust_00014,order_700794,order_700794,249999,249999,1787539178,1787539179,captured,captured,upi,upi,1,Double-Click Issue,99.5,True,249999
+pay_900785,pay_900786,cust_00052,order_700743,order_700743,249999,249999,1787659575,1787659577,captured,captured,upi,upi,2,Double-Click Issue,99.5,True,249999
+pay_901153,pay_901154,cust_00014,order_700927,order_700927,249999,249999,1787626841,1787626842,captured,captured,wallet,wallet,1,Double-Click Issue,99.5,True,249999
+pay_900819,pay_900820,cust_00015,order_700760,order_700760,49999,49999,1787526779,1787526782,captured,captured,upi,upi,3,Double-Click Issue,99.5,True,49999
+pay_900825,pay_900826,cust_00015,order_700763,order_700763,12499,12499,1787594315,1787594317,captured,captured,card,card,2,Double-Click Issue,99.5,True,12499
+pay_901167,pay_901168,cust_00044,order_700934,order_700934,4999,4999,1787557980,1787557981,captured,captured,netbanking,netbanking,1,Double-Click Issue,99.5,True,4999
+pay_901183,pay_901184,cust_00010,order_700942,order_700942,49999,49999,1787609352,1787609355,captured,captured,netbanking,netbanking,3,Double-Click Issue,99.5,True,49999
+pay_900713,pay_900714,cust_00167,order_700707,order_700707,19999,19999,1787637642,1787637645,captured,captured,upi,upi,3,Double-Click Issue,99.5,True,19999
+pay_900717,pay_900718,cust_00045,order_700709,order_700709,24999,24999,1787642275,1787642277,captured,captured,netbanking,netbanking,2,Double-Click Issue,99.5,True,24999
+pay_901095,pay_901096,cust_00041,order_700898,order_700898,24999,24999,1787531329,1787531330,captured,captured,wallet,wallet,1,Double-Click Issue,99.5,True,24999
+pay_900923,pay_900924,cust_00010,order_700812,order_700812,24999,24999,1787648713,1787648716,captured,captured,netbanking,netbanking,3,Double-Click Issue,99.5,True,24999
+pay_900955,pay_900956,cust_00011,order_700828,order_700828,249999,249999,1787577686,1787577689,captured,captured,netbanking,netbanking,3,Double-Click Issue,99.5,True,249999
+pay_901041,pay_901042,cust_00180,order_700871,order_700871,299999,299999,1787661124,1787661127,captured,captured,netbanking,netbanking,3,Double-Click Issue,99.5,True,299999
+pay_900827,pay_900828,cust_00181,order_700764,order_700764,12499,12499,1787579092,1787579094,captured,captured,netbanking,netbanking,2,Double-Click Issue,99.5,True,12499
+pay_901087,pay_901088,cust_00011,order_700894,order_700894,9999,9999,1787618582,1787618585,captured,captured,netbanking,netbanking,3,Double-Click Issue,99.5,True,9999
+pay_900783,pay_900784,cust_00011,order_700742,order_700742,24999,24999,1787686216,1787686218,captured,captured,card,card,2,Double-Click Issue,99.5,True,24999
+pay_901077,pay_901078,cust_00190,order_700889,order_700889,74999,74999,1787649559,1787649560,captured,captured,upi,upi,1,Double-Click Issue,99.5,True,74999
+pay_901057,pay_901058,cust_00015,order_700879,order_700879,12499,12499,1787645073,1787645074,captured,captured,netbanking,netbanking,1,Double-Click Issue,99.5,True,12499
+pay_900771,pay_900772,cust_00016,order_700736,order_700736,9999,9999,1787530251,1787530253,captured,captured,card,card,2,Double-Click Issue,99.5,True,9999
+pay_900931,pay_900932,cust_00053,order_700816,order_700816,149999,149999,1787567474,1787567477,captured,captured,card,card,3,Double-Click Issue,99.5,True,149999
+pay_901199,pay_901200,cust_00017,order_700950,order_700950,14999,14999,1787555879,1787555882,captured,captured,netbanking,netbanking,3,Double-Click Issue,99.5,True,14999
+pay_900761,pay_900762,cust_00053,order_700731,order_700731,9999,9999,1787684276,1787684278,captured,captured,netbanking,netbanking,2,Double-Click Issue,99.5,True,9999
+pay_900855,pay_900856,cust_00017,order_700778,order_700778,19999,19999,1787626136,1787626138,captured,captured,netbanking,netbanking,2,Double-Click Issue,99.5,True,19999
+pay_900731,pay_900732,cust_00054,order_700716,order_700716,12499,12499,1787576004,1787576005,captured,captured,card,card,1,Double-Click Issue,99.5,True,12499
+pay_901161,pay_901162,cust_00018,order_700931,order_700931,299999,299999,1787570354,1787570356,captured,captured,upi,upi,2,Double-Click Issue,99.5,True,299999
+pay_900715,pay_900716,cust_00178,order_700708,order_700708,299999,299999,1787554016,1787554019,captured,captured,netbanking,netbanking,3,Double-Click Issue,99.5,True,299999
+pay_902243,pay_902244,cust_00035,order_701493,order_701494,7499,7499,1787649821,1787649826,captured,captured,wallet,wallet,5,Multiple Browser Tabs Checkout,99.5,True,7499
+pay_900711,pay_900712,cust_00035,order_700706,order_700706,9999,9999,1787652271,1787652273,captured,captured,wallet,wallet,2,Double-Click Issue,99.5,True,9999
+pay_901171,pay_901172,cust_00035,order_700936,order_700936,99999,99999,1787667140,1787667142,captured,captured,netbanking,netbanking,2,Double-Click Issue,99.5,True,99999
+pay_900925,pay_900926,cust_00013,order_700813,order_700813,74999,74999,1787629829,1787629832,captured,captured,card,card,3,Double-Click Issue,99.5,True,74999
+pay_900837,pay_900838,cust_00013,order_700769,order_700769,9999,9999,1787663550,1787663553,captured,captured,upi,upi,3,Double-Click Issue,99.5,True,9999
+pay_900895,pay_900896,cust_00054,order_700798,order_700798,199999,199999,1787615022,1787615023,captured,captured,upi,upi,1,Double-Click Issue,99.5,True,199999
+pay_900935,pay_900936,cust_00036,order_700818,order_700818,24999,24999,1787603843,1787603846,captured,captured,card,card,3,Double-Click Issue,99.5,True,24999
+pay_902223,pay_902224,cust_00019,order_701473,order_701474,4999,4999,1787599922,1787599927,captured,captured,upi,upi,5,Multiple Browser Tabs Checkout,99.5,True,4999
+pay_901175,pay_901176,cust_00045,order_700938,order_700938,99999,99999,1787660903,1787660904,captured,captured,card,card,1,Double-Click Issue,99.5,True,99999
+pay_900743,pay_900744,cust_00019,order_700722,order_700722,19999,19999,1787668875,1787668876,captured,captured,upi,upi,1,Double-Click Issue,99.5,True,19999
+pay_900797,pay_900798,cust_00200,order_700749,order_700749,7499,7499,1787665341,1787665343,captured,captured,netbanking,netbanking,2,Double-Click Issue,99.5,True,7499
+pay_900991,pay_900992,cust_00020,order_700846,order_700846,199999,199999,1787570846,1787570848,captured,captured,wallet,wallet,2,Double-Click Issue,99.5,True,199999
+pay_901179,pay_901180,cust_00020,order_700940,order_700940,149999,149999,1787669597,1787669600,captured,captured,card,card,3,Double-Click Issue,99.5,True,149999
+pay_900893,pay_900894,cust_00046,order_700797,order_700797,19999,19999,1787516255,1787516257,captured,captured,card,card,2,Double-Click Issue,99.5,True,19999
+pay_900803,pay_900804,cust_00037,order_700752,order_700752,74999,74999,1787522142,1787522144,captured,captured,wallet,wallet,2,Double-Click Issue,99.5,True,74999
+pay_900963,pay_900964,cust_00188,order_700832,order_700832,7499,7499,1787656267,1787656268,captured,captured,netbanking,netbanking,1,Double-Click Issue,99.5,True,7499
+pay_901097,pay_901098,cust_00055,order_700899,order_700899,99999,99999,1787572649,1787572651,captured,captured,netbanking,netbanking,2,Double-Click Issue,99.5,True,99999
+pay_901151,pay_901152,cust_00065,order_700926,order_700926,12499,12499,1787546780,1787546783,captured,captured,card,card,3,Double-Click Issue,99.5,True,12499
+pay_901081,pay_901082,cust_00048,order_700891,order_700891,9999,9999,1787580621,1787580623,captured,captured,card,card,2,Double-Click Issue,99.5,True,9999
+pay_901123,pay_901124,cust_00065,order_700912,order_700912,49999,49999,1787614794,1787614795,captured,captured,card,card,1,Double-Click Issue,99.5,True,49999
+pay_900929,pay_900930,cust_00032,order_700815,order_700815,49999,49999,1787597417,1787597418,captured,captured,netbanking,netbanking,1,Double-Click Issue,99.5,True,49999
+pay_901065,pay_901066,cust_00190,order_700883,order_700883,49999,49999,1787643730,1787643733,captured,captured,upi,upi,3,Double-Click Issue,99.5,True,49999
+pay_900759,pay_900760,cust_00023,order_700730,order_700730,14999,14999,1787549945,1787549946,captured,captured,wallet,wallet,1,Double-Click Issue,99.5,True,14999
+pay_900891,pay_900892,cust_00047,order_700796,order_700796,199999,199999,1787599695,1787599698,captured,captured,card,card,3,Double-Click Issue,99.5,True,199999
+pay_900899,pay_900900,cust_00163,order_700800,order_700800,24999,24999,1787589576,1787589578,captured,captured,wallet,wallet,2,Double-Click Issue,99.5,True,24999
+pay_901021,pay_901022,cust_00049,order_700861,order_700861,7499,7499,1787552695,1787552696,captured,captured,wallet,wallet,1,Double-Click Issue,99.5,True,7499
+pay_900795,pay_900796,cust_00038,order_700748,order_700748,74999,74999,1787675268,1787675271,captured,captured,card,card,3,Double-Click Issue,99.5,True,74999
+pay_901107,pay_901108,cust_00186,order_700904,order_700904,14999,14999,1787672920,1787672922,captured,captured,card,card,2,Double-Click Issue,99.5,True,14999
+pay_901157,pay_901158,cust_00186,order_700929,order_700929,74999,74999,1787679867,1787679869,captured,captured,wallet,wallet,2,Double-Click Issue,99.5,True,74999
+pay_901181,pay_901182,cust_00162,order_700941,order_700941,4999,4999,1787648359,1787648360,captured,captured,wallet,wallet,1,Double-Click Issue,99.5,True,4999
+pay_900919,pay_900920,cust_00187,order_700810,order_700810,9999,9999,1787642289,1787642292,captured,captured,upi,upi,3,Double-Click Issue,99.5,True,9999
+pay_901033,pay_901034,cust_00188,order_700867,order_700867,249999,249999,1787533335,1787533338,captured,captured,upi,upi,3,Double-Click Issue,99.5,True,249999
+pay_901191,pay_901192,cust_00170,order_700946,order_700946,12499,12499,1787646286,1787646287,captured,captured,upi,upi,1,Double-Click Issue,99.5,True,12499
+pay_901043,pay_901044,cust_00081,order_700872,order_700872,149999,149999,1787550154,1787550157,captured,captured,upi,upi,3,Double-Click Issue,99.5,True,149999
+pay_900745,pay_900746,cust_00188,order_700723,order_700723,7499,7499,1787573839,1787573842,captured,captured,card,card,3,Double-Click Issue,99.5,True,7499
+pay_901025,pay_901026,cust_00163,order_700863,order_700863,249999,249999,1787648868,1787648870,captured,captured,card,card,2,Double-Click Issue,99.5,True,249999
+pay_901013,pay_901014,cust_00057,order_700857,order_700857,4999,4999,1787576809,1787576812,captured,captured,netbanking,netbanking,3,Double-Click Issue,99.5,True,4999
+pay_900951,pay_900952,cust_00066,order_700826,order_700826,99999,99999,1787594367,1787594369,captured,captured,upi,upi,2,Double-Click Issue,99.5,True,99999
+pay_900733,pay_900734,cust_00185,order_700717,order_700717,4999,4999,1787582131,1787582134,captured,captured,card,card,3,Double-Click Issue,99.5,True,4999
+pay_900753,pay_900754,cust_00185,order_700727,order_700727,299999,299999,1787629592,1787629594,captured,captured,netbanking,netbanking,2,Double-Click Issue,99.5,True,299999
+pay_901085,pay_901086,cust_00066,order_700893,order_700893,4999,4999,1787596023,1787596024,captured,captured,netbanking,netbanking,1,Double-Click Issue,99.5,True,4999
+pay_900985,pay_900986,cust_00064,order_700843,order_700843,34999,34999,1787630130,1787630133,captured,captured,netbanking,netbanking,3,Double-Click Issue,99.5,True,34999
+pay_900905,pay_900906,cust_00049,order_700803,order_700803,4999,4999,1787623732,1787623733,captured,captured,card,card,1,Double-Click Issue,99.5,True,4999
+pay_900869,pay_900870,cust_00057,order_700785,order_700785,99999,99999,1787672089,1787672092,captured,captured,wallet,wallet,3,Double-Click Issue,99.5,True,99999
+pay_901061,pay_901062,cust_00177,order_700881,order_700881,199999,199999,1787550692,1787550695,captured,captured,netbanking,netbanking,3,Double-Click Issue,99.5,True,199999
+pay_902449,pay_902450,cust_00025,order_701699,order_701700,49999,49999,1787657710,1787657715,captured,captured,netbanking,netbanking,5,Multiple Browser Tabs Checkout,99.5,True,49999
+pay_900811,pay_900812,cust_00026,order_700756,order_700756,249999,249999,1787538663,1787538666,captured,captured,upi,upi,3,Double-Click Issue,99.5,True,249999
+pay_900933,pay_900934,cust_00026,order_700817,order_700817,99999,99999,1787623060,1787623063,captured,captured,netbanking,netbanking,3,Double-Click Issue,99.5,True,99999
+pay_901001,pay_901002,cust_00027,order_700851,order_700851,24999,24999,1787521633,1787521636,captured,captured,wallet,wallet,3,Double-Click Issue,99.5,True,24999
+pay_901099,pay_901100,cust_00056,order_700900,order_700900,199999,199999,1787687659,1787687662,captured,captured,wallet,wallet,3,Double-Click Issue,99.5,True,199999
+pay_900805,pay_900806,cust_00177,order_700753,order_700753,12499,12499,1787644306,1787644308,captured,captured,card,card,2,Double-Click Issue,99.5,True,12499
+pay_900971,pay_900972,cust_00041,order_700836,order_700836,7499,7499,1787672901,1787672903,captured,captured,wallet,wallet,2,Double-Click Issue,99.5,True,7499
+pay_900939,pay_900940,cust_00051,order_700820,order_700820,74999,74999,1787649872,1787649875,captured,captured,upi,upi,3,Double-Click Issue,99.5,True,74999
+pay_900839,pay_900840,cust_00058,order_700770,order_700770,99999,99999,1787561939,1787561941,captured,captured,upi,upi,2,Double-Click Issue,99.5,True,99999
+pay_900917,pay_900918,cust_00043,order_700809,order_700809,299999,299999,1787518746,1787518747,captured,captured,wallet,wallet,1,Double-Click Issue,99.5,True,299999
+pay_900749,pay_900750,cust_00043,order_700725,order_700725,74999,74999,1787542588,1787542589,captured,captured,wallet,wallet,1,Double-Click Issue,99.5,True,74999
+pay_900907,pay_900908,cust_00058,order_700804,order_700804,149999,149999,1787569370,1787569371,captured,captured,netbanking,netbanking,1,Double-Click Issue,99.5,True,149999
+pay_900755,pay_900756,cust_00061,order_700728,order_700728,7499,7499,1787583334,1787583337,captured,captured,card,card,3,Double-Click Issue,99.5,True,7499
+pay_901133,pay_901134,cust_00028,order_700917,order_700917,14999,14999,1787620255,1787620257,captured,captured,netbanking,netbanking,2,Double-Click Issue,99.5,True,14999
+pay_900877,pay_900878,cust_00168,order_700789,order_700789,7499,7499,1787576834,1787576837,captured,captured,upi,upi,3,Double-Click Issue,99.5,True,7499
+pay_901125,pay_901126,cust_00067,order_700913,order_700913,24999,24999,1787593395,1787593397,captured,captured,wallet,wallet,2,Double-Click Issue,99.5,True,24999
+pay_900953,pay_900954,cust_00068,order_700827,order_700827,34999,34999,1787532688,1787532689,captured,captured,card,card,1,Double-Click Issue,99.5,True,34999
+pay_900765,pay_900766,cust_00068,order_700733,order_700733,7499,7499,1787547388,1787547390,captured,captured,wallet,wallet,2,Double-Click Issue,99.5,True,7499
+pay_901089,pay_901090,cust_00158,order_700895,order_700895,249999,249999,1787600208,1787600211,captured,captured,netbanking,netbanking,3,Double-Click Issue,99.5,True,249999
+pay_901103,pay_901104,cust_00158,order_700902,order_700902,299999,299999,1787681138,1787681141,captured,captured,upi,upi,3,Double-Click Issue,99.5,True,299999
+pay_900815,pay_900816,cust_00155,order_700758,order_700758,99999,99999,1787547916,1787547917,captured,captured,card,card,1,Double-Click Issue,99.5,True,99999
+pay_900801,pay_900802,cust_00156,order_700751,order_700751,34999,34999,1787545197,1787545199,captured,captured,card,card,2,Double-Click Issue,99.5,True,34999
+pay_900853,pay_900854,cust_00156,order_700777,order_700777,14999,14999,1787633707,1787633709,captured,captured,netbanking,netbanking,2,Double-Click Issue,99.5,True,14999
+pay_902255,pay_902256,cust_00157,order_701505,order_701506,7499,7499,1787575550,1787575555,captured,captured,netbanking,netbanking,5,Multiple Browser Tabs Checkout,99.5,True,7499
+pay_900723,pay_900724,cust_00157,order_700712,order_700712,12499,12499,1787677301,1787677302,captured,captured,card,card,1,Double-Click Issue,99.5,True,12499
+pay_900857,pay_900858,cust_00067,order_700779,order_700779,99999,99999,1787547989,1787547992,captured,captured,netbanking,netbanking,3,Double-Click Issue,99.5,True,99999
+pay_901035,pay_901036,cust_00154,order_700868,order_700868,74999,74999,1787602551,1787602553,captured,captured,netbanking,netbanking,2,Double-Click Issue,99.5,True,74999
+pay_901083,pay_901084,cust_00072,order_700892,order_700892,49999,49999,1787537916,1787537919,captured,captured,netbanking,netbanking,3,Double-Click Issue,99.5,True,49999
+pay_900993,pay_900994,cust_00072,order_700847,order_700847,4999,4999,1787610566,1787610568,captured,captured,upi,upi,2,Double-Click Issue,99.5,True,4999
+pay_901059,pay_901060,cust_00074,order_700880,order_700880,99999,99999,1787540744,1787540745,captured,captured,netbanking,netbanking,1,Double-Click Issue,99.5,True,99999
+pay_901155,pay_901156,cust_00075,order_700928,order_700928,99999,99999,1787558760,1787558761,captured,captured,card,card,1,Double-Click Issue,99.5,True,99999
+pay_901015,pay_901016,cust_00075,order_700858,order_700858,49999,49999,1787636763,1787636764,captured,captured,netbanking,netbanking,1,Double-Click Issue,99.5,True,49999
+pay_901039,pay_901040,cust_00076,order_700870,order_700870,34999,34999,1787539318,1787539321,captured,captured,upi,upi,3,Double-Click Issue,99.5,True,34999
+pay_900881,pay_900882,cust_00076,order_700791,order_700791,34999,34999,1787596750,1787596753,captured,captured,card,card,3,Double-Click Issue,99.5,True,34999
+pay_901031,pay_901032,cust_00150,order_700866,order_700866,34999,34999,1787634987,1787634988,captured,captured,upi,upi,1,Double-Click Issue,99.5,True,34999
+pay_900793,pay_900794,cust_00151,order_700747,order_700747,49999,49999,1787534884,1787534885,captured,captured,wallet,wallet,1,Double-Click Issue,99.5,True,49999
+pay_900833,pay_900834,cust_00151,order_700767,order_700767,49999,49999,1787574927,1787574929,captured,captured,netbanking,netbanking,2,Double-Click Issue,99.5,True,49999
+pay_900705,pay_900706,cust_00151,order_700703,order_700703,149999,149999,1787649251,1787649254,captured,captured,upi,upi,3,Double-Click Issue,99.5,True,149999
+pay_900883,pay_900884,cust_00150,order_700792,order_700792,74999,74999,1787597040,1787597041,captured,captured,card,card,1,Double-Click Issue,99.5,True,74999
+pay_901079,pay_901080,cust_00076,order_700890,order_700890,34999,34999,1787685382,1787685383,captured,captured,upi,upi,1,Double-Click Issue,99.5,True,34999
+pay_900911,pay_900912,cust_00077,order_700806,order_700806,14999,14999,1787641210,1787641213,captured,captured,wallet,wallet,3,Double-Click Issue,99.5,True,14999
+pay_901141,pay_901142,cust_00077,order_700921,order_700921,99999,99999,1787680878,1787680879,captured,captured,netbanking,netbanking,1,Double-Click Issue,99.5,True,99999
+pay_901147,pay_901148,cust_00079,order_700924,order_700924,12499,12499,1787552029,1787552032,captured,captured,netbanking,netbanking,3,Double-Click Issue,99.5,True,12499
+pay_900879,pay_900880,cust_00079,order_700790,order_700790,24999,24999,1787579668,1787579671,captured,captured,netbanking,netbanking,3,Double-Click Issue,99.5,True,24999
+pay_901053,pay_901054,cust_00074,order_700877,order_700877,299999,299999,1787655116,1787655119,captured,captured,wallet,wallet,3,Double-Click Issue,99.5,True,299999
+pay_901071,pay_901072,cust_00081,order_700886,order_700886,49999,49999,1787517681,1787517683,captured,captured,card,card,2,Double-Click Issue,99.5,True,49999
+pay_900957,pay_900958,cust_00081,order_700829,order_700829,24999,24999,1787531857,1787531858,captured,captured,card,card,1,Double-Click Issue,99.5,True,24999
+pay_900999,pay_901000,cust_00081,order_700850,order_700850,7499,7499,1787644218,1787644219,captured,captured,wallet,wallet,1,Double-Click Issue,99.5,True,7499
+pay_900739,pay_900740,cust_00148,order_700720,order_700720,99999,99999,1787543548,1787543549,captured,captured,upi,upi,1,Double-Click Issue,99.5,True,99999
+pay_900787,pay_900788,cust_00082,order_700744,order_700744,299999,299999,1787530479,1787530482,captured,captured,card,card,3,Double-Click Issue,99.5,True,299999
+pay_901105,pay_901106,cust_00083,order_700903,order_700903,24999,24999,1787582120,1787582123,captured,captured,card,card,3,Double-Click Issue,99.5,True,24999
+pay_900845,pay_900846,cust_00079,order_700773,order_700773,149999,149999,1787588675,1787588677,captured,captured,netbanking,netbanking,2,Double-Click Issue,99.5,True,149999
+pay_900809,pay_900810,cust_00080,order_700755,order_700755,14999,14999,1787663744,1787663747,captured,captured,wallet,wallet,3,Double-Click Issue,99.5,True,14999
+pay_900725,pay_900726,cust_00085,order_700713,order_700713,149999,149999,1787556567,1787556569,captured,captured,card,card,2,Double-Click Issue,99.5,True,149999
+pay_900751,pay_900752,cust_00085,order_700726,order_700726,12499,12499,1787586164,1787586167,captured,captured,upi,upi,3,Double-Click Issue,99.5,True,12499
+pay_901163,pay_901164,cust_00085,order_700932,order_700932,74999,74999,1787635270,1787635271,captured,captured,netbanking,netbanking,1,Double-Click Issue,99.5,True,74999
+pay_901009,pay_901010,cust_00085,order_700855,order_700855,49999,49999,1787639279,1787639281,captured,captured,wallet,wallet,2,Double-Click Issue,99.5,True,49999
+pay_900701,pay_900702,cust_00085,order_700701,order_700701,299999,299999,1787654795,1787654797,captured,captured,upi,upi,2,Double-Click Issue,99.5,True,299999
+pay_900961,pay_900962,cust_00085,order_700831,order_700831,19999,19999,1787680480,1787680482,captured,captured,wallet,wallet,2,Double-Click Issue,99.5,True,19999
+pay_900973,pay_900974,cust_00146,order_700837,order_700837,99999,99999,1787546763,1787546765,captured,captured,wallet,wallet,2,Double-Click Issue,99.5,True,99999
+pay_900823,pay_900824,cust_00146,order_700762,order_700762,4999,4999,1787548750,1787548751,captured,captured,upi,upi,1,Double-Click Issue,99.5,True,4999
+pay_901145,pay_901146,cust_00147,order_700923,order_700923,74999,74999,1787608261,1787608262,captured,captured,wallet,wallet,1,Double-Click Issue,99.5,True,74999
+pay_900997,pay_900998,cust_00147,order_700849,order_700849,34999,34999,1787663459,1787663461,captured,captured,card,card,2,Double-Click Issue,99.5,True,34999
+pay_901165,pay_901166,cust_00145,order_700933,order_700933,74999,74999,1787655011,1787655013,captured,captured,netbanking,netbanking,2,Double-Click Issue,99.5,True,74999
+pay_900983,pay_900984,cust_00087,order_700842,order_700842,49999,49999,1787590237,1787590240,captured,captured,card,card,3,Double-Click Issue,99.5,True,49999
+pay_900889,pay_900890,cust_00088,order_700795,order_700795,24999,24999,1787540190,1787540193,captured,captured,wallet,wallet,3,Double-Click Issue,99.5,True,24999
+pay_900915,pay_900916,cust_00088,order_700808,order_700808,299999,299999,1787577519,1787577520,captured,captured,wallet,wallet,1,Double-Click Issue,99.5,True,299999
+pay_901007,pay_901008,cust_00088,order_700854,order_700854,19999,19999,1787656547,1787656549,captured,captured,card,card,2,Double-Click Issue,99.5,True,19999
+pay_900737,pay_900738,cust_00090,order_700719,order_700719,49999,49999,1787532968,1787532970,captured,captured,wallet,wallet,2,Double-Click Issue,99.5,True,49999
+pay_900945,pay_900946,cust_00085,order_700823,order_700823,12499,12499,1787517644,1787517645,captured,captured,card,card,1,Double-Click Issue,99.5,True,12499
+pay_901121,pay_901122,cust_00085,order_700911,order_700911,4999,4999,1787528098,1787528099,captured,captured,card,card,1,Double-Click Issue,99.5,True,4999
+pay_900847,pay_900848,cust_00090,order_700774,order_700774,34999,34999,1787553147,1787553149,captured,captured,netbanking,netbanking,2,Double-Click Issue,99.5,True,34999
+pay_901197,pay_901198,cust_00092,order_700949,order_700949,4999,4999,1787647023,1787647024,captured,captured,upi,upi,1,Double-Click Issue,99.5,True,4999
+pay_900871,pay_900872,cust_00092,order_700786,order_700786,49999,49999,1787661529,1787661532,captured,captured,netbanking,netbanking,3,Double-Click Issue,99.5,True,49999
+pay_900873,pay_900874,cust_00143,order_700787,order_700787,9999,9999,1787532307,1787532308,captured,captured,netbanking,netbanking,1,Double-Click Issue,99.5,True,9999
+pay_900707,pay_900708,cust_00094,order_700704,order_700704,7499,7499,1787637185,1787637188,captured,captured,netbanking,netbanking,3,Double-Click Issue,99.5,True,7499
+pay_900767,pay_900768,cust_00095,order_700734,order_700734,9999,9999,1787523151,1787523153,captured,captured,wallet,wallet,2,Double-Click Issue,99.5,True,9999
+pay_900829,pay_900830,cust_00130,order_700765,order_700765,24999,24999,1787633148,1787633149,captured,captured,card,card,1,Double-Click Issue,99.5,True,24999
+pay_900773,pay_900774,cust_00139,order_700737,order_700737,24999,24999,1787611103,1787611105,captured,captured,upi,upi,2,Double-Click Issue,99.5,True,24999
+pay_900943,pay_900944,cust_00141,order_700822,order_700822,34999,34999,1787634363,1787634365,captured,captured,upi,upi,2,Double-Click Issue,99.5,True,34999
+pay_901091,pay_901092,cust_00141,order_700896,order_700896,19999,19999,1787650921,1787650923,captured,captured,card,card,2,Double-Click Issue,99.5,True,19999
+pay_901143,pay_901144,cust_00142,order_700922,order_700922,249999,249999,1787536736,1787536737,captured,captured,upi,upi,1,Double-Click Issue,99.5,True,249999
+pay_901177,pay_901178,cust_00138,order_700939,order_700939,12499,12499,1787642197,1787642200,captured,captured,netbanking,netbanking,3,Double-Click Issue,99.5,True,12499
+pay_900831,pay_900832,cust_00096,order_700766,order_700766,34999,34999,1787546127,1787546129,captured,captured,wallet,wallet,2,Double-Click Issue,99.5,True,34999
+pay_900903,pay_900904,cust_00096,order_700802,order_700802,4999,4999,1787646224,1787646227,captured,captured,netbanking,netbanking,3,Double-Click Issue,99.5,True,4999
+pay_900807,pay_900808,cust_00096,order_700754,order_700754,4999,4999,1787656685,1787656687,captured,captured,netbanking,netbanking,2,Double-Click Issue,99.5,True,4999
+pay_901069,pay_901070,cust_00098,order_700885,order_700885,24999,24999,1787680759,1787680762,captured,captured,wallet,wallet,3,Double-Click Issue,99.5,True,24999
+pay_900987,pay_900988,cust_00099,order_700844,order_700844,9999,9999,1787517453,1787517454,captured,captured,card,card,1,Double-Click Issue,99.5,True,9999
+pay_900909,pay_900910,cust_00099,order_700805,order_700805,49999,49999,1787544302,1787544303,captured,captured,netbanking,netbanking,1,Double-Click Issue,99.5,True,49999
+pay_900901,pay_900902,cust_00099,order_700801,order_700801,4999,4999,1787607678,1787607681,captured,captured,card,card,3,Double-Click Issue,99.5,True,4999
+pay_900967,pay_900968,cust_00099,order_700834,order_700834,149999,149999,1787653663,1787653666,captured,captured,wallet,wallet,3,Double-Click Issue,99.5,True,149999
+pay_901129,pay_901130,cust_00137,order_700915,order_700915,4999,4999,1787646071,1787646074,captured,captured,card,card,3,Double-Click Issue,99.5,True,4999
+pay_900775,pay_900776,cust_00134,order_700738,order_700738,24999,24999,1787614406,1787614407,captured,captured,wallet,wallet,1,Double-Click Issue,99.5,True,24999
+pay_901067,pay_901068,cust_00100,order_700884,order_700884,12499,12499,1787635180,1787635181,captured,captured,netbanking,netbanking,1,Double-Click Issue,99.5,True,12499
+pay_900721,pay_900722,cust_00101,order_700711,order_700711,249999,249999,1787546905,1787546907,captured,captured,card,card,2,Double-Click Issue,99.5,True,249999
+pay_900709,pay_900710,cust_00102,order_700705,order_700705,74999,74999,1787573599,1787573601,captured,captured,card,card,2,Double-Click Issue,99.5,True,74999
+pay_900789,pay_900790,cust_00102,order_700745,order_700745,49999,49999,1787663466,1787663469,captured,captured,netbanking,netbanking,3,Double-Click Issue,99.5,True,49999
+pay_900995,pay_900996,cust_00104,order_700848,order_700848,249999,249999,1787529063,1787529065,captured,captured,upi,upi,2,Double-Click Issue,99.5,True,249999
+pay_901093,pay_901094,cust_00135,order_700897,order_700897,12499,12499,1787605402,1787605405,captured,captured,upi,upi,3,Double-Click Issue,99.5,True,12499
+pay_900913,pay_900914,cust_00135,order_700807,order_700807,19999,19999,1787668883,1787668884,captured,captured,wallet,wallet,1,Double-Click Issue,99.5,True,19999
+pay_901029,pay_901030,cust_00136,order_700865,order_700865,149999,149999,1787611038,1787611040,captured,captured,card,card,2,Double-Click Issue,99.5,True,149999
+pay_900861,pay_900862,cust_00104,order_700781,order_700781,99999,99999,1787633075,1787633078,captured,captured,netbanking,netbanking,3,Double-Click Issue,99.5,True,99999
+pay_900817,pay_900818,cust_00105,order_700759,order_700759,149999,149999,1787646681,1787646683,captured,captured,wallet,wallet,2,Double-Click Issue,99.5,True,149999
+pay_900799,pay_900800,cust_00106,order_700750,order_700750,14999,14999,1787628588,1787628591,captured,captured,wallet,wallet,3,Double-Click Issue,99.5,True,14999
+pay_901149,pay_901150,cust_00132,order_700925,order_700925,9999,9999,1787547235,1787547238,captured,captured,upi,upi,3,Double-Click Issue,99.5,True,9999
+pay_900841,pay_900842,cust_00132,order_700771,order_700771,4999,4999,1787597365,1787597366,captured,captured,card,card,1,Double-Click Issue,99.5,True,4999
+pay_901109,pay_901110,cust_00132,order_700905,order_700905,199999,199999,1787599561,1787599563,captured,captured,wallet,wallet,2,Double-Click Issue,99.5,True,199999
+pay_900885,pay_900886,cust_00129,order_700793,order_700793,7499,7499,1787606997,1787606999,captured,captured,wallet,wallet,2,Double-Click Issue,99.5,True,7499
+pay_902483,pay_902484,cust_00130,order_701733,order_701734,74999,74999,1787532566,1787532571,captured,captured,card,card,5,Multiple Browser Tabs Checkout,99.5,True,74999
+pay_900921,pay_900922,cust_00130,order_700811,order_700811,9999,9999,1787578788,1787578791,captured,captured,card,card,3,Double-Click Issue,99.5,True,9999
+pay_900821,pay_900822,cust_00130,order_700761,order_700761,24999,24999,1787650314,1787650317,captured,captured,upi,upi,3,Double-Click Issue,99.5,True,24999
+pay_900989,pay_900990,cust_00130,order_700845,order_700845,249999,249999,1787662644,1787662645,captured,captured,wallet,wallet,1,Double-Click Issue,99.5,True,249999
+pay_901189,pay_901190,cust_00131,order_700945,order_700945,7499,7499,1787578317,1787578318,captured,captured,wallet,wallet,1,Double-Click Issue,99.5,True,7499
+pay_900851,pay_900852,cust_00131,order_700776,order_700776,99999,99999,1787612461,1787612464,captured,captured,netbanking,netbanking,3,Double-Click Issue,99.5,True,99999
+pay_901127,pay_901128,cust_00111,order_700914,order_700914,19999,19999,1787582747,1787582748,captured,captured,card,card,1,Double-Click Issue,99.5,True,19999
+pay_900979,pay_900980,cust_00113,order_700840,order_700840,4999,4999,1787560648,1787560650,captured,captured,card,card,2,Double-Click Issue,99.5,True,4999
+pay_900813,pay_900814,cust_00114,order_700757,order_700757,199999,199999,1787561997,1787561999,captured,captured,netbanking,netbanking,2,Double-Click Issue,99.5,True,199999
+pay_901037,pay_901038,cust_00108,order_700869,order_700869,74999,74999,1787562718,1787562720,captured,captured,upi,upi,2,Double-Click Issue,99.5,True,74999
+pay_900735,pay_900736,cust_00108,order_700718,order_700718,9999,9999,1787600645,1787600647,captured,captured,wallet,wallet,2,Double-Click Issue,99.5,True,9999
+pay_900865,pay_900866,cust_00108,order_700783,order_700783,24999,24999,1787642748,1787642751,captured,captured,wallet,wallet,3,Double-Click Issue,99.5,True,24999
+pay_902215,pay_902216,cust_00128,order_701465,order_701466,49999,49999,1787682465,1787682470,captured,captured,wallet,wallet,5,Multiple Browser Tabs Checkout,99.5,True,49999
+pay_901173,pay_901174,cust_00115,order_700937,order_700937,19999,19999,1787599590,1787599591,captured,captured,netbanking,netbanking,1,Double-Click Issue,99.5,True,19999
+pay_901193,pay_901194,cust_00115,order_700947,order_700947,9999,9999,1787613307,1787613310,captured,captured,upi,upi,3,Double-Click Issue,99.5,True,9999
+pay_900897,pay_900898,cust_00126,order_700799,order_700799,199999,199999,1787537802,1787537804,captured,captured,card,card,2,Double-Click Issue,99.5,True,199999
+pay_900791,pay_900792,cust_00118,order_700746,order_700746,299999,299999,1787651357,1787651360,captured,captured,card,card,3,Double-Click Issue,99.5,True,299999
+pay_901027,pay_901028,cust_00118,order_700864,order_700864,99999,99999,1787681995,1787681996,captured,captured,upi,upi,1,Double-Click Issue,99.5,True,99999
+pay_900769,pay_900770,cust_00120,order_700735,order_700735,14999,14999,1787660088,1787660091,captured,captured,upi,upi,3,Double-Click Issue,99.5,True,14999
+pay_900757,pay_900758,cust_00126,order_700729,order_700729,9999,9999,1787577792,1787577794,captured,captured,card,card,2,Double-Click Issue,99.5,True,9999
+pay_901003,pay_901004,cust_00001,order_700852,order_700852,249999,249999,1787652261,1787652264,captured,captured,card,card,3,Double-Click Issue,99.5,True,249999
+pay_901101,pay_901102,cust_00003,order_700901,order_700901,7499,7499,1787592452,1787592455,captured,captured,netbanking,netbanking,3,Double-Click Issue,99.5,True,7499
+pay_900959,pay_900960,cust_00003,order_700830,order_700830,249999,249999,1787630069,1787630070,captured,captured,upi,upi,1,Double-Click Issue,99.5,True,249999
+pay_900949,pay_900950,cust_00200,order_700825,order_700825,49999,49999,1787640473,1787640474,captured,captured,card,card,1,Double-Click Issue,99.5,True,49999
+pay_900975,pay_900976,cust_00200,order_700838,order_700838,19999,19999,1787664494,1787664497,captured,captured,card,card,3,Double-Click Issue,99.5,True,19999
+pay_901185,pay_901186,cust_00121,order_700943,order_700943,99999,99999,1787578654,1787578655,captured,captured,upi,upi,1,Double-Click Issue,99.5,True,99999
+pay_900927,pay_900928,cust_00006,order_700814,order_700814,4999,4999,1787587460,1787587462,captured,captured,card,card,2,Double-Click Issue,99.5,True,4999
+pay_901135,pay_901136,cust_00196,order_700918,order_700918,299999,299999,1787581349,1787581352,captured,captured,wallet,wallet,3,Double-Click Issue,99.5,True,299999
+pay_900859,pay_900860,cust_00196,order_700780,order_700780,12499,12499,1787654619,1787654622,captured,captured,card,card,3,Double-Click Issue,99.5,True,12499
+pay_901187,pay_901188,cust_00198,order_700944,order_700944,74999,74999,1787538576,1787538579,captured,captured,netbanking,netbanking,3,Double-Click Issue,99.5,True,74999
+pay_902323,pay_902324,cust_00176,order_701573,order_701574,7499,7499,1787642580,1787642586,captured,captured,netbanking,netbanking,6,Multiple Browser Tabs Checkout,97.0,True,7499
+pay_902469,pay_902470,cust_00177,order_701719,order_701720,199999,199999,1787528874,1787528894,captured,captured,card,card,20,Multiple Browser Tabs Checkout,97.0,True,199999
+pay_902639,pay_902640,cust_00177,order_701889,order_701890,299999,299999,1787559156,1787559173,captured,captured,upi,upi,17,Multiple Browser Tabs Checkout,97.0,True,299999
+pay_901389,pay_901390,cust_00042,order_701045,order_701045,4999,4999,1787656069,1787656099,captured,captured,upi,upi,30,Network Timeout Retry,97.0,True,4999
+pay_901227,pay_901228,cust_00042,order_700964,order_700964,9999,9999,1787669371,1787669390,captured,captured,card,card,19,Network Timeout Retry,97.0,True,9999
+pay_902683,pay_902684,cust_00173,order_701933,order_701934,34999,34999,1787554232,1787554243,captured,captured,card,card,11,Multiple Browser Tabs Checkout,97.0,True,34999
+pay_902509,pay_902510,cust_00173,order_701759,order_701760,7499,7499,1787591137,1787591144,captured,captured,wallet,wallet,7,Multiple Browser Tabs Checkout,97.0,True,7499
+pay_901365,pay_901366,cust_00173,order_701033,order_701033,12499,12499,1787615839,1787615864,captured,captured,wallet,wallet,25,Network Timeout Retry,97.0,True,12499
+pay_901255,pay_901256,cust_00174,order_700978,order_700978,99999,99999,1787605650,1787605676,captured,captured,wallet,wallet,26,Network Timeout Retry,97.0,True,99999
+pay_902221,pay_902222,cust_00174,order_701471,order_701472,249999,249999,1787643495,1787643507,captured,captured,upi,upi,12,Multiple Browser Tabs Checkout,97.0,True,249999
+pay_902395,pay_902396,cust_00174,order_701645,order_701646,99999,99999,1787684066,1787684083,captured,captured,card,card,17,Multiple Browser Tabs Checkout,97.0,True,99999
+pay_902843,pay_902844,cust_00176,order_702093,order_702094,19999,19999,1787538105,1787538133,failed,captured,wallet,wallet,28,Gateway Retry with Different IDs,97.0,False,0
+pay_902503,pay_902504,cust_00176,order_701753,order_701754,249999,249999,1787554472,1787554490,captured,captured,wallet,wallet,18,Multiple Browser Tabs Checkout,97.0,True,249999
+pay_902447,pay_902448,cust_00176,order_701697,order_701698,199999,199999,1787562349,1787562365,captured,captured,netbanking,netbanking,16,Multiple Browser Tabs Checkout,97.0,True,199999
+pay_902733,pay_902734,cust_00038,order_701983,order_701984,7499,7499,1787531611,1787531639,failed,captured,netbanking,netbanking,28,Gateway Retry with Different IDs,97.0,False,0
+pay_902589,pay_902590,cust_00172,order_701839,order_701840,199999,199999,1787667660,1787667670,captured,captured,upi,upi,10,Multiple Browser Tabs Checkout,97.0,True,199999
+pay_902573,pay_902574,cust_00043,order_701823,order_701824,74999,74999,1787578225,1787578243,captured,captured,netbanking,netbanking,18,Multiple Browser Tabs Checkout,97.0,True,74999
+pay_902361,pay_902362,cust_00044,order_701611,order_701612,199999,199999,1787554629,1787554645,captured,captured,netbanking,netbanking,16,Multiple Browser Tabs Checkout,97.0,True,199999
+pay_902463,pay_902464,cust_00045,order_701713,order_701714,149999,149999,1787520411,1787520419,captured,captured,netbanking,netbanking,8,Multiple Browser Tabs Checkout,97.0,True,149999
+pay_902271,pay_902272,cust_00041,order_701521,order_701522,199999,199999,1787599259,1787599267,captured,captured,card,card,8,Multiple Browser Tabs Checkout,97.0,True,199999
+pay_901219,pay_901220,cust_00041,order_700960,order_700960,19999,19999,1787629681,1787629709,captured,captured,card,card,28,Network Timeout Retry,97.0,True,19999
+pay_901673,pay_901674,cust_00041,order_701187,order_701187,4999,4999,1787633690,1787633716,captured,captured,netbanking,netbanking,26,Network Timeout Retry,97.0,True,4999
+pay_902665,pay_902666,cust_00041,order_701915,order_701916,12499,12499,1787661796,1787661814,captured,captured,upi,upi,18,Multiple Browser Tabs Checkout,97.0,True,12499
+pay_902759,pay_902760,cust_00046,order_702009,order_702010,12499,12499,1787530853,1787530876,failed,captured,wallet,wallet,23,Gateway Retry with Different IDs,97.0,False,0
+pay_902345,pay_902346,cust_00046,order_701595,order_701596,14999,14999,1787534339,1787534352,captured,captured,card,card,13,Multiple Browser Tabs Checkout,97.0,True,14999
+pay_902283,pay_902284,cust_00046,order_701533,order_701534,24999,24999,1787539012,1787539023,captured,captured,netbanking,netbanking,11,Multiple Browser Tabs Checkout,97.0,True,24999
+pay_902367,pay_902368,cust_00047,order_701617,order_701618,9999,9999,1787543306,1787543314,captured,captured,upi,upi,8,Multiple Browser Tabs Checkout,97.0,True,9999
+pay_902735,pay_902736,cust_00047,order_701985,order_701986,249999,249999,1787645030,1787645057,failed,captured,upi,upi,27,Gateway Retry with Different IDs,97.0,False,0
+pay_902479,pay_902480,cust_00048,order_701729,order_701730,99999,99999,1787520497,1787520506,captured,captured,netbanking,netbanking,9,Multiple Browser Tabs Checkout,97.0,True,99999
+pay_901655,pay_901656,cust_00170,order_701178,order_701178,49999,49999,1787559584,1787559600,captured,captured,card,card,16,Network Timeout Retry,97.0,True,49999
+pay_902399,pay_902400,cust_00171,order_701649,order_701650,19999,19999,1787541006,1787541024,captured,captured,wallet,wallet,18,Multiple Browser Tabs Checkout,97.0,True,19999
+pay_902851,pay_902852,cust_00171,order_702101,order_702102,34999,34999,1787545386,1787545406,failed,captured,upi,upi,20,Gateway Retry with Different IDs,97.0,False,0
+pay_901497,pay_901498,cust_00171,order_701099,order_701099,12499,12499,1787556216,1787556244,captured,captured,card,card,28,Network Timeout Retry,97.0,True,12499
+pay_902265,pay_902266,cust_00172,order_701515,order_701516,299999,299999,1787524777,1787524793,captured,captured,card,card,16,Multiple Browser Tabs Checkout,97.0,True,299999
+pay_901521,pay_901522,cust_00049,order_701111,order_701111,74999,74999,1787609378,1787609403,captured,captured,upi,upi,25,Network Timeout Retry,97.0,True,74999
+pay_902397,pay_902398,cust_00050,order_701647,order_701648,34999,34999,1787619669,1787619675,captured,captured,netbanking,netbanking,6,Multiple Browser Tabs Checkout,97.0,True,34999
+pay_902393,pay_902394,cust_00051,order_701643,order_701644,4999,4999,1787608479,1787608498,captured,captured,card,card,19,Multiple Browser Tabs Checkout,97.0,True,4999
+pay_902279,pay_902280,cust_00052,order_701529,order_701530,24999,24999,1787528147,1787528167,captured,captured,upi,upi,20,Multiple Browser Tabs Checkout,97.0,True,24999
+pay_902609,pay_902610,cust_00052,order_701859,order_701860,9999,9999,1787539016,1787539029,captured,captured,netbanking,netbanking,13,Multiple Browser Tabs Checkout,97.0,True,9999
+pay_902587,pay_902588,cust_00052,order_701837,order_701838,24999,24999,1787558859,1787558878,captured,captured,wallet,wallet,19,Multiple Browser Tabs Checkout,97.0,True,24999
+pay_902357,pay_902358,cust_00168,order_701607,order_701608,99999,99999,1787599447,1787599466,captured,captured,netbanking,netbanking,19,Multiple Browser Tabs Checkout,97.0,True,99999
+pay_901409,pay_901410,cust_00168,order_701055,order_701055,14999,14999,1787620051,1787620078,captured,captured,netbanking,netbanking,27,Network Timeout Retry,97.0,True,14999
+pay_902847,pay_902848,cust_00168,order_702097,order_702098,149999,149999,1787652985,1787653005,failed,captured,netbanking,netbanking,20,Gateway Retry with Different IDs,97.0,False,0
+pay_902473,pay_902474,cust_00169,order_701723,order_701724,49999,49999,1787596498,1787596511,captured,captured,card,card,13,Multiple Browser Tabs Checkout,97.0,True,49999
+pay_902547,pay_902548,cust_00169,order_701797,order_701798,49999,49999,1787597678,1787597688,captured,captured,wallet,wallet,10,Multiple Browser Tabs Checkout,97.0,True,49999
+pay_902575,pay_902576,cust_00052,order_701825,order_701826,34999,34999,1787660659,1787660670,captured,captured,card,card,11,Multiple Browser Tabs Checkout,97.0,True,34999
+pay_902489,pay_902490,cust_00055,order_701739,order_701740,299999,299999,1787578766,1787578776,captured,captured,wallet,wallet,10,Multiple Browser Tabs Checkout,97.0,True,299999
+pay_902371,pay_902372,cust_00048,order_701621,order_701622,12499,12499,1787630448,1787630464,captured,captured,card,card,16,Multiple Browser Tabs Checkout,97.0,True,12499
+pay_902343,pay_902344,cust_00049,order_701593,order_701594,299999,299999,1787530528,1787530545,captured,captured,wallet,wallet,17,Multiple Browser Tabs Checkout,97.0,True,299999
+pay_901343,pay_901344,cust_00049,order_701022,order_701022,34999,34999,1787556025,1787556047,captured,captured,upi,upi,22,Network Timeout Retry,97.0,True,34999
+pay_902685,pay_902686,cust_00049,order_701935,order_701936,249999,249999,1787565201,1787565221,captured,captured,netbanking,netbanking,20,Multiple Browser Tabs Checkout,97.0,True,249999
+pay_902291,pay_902292,cust_00057,order_701541,order_701542,299999,299999,1787619749,1787619759,captured,captured,netbanking,netbanking,10,Multiple Browser Tabs Checkout,97.0,True,299999
+pay_901615,pay_901616,cust_00057,order_701158,order_701158,9999,9999,1787631845,1787631872,captured,captured,card,card,27,Network Timeout Retry,97.0,True,9999
+pay_902465,pay_902466,cust_00057,order_701715,order_701716,9999,9999,1787634335,1787634349,captured,captured,upi,upi,14,Multiple Browser Tabs Checkout,97.0,True,9999
+pay_902423,pay_902424,cust_00058,order_701673,order_701674,4999,4999,1787542056,1787542070,captured,captured,card,card,14,Multiple Browser Tabs Checkout,97.0,True,4999
+pay_902415,pay_902416,cust_00164,order_701665,order_701666,299999,299999,1787587069,1787587088,captured,captured,netbanking,netbanking,19,Multiple Browser Tabs Checkout,97.0,True,299999
+pay_901397,pay_901398,cust_00167,order_701049,order_701049,49999,49999,1787684677,1787684701,captured,captured,upi,upi,24,Network Timeout Retry,97.0,True,49999
+pay_902441,pay_902442,cust_00163,order_701691,order_701692,299999,299999,1787523859,1787523873,captured,captured,netbanking,netbanking,14,Multiple Browser Tabs Checkout,97.0,True,299999
+pay_901331,pay_901332,cust_00163,order_701016,order_701016,199999,199999,1787632411,1787632433,captured,captured,upi,upi,22,Network Timeout Retry,97.0,True,199999
+pay_901291,pay_901292,cust_00163,order_700996,order_700996,4999,4999,1787657699,1787657729,captured,captured,card,card,30,Network Timeout Retry,97.0,True,4999
+pay_902425,pay_902426,cust_00164,order_701675,order_701676,249999,249999,1787536899,1787536913,captured,captured,wallet,wallet,14,Multiple Browser Tabs Checkout,97.0,True,249999
+pay_902579,pay_902580,cust_00058,order_701829,order_701830,74999,74999,1787639461,1787639469,captured,captured,card,card,8,Multiple Browser Tabs Checkout,97.0,True,74999
+pay_901451,pay_901452,cust_00060,order_701076,order_701076,199999,199999,1787610172,1787610193,captured,captured,card,card,21,Network Timeout Retry,97.0,True,199999
+pay_902619,pay_902620,cust_00061,order_701869,order_701870,7499,7499,1787605635,1787605648,captured,captured,card,card,13,Multiple Browser Tabs Checkout,97.0,True,7499
+pay_902561,pay_902562,cust_00061,order_701811,order_701812,99999,99999,1787617830,1787617837,captured,captured,netbanking,netbanking,7,Multiple Browser Tabs Checkout,97.0,True,99999
+pay_901379,pay_901380,cust_00061,order_701040,order_701040,49999,49999,1787663411,1787663432,captured,captured,wallet,wallet,21,Network Timeout Retry,97.0,True,49999
+pay_902309,pay_902310,cust_00056,order_701559,order_701560,9999,9999,1787566553,1787566560,captured,captured,netbanking,netbanking,7,Multiple Browser Tabs Checkout,97.0,True,9999
+pay_902405,pay_902406,cust_00056,order_701655,order_701656,149999,149999,1787643577,1787643595,captured,captured,wallet,wallet,18,Multiple Browser Tabs Checkout,97.0,True,149999
+pay_902295,pay_902296,cust_00056,order_701545,order_701546,74999,74999,1787660073,1787660086,captured,captured,wallet,wallet,13,Multiple Browser Tabs Checkout,97.0,True,74999
+pay_902663,pay_902664,cust_00161,order_701913,order_701914,14999,14999,1787614941,1787614949,captured,captured,netbanking,netbanking,8,Multiple Browser Tabs Checkout,97.0,True,14999
+pay_902317,pay_902318,cust_00161,order_701567,order_701568,34999,34999,1787664115,1787664122,captured,captured,card,card,7,Multiple Browser Tabs Checkout,97.0,True,34999
+pay_901369,pay_901370,cust_00061,order_701035,order_701035,14999,14999,1787681074,1787681099,captured,captured,wallet,wallet,25,Network Timeout Retry,97.0,True,14999
+pay_902887,pay_902888,cust_00063,order_702137,order_702138,9999,9999,1787651472,1787651490,failed,captured,wallet,wallet,18,Gateway Retry with Different IDs,97.0,False,0
+pay_902299,pay_902300,cust_00064,order_701549,order_701550,19999,19999,1787615573,1787615582,captured,captured,wallet,wallet,9,Multiple Browser Tabs Checkout,97.0,True,19999
+pay_901483,pay_901484,cust_00065,order_701092,order_701092,249999,249999,1787658563,1787658581,captured,captured,wallet,wallet,18,Network Timeout Retry,97.0,True,249999
+pay_902661,pay_902662,cust_00162,order_701911,order_701912,34999,34999,1787515972,1787515983,captured,captured,upi,upi,11,Multiple Browser Tabs Checkout,97.0,True,34999
+pay_902285,pay_902286,cust_00162,order_701535,order_701536,19999,19999,1787550383,1787550392,captured,captured,netbanking,netbanking,9,Multiple Browser Tabs Checkout,97.0,True,19999
+pay_901391,pay_901392,cust_00162,order_701046,order_701046,7499,7499,1787644107,1787644130,captured,captured,wallet,wallet,23,Network Timeout Retry,97.0,True,7499
+pay_901217,pay_901218,cust_00020,order_700959,order_700959,49999,49999,1787551991,1787552011,captured,captured,netbanking,netbanking,20,Network Timeout Retry,97.0,True,49999
+pay_902507,pay_902508,cust_00122,order_701757,order_701758,99999,99999,1787546423,1787546443,captured,captured,netbanking,netbanking,20,Multiple Browser Tabs Checkout,97.0,True,99999
+pay_902669,pay_902670,cust_00067,order_701919,order_701920,9999,9999,1787653599,1787653610,captured,captured,netbanking,netbanking,11,Multiple Browser Tabs Checkout,97.0,True,9999
+pay_902433,pay_902434,cust_00067,order_701683,order_701684,99999,99999,1787683793,1787683801,captured,captured,wallet,wallet,8,Multiple Browser Tabs Checkout,97.0,True,99999
+pay_902381,pay_902382,cust_00122,order_701631,order_701632,299999,299999,1787682989,1787682998,captured,captured,netbanking,netbanking,9,Multiple Browser Tabs Checkout,97.0,True,299999
+pay_902305,pay_902306,cust_00123,order_701555,order_701556,199999,199999,1787593623,1787593635,captured,captured,card,card,12,Multiple Browser Tabs Checkout,97.0,True,199999
+pay_901345,pay_901346,cust_00068,order_701023,order_701023,12499,12499,1787550479,1787550501,captured,captured,upi,upi,22,Network Timeout Retry,97.0,True,12499
+pay_902719,pay_902720,cust_00068,order_701969,order_701970,49999,49999,1787590743,1787590763,failed,captured,netbanking,netbanking,20,Gateway Retry with Different IDs,97.0,False,0
+pay_901223,pay_901224,cust_00123,order_700962,order_700962,12499,12499,1787627287,1787627315,captured,captured,upi,upi,28,Network Timeout Retry,97.0,True,12499
+pay_902551,pay_902552,cust_00158,order_701801,order_701802,99999,99999,1787647887,1787647901,captured,captured,netbanking,netbanking,14,Multiple Browser Tabs Checkout,97.0,True,99999
+pay_901263,pay_901264,cust_00123,order_700982,order_700982,199999,199999,1787672704,1787672721,captured,captured,upi,upi,17,Network Timeout Retry,97.0,True,199999
+pay_902693,pay_902694,cust_00159,order_701943,order_701944,34999,34999,1787579314,1787579333,captured,captured,upi,upi,19,Multiple Browser Tabs Checkout,97.0,True,34999
+pay_902259,pay_902260,cust_00159,order_701509,order_701510,19999,19999,1787595657,1787595668,captured,captured,upi,upi,11,Multiple Browser Tabs Checkout,97.0,True,19999
+pay_901347,pay_901348,cust_00159,order_701024,order_701024,19999,19999,1787650041,1787650059,captured,captured,upi,upi,18,Network Timeout Retry,97.0,True,19999
+pay_902849,pay_902850,cust_00160,order_702099,order_702100,12499,12499,1787634793,1787634808,failed,captured,netbanking,netbanking,15,Gateway Retry with Different IDs,97.0,False,0
+pay_902525,pay_902526,cust_00161,order_701775,order_701776,9999,9999,1787532652,1787532658,captured,captured,card,card,6,Multiple Browser Tabs Checkout,97.0,True,9999
+pay_901509,pay_901510,cust_00161,order_701105,order_701105,4999,4999,1787576874,1787576893,captured,captured,card,card,19,Network Timeout Retry,97.0,True,4999
+pay_901471,pay_901472,cust_00069,order_701086,order_701086,9999,9999,1787641085,1787641107,captured,captured,wallet,wallet,22,Network Timeout Retry,97.0,True,9999
+pay_902593,pay_902594,cust_00069,order_701843,order_701844,299999,299999,1787676946,1787676952,captured,captured,wallet,wallet,6,Multiple Browser Tabs Checkout,97.0,True,299999
+pay_902261,pay_902262,cust_00071,order_701511,order_701512,4999,4999,1787534912,1787534921,captured,captured,upi,upi,9,Multiple Browser Tabs Checkout,97.0,True,4999
+pay_902239,pay_902240,cust_00071,order_701489,order_701490,9999,9999,1787544480,1787544496,captured,captured,wallet,wallet,16,Multiple Browser Tabs Checkout,97.0,True,9999
+pay_902337,pay_902338,cust_00071,order_701587,order_701588,4999,4999,1787579863,1787579882,captured,captured,card,card,19,Multiple Browser Tabs Checkout,97.0,True,4999
+pay_902431,pay_902432,cust_00154,order_701681,order_701682,149999,149999,1787615849,1787615867,captured,captured,netbanking,netbanking,18,Multiple Browser Tabs Checkout,97.0,True,149999
+pay_902529,pay_902530,cust_00155,order_701779,order_701780,99999,99999,1787541834,1787541842,captured,captured,netbanking,netbanking,8,Multiple Browser Tabs Checkout,97.0,True,99999
+pay_902245,pay_902246,cust_00125,order_701495,order_701496,7499,7499,1787516689,1787516696,captured,captured,card,card,7,Multiple Browser Tabs Checkout,97.0,True,7499
+pay_902521,pay_902522,cust_00125,order_701771,order_701772,49999,49999,1787540907,1787540926,captured,captured,netbanking,netbanking,19,Multiple Browser Tabs Checkout,97.0,True,49999
+pay_902831,pay_902832,cust_00125,order_702081,order_702082,49999,49999,1787555514,1787555527,failed,captured,wallet,wallet,13,Gateway Retry with Different IDs,97.0,False,0
+pay_902339,pay_902340,cust_00125,order_701589,order_701590,49999,49999,1787596685,1787596699,captured,captured,card,card,14,Multiple Browser Tabs Checkout,97.0,True,49999
+pay_901537,pay_901538,cust_00157,order_701119,order_701119,14999,14999,1787586255,1787586280,captured,captured,netbanking,netbanking,25,Network Timeout Retry,97.0,True,14999
+pay_902253,pay_902254,cust_00157,order_701503,order_701504,149999,149999,1787618477,1787618497,captured,captured,card,card,20,Multiple Browser Tabs Checkout,97.0,True,149999
+pay_902871,pay_902872,cust_00157,order_702121,order_702122,74999,74999,1787657761,1787657773,failed,captured,card,card,12,Gateway Retry with Different IDs,97.0,False,0
+pay_902545,pay_902546,cust_00125,order_701795,order_701796,199999,199999,1787613739,1787613759,captured,captured,card,card,20,Multiple Browser Tabs Checkout,97.0,True,199999
+pay_901601,pay_901602,cust_00125,order_701151,order_701151,249999,249999,1787618297,1787618321,captured,captured,card,card,24,Network Timeout Retry,97.0,True,249999
+pay_902749,pay_902750,cust_00153,order_701999,order_702000,99999,99999,1787572366,1787572378,failed,captured,card,card,12,Gateway Retry with Different IDs,97.0,False,0
+pay_901635,pay_901636,cust_00153,order_701168,order_701168,99999,99999,1787648442,1787648462,captured,captured,card,card,20,Network Timeout Retry,97.0,True,99999
+pay_901293,pay_901294,cust_00154,order_700997,order_700997,24999,24999,1787526514,1787526536,captured,captured,card,card,22,Network Timeout Retry,97.0,True,24999
+pay_902209,pay_902210,cust_00125,order_701459,order_701460,7499,7499,1787642505,1787642514,captured,captured,wallet,wallet,9,Multiple Browser Tabs Checkout,97.0,True,7499
+pay_901315,pay_901316,cust_00071,order_701008,order_701008,12499,12499,1787594023,1787594050,captured,captured,upi,upi,27,Network Timeout Retry,97.0,True,12499
+pay_901329,pay_901330,cust_00008,order_701015,order_701015,34999,34999,1787559992,1787560019,captured,captured,card,card,27,Network Timeout Retry,97.0,True,34999
+pay_901681,pay_901682,cust_00072,order_701191,order_701191,12499,12499,1787574502,1787574529,captured,captured,upi,upi,27,Network Timeout Retry,97.0,True,12499
+pay_902635,pay_902636,cust_00072,order_701885,order_701886,299999,299999,1787578167,1787578183,captured,captured,upi,upi,16,Multiple Browser Tabs Checkout,97.0,True,299999
+pay_902429,pay_902430,cust_00008,order_701679,order_701680,7499,7499,1787600640,1787600647,captured,captured,netbanking,netbanking,7,Multiple Browser Tabs Checkout,97.0,True,7499
+pay_902611,pay_902612,cust_00072,order_701861,order_701862,99999,99999,1787626775,1787626781,captured,captured,upi,upi,6,Multiple Browser Tabs Checkout,97.0,True,99999
+pay_902267,pay_902268,cust_00073,order_701517,order_701518,12499,12499,1787558880,1787558899,captured,captured,wallet,wallet,19,Multiple Browser Tabs Checkout,97.0,True,12499
+pay_901265,pay_901266,cust_00073,order_700983,order_700983,74999,74999,1787559990,1787560005,captured,captured,wallet,wallet,15,Network Timeout Retry,97.0,True,74999
+pay_902689,pay_902690,cust_00073,order_701939,order_701940,149999,149999,1787587728,1787587746,captured,captured,upi,upi,18,Multiple Browser Tabs Checkout,97.0,True,149999
+pay_902287,pay_902288,cust_00009,order_701537,order_701538,149999,149999,1787563929,1787563937,captured,captured,card,card,8,Multiple Browser Tabs Checkout,97.0,True,149999
+pay_902567,pay_902568,cust_00069,order_701817,order_701818,4999,4999,1787617045,1787617060,captured,captured,wallet,wallet,15,Multiple Browser Tabs Checkout,97.0,True,4999
+pay_902601,pay_902602,cust_00069,order_701851,order_701852,249999,249999,1787627077,1787627090,captured,captured,netbanking,netbanking,13,Multiple Browser Tabs Checkout,97.0,True,249999
+pay_902353,pay_902354,cust_00075,order_701603,order_701604,12499,12499,1787519249,1787519261,captured,captured,card,card,12,Multiple Browser Tabs Checkout,97.0,True,12499
+pay_902419,pay_902420,cust_00075,order_701669,order_701670,49999,49999,1787522739,1787522753,captured,captured,wallet,wallet,14,Multiple Browser Tabs Checkout,97.0,True,49999
+pay_902505,pay_902506,cust_00075,order_701755,order_701756,249999,249999,1787548063,1787548070,captured,captured,wallet,wallet,7,Multiple Browser Tabs Checkout,97.0,True,249999
+pay_902651,pay_902652,cust_00009,order_701901,order_701902,14999,14999,1787657689,1787657709,captured,captured,card,card,20,Multiple Browser Tabs Checkout,97.0,True,14999
+pay_901603,pay_901604,cust_00010,order_701152,order_701152,149999,149999,1787529002,1787529018,captured,captured,wallet,wallet,16,Network Timeout Retry,97.0,True,149999
+pay_902825,pay_902826,cust_00076,order_702075,order_702076,74999,74999,1787524240,1787524250,failed,captured,wallet,wallet,10,Gateway Retry with Different IDs,97.0,False,0
+pay_902217,pay_902218,cust_00010,order_701467,order_701468,19999,19999,1787573799,1787573805,captured,captured,card,card,6,Multiple Browser Tabs Checkout,97.0,True,19999
+pay_902227,pay_902228,cust_00004,order_701477,order_701478,9999,9999,1787671767,1787671775,captured,captured,card,card,8,Multiple Browser Tabs Checkout,97.0,True,9999
+pay_902533,pay_902534,cust_00076,order_701783,order_701784,99999,99999,1787600156,1787600169,captured,captured,wallet,wallet,13,Multiple Browser Tabs Checkout,97.0,True,99999
+pay_902311,pay_902312,cust_00005,order_701561,order_701562,34999,34999,1787543400,1787543419,captured,captured,netbanking,netbanking,19,Multiple Browser Tabs Checkout,97.0,True,34999
+pay_902391,pay_902392,cust_00150,order_701641,order_701642,49999,49999,1787650447,1787650460,captured,captured,upi,upi,13,Multiple Browser Tabs Checkout,97.0,True,49999
+pay_902459,pay_902460,cust_00005,order_701709,order_701710,34999,34999,1787569281,1787569297,captured,captured,netbanking,netbanking,16,Multiple Browser Tabs Checkout,97.0,True,34999
+pay_901531,pay_901532,cust_00005,order_701116,order_701116,74999,74999,1787649537,1787649559,captured,captured,netbanking,netbanking,22,Network Timeout Retry,97.0,True,74999
+pay_901585,pay_901586,cust_00005,order_701143,order_701143,49999,49999,1787687102,1787687126,captured,captured,upi,upi,24,Network Timeout Retry,97.0,True,49999
+pay_902581,pay_902582,cust_00152,order_701831,order_701832,19999,19999,1787527065,1787527085,captured,captured,netbanking,netbanking,20,Multiple Browser Tabs Checkout,97.0,True,19999
+pay_901243,pay_901244,cust_00152,order_700972,order_700972,7499,7499,1787580796,1787580815,captured,captured,upi,upi,19,Network Timeout Retry,97.0,True,7499
+pay_901639,pay_901640,cust_00012,order_701170,order_701170,299999,299999,1787549946,1787549972,captured,captured,upi,upi,26,Network Timeout Retry,97.0,True,299999
+pay_902421,pay_902422,cust_00150,order_701671,order_701672,14999,14999,1787612085,1787612104,captured,captured,wallet,wallet,19,Multiple Browser Tabs Checkout,97.0,True,14999
+pay_901527,pay_901528,cust_00076,order_701114,order_701114,249999,249999,1787609030,1787609059,captured,captured,netbanking,netbanking,29,Network Timeout Retry,97.0,True,249999
+pay_901417,pay_901418,cust_00191,order_701059,order_701059,149999,149999,1787551828,1787551855,captured,captured,card,card,27,Network Timeout Retry,97.0,True,149999
+pay_901581,pay_901582,cust_00191,order_701141,order_701141,14999,14999,1787681614,1787681643,captured,captured,netbanking,netbanking,29,Network Timeout Retry,97.0,True,14999
+pay_902481,pay_902482,cust_00192,order_701731,order_701732,14999,14999,1787576302,1787576314,captured,captured,netbanking,netbanking,12,Multiple Browser Tabs Checkout,97.0,True,14999
+pay_902647,pay_902648,cust_00078,order_701897,order_701898,7499,7499,1787566836,1787566846,captured,captured,upi,upi,10,Multiple Browser Tabs Checkout,97.0,True,7499
+pay_902855,pay_902856,cust_00078,order_702105,order_702106,12499,12499,1787611661,1787611672,failed,captured,upi,upi,11,Gateway Retry with Different IDs,97.0,False,0
+pay_901647,pay_901648,cust_00079,order_701174,order_701174,34999,34999,1787519372,1787519393,captured,captured,wallet,wallet,21,Network Timeout Retry,97.0,True,34999
+pay_902563,pay_902564,cust_00079,order_701813,order_701814,7499,7499,1787544779,1787544794,captured,captured,netbanking,netbanking,15,Multiple Browser Tabs Checkout,97.0,True,7499
+pay_902801,pay_902802,cust_00192,order_702051,order_702052,74999,74999,1787666056,1787666072,failed,captured,netbanking,netbanking,16,Gateway Retry with Different IDs,97.0,False,0
+pay_902625,pay_902626,cust_00192,order_701875,order_701876,149999,149999,1787677095,1787677106,captured,captured,upi,upi,11,Multiple Browser Tabs Checkout,97.0,True,149999
+pay_902363,pay_902364,cust_00074,order_701613,order_701614,199999,199999,1787541074,1787541088,captured,captured,card,card,14,Multiple Browser Tabs Checkout,97.0,True,199999
+pay_902577,pay_902578,cust_00074,order_701827,order_701828,14999,14999,1787566818,1787566835,captured,captured,card,card,17,Multiple Browser Tabs Checkout,97.0,True,14999
+pay_901645,pay_901646,cust_00074,order_701173,order_701173,4999,4999,1787635329,1787635347,captured,captured,netbanking,netbanking,18,Network Timeout Retry,97.0,True,4999
+pay_901479,pay_901480,cust_00193,order_701090,order_701090,9999,9999,1787561493,1787561520,captured,captured,card,card,27,Network Timeout Retry,97.0,True,9999
+pay_901651,pay_901652,cust_00193,order_701176,order_701176,14999,14999,1787623103,1787623122,captured,captured,wallet,wallet,19,Network Timeout Retry,97.0,True,14999
+pay_902471,pay_902472,cust_00194,order_701721,order_701722,24999,24999,1787549370,1787549376,captured,captured,card,card,6,Multiple Browser Tabs Checkout,97.0,True,24999
+pay_901271,pay_901272,cust_00081,order_700986,order_700986,24999,24999,1787533858,1787533886,captured,captured,netbanking,netbanking,28,Network Timeout Retry,97.0,True,24999
+pay_901385,pay_901386,cust_00162,order_701043,order_701043,49999,49999,1787651146,1787651170,captured,captured,netbanking,netbanking,24,Network Timeout Retry,97.0,True,49999
+pay_901333,pay_901334,cust_00081,order_701017,order_701017,24999,24999,1787604693,1787604708,captured,captured,netbanking,netbanking,15,Network Timeout Retry,97.0,True,24999
+pay_902519,pay_902520,cust_00194,order_701769,order_701770,199999,199999,1787576974,1787576991,captured,captured,wallet,wallet,17,Multiple Browser Tabs Checkout,97.0,True,199999
+pay_902721,pay_902722,cust_00081,order_701971,order_701972,149999,149999,1787647404,1787647423,failed,captured,wallet,wallet,19,Gateway Retry with Different IDs,97.0,False,0
+pay_902615,pay_902616,cust_00081,order_701865,order_701866,74999,74999,1787665288,1787665306,captured,captured,netbanking,netbanking,18,Multiple Browser Tabs Checkout,97.0,True,74999
+pay_902293,pay_902294,cust_00148,order_701543,order_701544,49999,49999,1787530384,1787530404,captured,captured,upi,upi,20,Multiple Browser Tabs Checkout,97.0,True,49999
+pay_902281,pay_902282,cust_00014,order_701531,order_701532,299999,299999,1787540487,1787540506,captured,captured,wallet,wallet,19,Multiple Browser Tabs Checkout,97.0,True,299999
+pay_902591,pay_902592,cust_00148,order_701841,order_701842,34999,34999,1787629628,1787629647,captured,captured,upi,upi,19,Multiple Browser Tabs Checkout,97.0,True,34999
+pay_902437,pay_902438,cust_00149,order_701687,order_701688,4999,4999,1787570682,1787570691,captured,captured,upi,upi,9,Multiple Browser Tabs Checkout,97.0,True,4999
+pay_901207,pay_901208,cust_00149,order_700954,order_700954,49999,49999,1787580528,1787580555,captured,captured,upi,upi,27,Network Timeout Retry,97.0,True,49999
+pay_901503,pay_901504,cust_00149,order_701102,order_701102,199999,199999,1787634398,1787634417,captured,captured,wallet,wallet,19,Network Timeout Retry,97.0,True,199999
+pay_901691,pay_901692,cust_00149,order_701196,order_701196,49999,49999,1787664496,1787664520,captured,captured,upi,upi,24,Network Timeout Retry,97.0,True,49999
+pay_901595,pay_901596,cust_00150,order_701148,order_701148,12499,12499,1787559720,1787559744,captured,captured,upi,upi,24,Network Timeout Retry,97.0,True,12499
+pay_901299,pay_901300,cust_00015,order_701000,order_701000,199999,199999,1787626083,1787626112,captured,captured,upi,upi,29,Network Timeout Retry,97.0,True,199999
+pay_902633,pay_902634,cust_00082,order_701883,order_701884,49999,49999,1787597496,1787597508,captured,captured,wallet,wallet,12,Multiple Browser Tabs Checkout,97.0,True,49999
+pay_902599,pay_902600,cust_00082,order_701849,order_701850,249999,249999,1787624984,1787625002,captured,captured,card,card,18,Multiple Browser Tabs Checkout,97.0,True,249999
+pay_901513,pay_901514,cust_00082,order_701107,order_701107,49999,49999,1787654636,1787654665,captured,captured,netbanking,netbanking,29,Network Timeout Retry,97.0,True,49999
+pay_902667,pay_902668,cust_00082,order_701917,order_701918,34999,34999,1787666383,1787666392,captured,captured,wallet,wallet,9,Multiple Browser Tabs Checkout,97.0,True,34999
+pay_902565,pay_902566,cust_00010,order_701815,order_701816,34999,34999,1787613600,1787613618,captured,captured,wallet,wallet,18,Multiple Browser Tabs Checkout,97.0,True,34999
+pay_902335,pay_902336,cust_00083,order_701585,order_701586,19999,19999,1787602457,1787602475,captured,captured,netbanking,netbanking,18,Multiple Browser Tabs Checkout,97.0,True,19999
+pay_902553,pay_902554,cust_00083,order_701803,order_701804,4999,4999,1787617473,1787617482,captured,captured,card,card,9,Multiple Browser Tabs Checkout,97.0,True,4999
+pay_901205,pay_901206,cust_00083,order_700953,order_700953,7499,7499,1787659707,1787659730,captured,captured,netbanking,netbanking,23,Network Timeout Retry,97.0,True,7499
+pay_902277,pay_902278,cust_00084,order_701527,order_701528,12499,12499,1787556415,1787556433,captured,captured,card,card,18,Multiple Browser Tabs Checkout,97.0,True,12499
+pay_902235,pay_902236,cust_00084,order_701485,order_701486,7499,7499,1787571012,1787571023,captured,captured,upi,upi,11,Multiple Browser Tabs Checkout,97.0,True,7499
+pay_901305,pay_901306,cust_00010,order_701003,order_701003,19999,19999,1787628628,1787628648,captured,captured,upi,upi,20,Network Timeout Retry,97.0,True,19999
+pay_902387,pay_902388,cust_00079,order_701637,order_701638,4999,4999,1787622149,1787622161,captured,captured,wallet,wallet,12,Multiple Browser Tabs Checkout,97.0,True,4999
+pay_902637,pay_902638,cust_00079,order_701887,order_701888,4999,4999,1787660847,1787660853,captured,captured,card,card,6,Multiple Browser Tabs Checkout,97.0,True,4999
+pay_902211,pay_902212,cust_00010,order_701461,order_701462,12499,12499,1787639812,1787639824,captured,captured,card,card,12,Multiple Browser Tabs Checkout,97.0,True,12499
+pay_902641,pay_902642,cust_00080,order_701891,order_701892,99999,99999,1787671506,1787671514,captured,captured,netbanking,netbanking,8,Multiple Browser Tabs Checkout,97.0,True,99999
+pay_902303,pay_902304,cust_00011,order_701553,order_701554,34999,34999,1787589001,1787589018,captured,captured,card,card,17,Multiple Browser Tabs Checkout,97.0,True,34999
+pay_902369,pay_902370,cust_00011,order_701619,order_701620,19999,19999,1787591626,1787591642,captured,captured,upi,upi,16,Multiple Browser Tabs Checkout,97.0,True,19999
+pay_901221,pay_901222,cust_00085,order_700961,order_700961,149999,149999,1787598647,1787598677,captured,captured,card,card,30,Network Timeout Retry,97.0,True,149999
+pay_902413,pay_902414,cust_00017,order_701663,order_701664,299999,299999,1787530725,1787530743,captured,captured,wallet,wallet,18,Multiple Browser Tabs Checkout,97.0,True,299999
+pay_902233,pay_902234,cust_00017,order_701483,order_701484,199999,199999,1787589090,1787589107,captured,captured,upi,upi,17,Multiple Browser Tabs Checkout,97.0,True,199999
+pay_902835,pay_902836,cust_00017,order_702085,order_702086,14999,14999,1787669084,1787669101,failed,captured,wallet,wallet,17,Gateway Retry with Different IDs,97.0,False,0
+pay_902527,pay_902528,cust_00018,order_701777,order_701778,34999,34999,1787683415,1787683432,captured,captured,card,card,17,Multiple Browser Tabs Checkout,97.0,True,34999
+pay_902879,pay_902880,cust_00086,order_702129,order_702130,249999,249999,1787536692,1787536714,failed,captured,upi,upi,22,Gateway Retry with Different IDs,97.0,False,0
+pay_902475,pay_902476,cust_00012,order_701725,order_701726,7499,7499,1787630800,1787630808,captured,captured,netbanking,netbanking,8,Multiple Browser Tabs Checkout,97.0,True,7499
+pay_902269,pay_902270,cust_00012,order_701519,order_701520,7499,7499,1787675257,1787675267,captured,captured,card,card,10,Multiple Browser Tabs Checkout,97.0,True,7499
+pay_902301,pay_902302,cust_00147,order_701551,order_701552,299999,299999,1787587632,1787587638,captured,captured,card,card,6,Multiple Browser Tabs Checkout,97.0,True,299999
+pay_902677,pay_902678,cust_00013,order_701927,order_701928,24999,24999,1787619189,1787619198,captured,captured,wallet,wallet,9,Multiple Browser Tabs Checkout,97.0,True,24999
+pay_901621,pay_901622,cust_00147,order_701161,order_701161,149999,149999,1787610162,1787610185,captured,captured,card,card,23,Network Timeout Retry,97.0,True,149999
+pay_902725,pay_902726,cust_00014,order_701975,order_701976,12499,12499,1787521638,1787521664,failed,captured,upi,upi,26,Gateway Retry with Different IDs,97.0,False,0
+pay_902673,pay_902674,cust_00147,order_701923,order_701924,12499,12499,1787679274,1787679286,captured,captured,card,card,12,Multiple Browser Tabs Checkout,97.0,True,12499
+pay_902313,pay_902314,cust_00147,order_701563,order_701564,149999,149999,1787684166,1787684185,captured,captured,card,card,19,Multiple Browser Tabs Checkout,97.0,True,149999
+pay_902257,pay_902258,cust_00143,order_701507,order_701508,12499,12499,1787535746,1787535754,captured,captured,upi,upi,8,Multiple Browser Tabs Checkout,97.0,True,12499
+pay_902541,pay_902542,cust_00143,order_701791,order_701792,99999,99999,1787668317,1787668327,captured,captured,netbanking,netbanking,10,Multiple Browser Tabs Checkout,97.0,True,99999
+pay_902383,pay_902384,cust_00145,order_701633,order_701634,149999,149999,1787573966,1787573974,captured,captured,wallet,wallet,8,Multiple Browser Tabs Checkout,97.0,True,149999
+pay_902737,pay_902738,cust_00145,order_701987,order_701988,299999,299999,1787616278,1787616288,failed,captured,upi,upi,10,Gateway Retry with Different IDs,97.0,False,0
+pay_902757,pay_902758,cust_00019,order_702007,order_702008,49999,49999,1787531434,1787531460,failed,captured,wallet,wallet,26,Gateway Retry with Different IDs,97.0,False,0
+pay_902515,pay_902516,cust_00087,order_701765,order_701766,12499,12499,1787536654,1787536672,captured,captured,wallet,wallet,18,Multiple Browser Tabs Checkout,97.0,True,12499
+pay_902273,pay_902274,cust_00019,order_701523,order_701524,299999,299999,1787640099,1787640114,captured,captured,upi,upi,15,Multiple Browser Tabs Checkout,97.0,True,299999
+pay_901405,pay_901406,cust_00087,order_701053,order_701053,24999,24999,1787662131,1787662148,captured,captured,wallet,wallet,17,Network Timeout Retry,97.0,True,24999
+pay_901407,pay_901408,cust_00021,order_701054,order_701054,9999,9999,1787554877,1787554902,captured,captured,netbanking,netbanking,25,Network Timeout Retry,97.0,True,9999
+pay_902799,pay_902800,cust_00088,order_702049,order_702050,299999,299999,1787551913,1787551928,failed,captured,upi,upi,15,Gateway Retry with Different IDs,97.0,False,0
+pay_902781,pay_902782,cust_00021,order_702031,order_702032,299999,299999,1787567349,1787567367,failed,captured,wallet,wallet,18,Gateway Retry with Different IDs,97.0,False,0
+pay_902699,pay_902700,cust_00189,order_701949,order_701950,74999,74999,1787528065,1787528071,captured,captured,netbanking,netbanking,6,Multiple Browser Tabs Checkout,97.0,True,74999
+pay_901213,pay_901214,cust_00089,order_700957,order_700957,34999,34999,1787668744,1787668759,captured,captured,wallet,wallet,15,Network Timeout Retry,97.0,True,34999
+pay_901427,pay_901428,cust_00189,order_701064,order_701064,14999,14999,1787623697,1787623716,captured,captured,wallet,wallet,19,Network Timeout Retry,97.0,True,14999
+pay_902333,pay_902334,cust_00189,order_701583,order_701584,199999,199999,1787645589,1787645601,captured,captured,upi,upi,12,Multiple Browser Tabs Checkout,97.0,True,199999
+pay_902513,pay_902514,cust_00190,order_701763,order_701764,299999,299999,1787526623,1787526634,captured,captured,upi,upi,11,Multiple Browser Tabs Checkout,97.0,True,299999
+pay_901525,pay_901526,cust_00142,order_701113,order_701113,9999,9999,1787607221,1787607250,captured,captured,card,card,29,Network Timeout Retry,97.0,True,9999
+pay_902205,pay_902206,cust_00142,order_701455,order_701456,4999,4999,1787629616,1787629630,captured,captured,wallet,wallet,14,Multiple Browser Tabs Checkout,97.0,True,4999
+pay_901261,pay_901262,cust_00190,order_700981,order_700981,299999,299999,1787588965,1787588988,captured,captured,card,card,23,Network Timeout Retry,97.0,True,299999
+pay_901637,pay_901638,cust_00090,order_701169,order_701169,74999,74999,1787623127,1787623156,captured,captured,wallet,wallet,29,Network Timeout Retry,97.0,True,74999
+pay_902403,pay_902404,cust_00090,order_701653,order_701654,14999,14999,1787666520,1787666527,captured,captured,wallet,wallet,7,Multiple Browser Tabs Checkout,97.0,True,14999
+pay_901399,pay_901400,cust_00091,order_701050,order_701050,19999,19999,1787649317,1787649346,captured,captured,wallet,wallet,29,Network Timeout Retry,97.0,True,19999
+pay_902439,pay_902440,cust_00092,order_701689,order_701690,9999,9999,1787562558,1787562576,captured,captured,card,card,18,Multiple Browser Tabs Checkout,97.0,True,9999
+pay_902857,pay_902858,cust_00092,order_702107,order_702108,299999,299999,1787577138,1787577158,failed,captured,netbanking,netbanking,20,Gateway Retry with Different IDs,97.0,False,0
+pay_901567,pay_901568,cust_00092,order_701134,order_701134,99999,99999,1787636842,1787636870,captured,captured,wallet,wallet,28,Network Timeout Retry,97.0,True,99999
+pay_902675,pay_902676,cust_00023,order_701925,order_701926,34999,34999,1787560677,1787560687,captured,captured,upi,upi,10,Multiple Browser Tabs Checkout,97.0,True,34999
+pay_901307,pay_901308,cust_00023,order_701004,order_701004,14999,14999,1787576461,1787576488,captured,captured,wallet,wallet,27,Network Timeout Retry,97.0,True,14999
+pay_901431,pay_901432,cust_00092,order_701066,order_701066,249999,249999,1787664782,1787664811,captured,captured,netbanking,netbanking,29,Network Timeout Retry,97.0,True,249999
+pay_902723,pay_902724,cust_00143,order_701973,order_701974,249999,249999,1787524638,1787524657,failed,captured,wallet,wallet,19,Gateway Retry with Different IDs,97.0,False,0
+pay_902499,pay_902500,cust_00143,order_701749,order_701750,149999,149999,1787529653,1787529673,captured,captured,card,card,20,Multiple Browser Tabs Checkout,97.0,True,149999
+pay_901591,pay_901592,cust_00143,order_701146,order_701146,74999,74999,1787531734,1787531763,captured,captured,upi,upi,29,Network Timeout Retry,97.0,True,74999
+pay_901441,pay_901442,cust_00023,order_701071,order_701071,34999,34999,1787578648,1787578671,captured,captured,netbanking,netbanking,23,Network Timeout Retry,97.0,True,34999
+pay_901371,pay_901372,cust_00094,order_701036,order_701036,9999,9999,1787588698,1787588726,captured,captured,wallet,wallet,28,Network Timeout Retry,97.0,True,9999
+pay_901209,pay_901210,cust_00094,order_700955,order_700955,74999,74999,1787604720,1787604747,captured,captured,card,card,27,Network Timeout Retry,97.0,True,74999
+pay_902329,pay_902330,cust_00094,order_701579,order_701580,9999,9999,1787612340,1787612351,captured,captured,card,card,11,Multiple Browser Tabs Checkout,97.0,True,9999
+pay_902679,pay_902680,cust_00023,order_701929,order_701930,19999,19999,1787679125,1787679133,captured,captured,upi,upi,8,Multiple Browser Tabs Checkout,97.0,True,19999
+pay_902555,pay_902556,cust_00094,order_701805,order_701806,19999,19999,1787647666,1787647681,captured,captured,card,card,15,Multiple Browser Tabs Checkout,97.0,True,19999
+pay_902401,pay_902402,cust_00095,order_701651,order_701652,24999,24999,1787517547,1787517563,captured,captured,netbanking,netbanking,16,Multiple Browser Tabs Checkout,97.0,True,24999
+pay_902409,pay_902410,cust_00187,order_701659,order_701660,299999,299999,1787539558,1787539565,captured,captured,wallet,wallet,7,Multiple Browser Tabs Checkout,97.0,True,299999
+pay_902385,pay_902386,cust_00188,order_701635,order_701636,34999,34999,1787539533,1787539541,captured,captured,card,card,8,Multiple Browser Tabs Checkout,97.0,True,34999
+pay_901351,pay_901352,cust_00139,order_701026,order_701026,4999,4999,1787579584,1787579609,captured,captured,wallet,wallet,25,Network Timeout Retry,97.0,True,4999
+pay_901433,pay_901434,cust_00139,order_701067,order_701067,299999,299999,1787610229,1787610248,captured,captured,netbanking,netbanking,19,Network Timeout Retry,97.0,True,299999
+pay_902753,pay_902754,cust_00188,order_702003,order_702004,299999,299999,1787551965,1787551978,failed,captured,upi,upi,13,Gateway Retry with Different IDs,97.0,False,0
+pay_902535,pay_902536,cust_00139,order_701785,order_701786,19999,19999,1787680047,1787680053,captured,captured,card,card,6,Multiple Browser Tabs Checkout,97.0,True,19999
+pay_901515,pay_901516,cust_00188,order_701108,order_701108,12499,12499,1787634543,1787634569,captured,captured,card,card,26,Network Timeout Retry,97.0,True,12499
+pay_901599,pay_901600,cust_00188,order_701150,order_701150,7499,7499,1787652455,1787652475,captured,captured,netbanking,netbanking,20,Network Timeout Retry,97.0,True,7499
+pay_901557,pay_901558,cust_00019,order_701129,order_701129,249999,249999,1787528908,1787528929,captured,captured,netbanking,netbanking,21,Network Timeout Retry,97.0,True,249999
+pay_902241,pay_902242,cust_00142,order_701491,order_701492,9999,9999,1787557543,1787557549,captured,captured,wallet,wallet,6,Multiple Browser Tabs Checkout,97.0,True,9999
+pay_901469,pay_901470,cust_00137,order_701085,order_701085,4999,4999,1787683460,1787683484,captured,captured,upi,upi,24,Network Timeout Retry,97.0,True,4999
+pay_902517,pay_902518,cust_00186,order_701767,order_701768,34999,34999,1787647601,1787647614,captured,captured,netbanking,netbanking,13,Multiple Browser Tabs Checkout,97.0,True,34999
+pay_901517,pay_901518,cust_00186,order_701109,order_701109,9999,9999,1787670730,1787670760,captured,captured,netbanking,netbanking,30,Network Timeout Retry,97.0,True,9999
+pay_901505,pay_901506,cust_00096,order_701103,order_701103,199999,199999,1787558420,1787558450,captured,captured,card,card,30,Network Timeout Retry,97.0,True,199999
+pay_902201,pay_902202,cust_00024,order_701451,order_701452,19999,19999,1787529344,1787529363,captured,captured,netbanking,netbanking,19,Multiple Browser Tabs Checkout,97.0,True,19999
+pay_901473,pay_901474,cust_00024,order_701087,order_701087,9999,9999,1787600731,1787600756,captured,captured,card,card,25,Network Timeout Retry,97.0,True,9999
+pay_902435,pay_902436,cust_00096,order_701685,order_701686,49999,49999,1787661505,1787661515,captured,captured,card,card,10,Multiple Browser Tabs Checkout,97.0,True,49999
+pay_902539,pay_902540,cust_00097,order_701789,order_701790,34999,34999,1787521658,1787521668,captured,captured,wallet,wallet,10,Multiple Browser Tabs Checkout,97.0,True,34999
+pay_902569,pay_902570,cust_00097,order_701819,order_701820,74999,74999,1787571155,1787571163,captured,captured,wallet,wallet,8,Multiple Browser Tabs Checkout,97.0,True,74999
+pay_902557,pay_902558,cust_00098,order_701807,order_701808,7499,7499,1787575082,1787575098,captured,captured,wallet,wallet,16,Multiple Browser Tabs Checkout,97.0,True,7499
+pay_902493,pay_902494,cust_00098,order_701743,order_701744,24999,24999,1787604303,1787604321,captured,captured,upi,upi,18,Multiple Browser Tabs Checkout,97.0,True,24999
+pay_901367,pay_901368,cust_00093,order_701034,order_701034,74999,74999,1787547781,1787547804,captured,captured,netbanking,netbanking,23,Network Timeout Retry,97.0,True,74999
+pay_901393,pay_901394,cust_00093,order_701047,order_701047,19999,19999,1787574908,1787574936,captured,captured,netbanking,netbanking,28,Network Timeout Retry,97.0,True,19999
+pay_901413,pay_901414,cust_00093,order_701057,order_701057,149999,149999,1787586978,1787586998,captured,captured,wallet,wallet,20,Network Timeout Retry,97.0,True,149999
+pay_902809,pay_902810,cust_00093,order_702059,order_702060,149999,149999,1787654483,1787654498,failed,captured,wallet,wallet,15,Gateway Retry with Different IDs,97.0,False,0
+pay_902617,pay_902618,cust_00094,order_701867,order_701868,99999,99999,1787584024,1787584033,captured,captured,card,card,9,Multiple Browser Tabs Checkout,97.0,True,99999
+pay_902485,pay_902486,cust_00136,order_701735,order_701736,12499,12499,1787682066,1787682076,captured,captured,upi,upi,10,Multiple Browser Tabs Checkout,97.0,True,12499
+pay_901611,pay_901612,cust_00098,order_701156,order_701156,4999,4999,1787606054,1787606079,captured,captured,netbanking,netbanking,25,Network Timeout Retry,97.0,True,4999
+pay_902687,pay_902688,cust_00098,order_701937,order_701938,9999,9999,1787663416,1787663427,captured,captured,wallet,wallet,11,Multiple Browser Tabs Checkout,97.0,True,9999
+pay_901597,pay_901598,cust_00024,order_701149,order_701149,74999,74999,1787613775,1787613796,captured,captured,wallet,wallet,21,Network Timeout Retry,97.0,True,74999
+pay_902695,pay_902696,cust_00022,order_701945,order_701946,4999,4999,1787538459,1787538474,captured,captured,wallet,wallet,15,Multiple Browser Tabs Checkout,97.0,True,4999
+pay_902671,pay_902672,cust_00022,order_701921,order_701922,24999,24999,1787546871,1787546888,captured,captured,netbanking,netbanking,17,Multiple Browser Tabs Checkout,97.0,True,24999
+pay_901561,pay_901562,cust_00099,order_701131,order_701131,12499,12499,1787606367,1787606389,captured,captured,upi,upi,22,Network Timeout Retry,97.0,True,12499
+pay_902319,pay_902320,cust_00099,order_701569,order_701570,299999,299999,1787607184,1787607198,captured,captured,netbanking,netbanking,14,Multiple Browser Tabs Checkout,97.0,True,299999
+pay_901425,pay_901426,cust_00022,order_701063,order_701063,99999,99999,1787568900,1787568922,captured,captured,wallet,wallet,22,Network Timeout Retry,97.0,True,99999
+pay_902327,pay_902328,cust_00099,order_701577,order_701578,19999,19999,1787622427,1787622443,captured,captured,wallet,wallet,16,Multiple Browser Tabs Checkout,97.0,True,19999
+pay_902307,pay_902308,cust_00022,order_701557,order_701558,49999,49999,1787635219,1787635237,captured,captured,card,card,18,Multiple Browser Tabs Checkout,97.0,True,49999
+pay_901439,pay_901440,cust_00137,order_701070,order_701070,14999,14999,1787598670,1787598692,captured,captured,netbanking,netbanking,22,Network Timeout Retry,97.0,True,14999
+pay_901623,pay_901624,cust_00022,order_701162,order_701162,24999,24999,1787649158,1787649177,captured,captured,wallet,wallet,19,Network Timeout Retry,97.0,True,24999
+pay_902643,pay_902644,cust_00137,order_701893,order_701894,249999,249999,1787663642,1787663659,captured,captured,upi,upi,17,Multiple Browser Tabs Checkout,97.0,True,249999
+pay_902375,pay_902376,cust_00137,order_701625,order_701626,14999,14999,1787674492,1787674509,captured,captured,card,card,17,Multiple Browser Tabs Checkout,97.0,True,14999
+pay_901447,pay_901448,cust_00137,order_701074,order_701074,4999,4999,1787679075,1787679105,captured,captured,wallet,wallet,30,Network Timeout Retry,97.0,True,4999
+pay_902355,pay_902356,cust_00134,order_701605,order_701606,99999,99999,1787586581,1787586596,captured,captured,netbanking,netbanking,15,Multiple Browser Tabs Checkout,97.0,True,99999
+pay_902595,pay_902596,cust_00134,order_701845,order_701846,12499,12499,1787595359,1787595371,captured,captured,netbanking,netbanking,12,Multiple Browser Tabs Checkout,97.0,True,12499
+pay_902745,pay_902746,cust_00028,order_701995,order_701996,249999,249999,1787542013,1787542028,failed,captured,netbanking,netbanking,15,Gateway Retry with Different IDs,97.0,False,0
+pay_902523,pay_902524,cust_00028,order_701773,order_701774,7499,7499,1787599999,1787600011,captured,captured,netbanking,netbanking,12,Multiple Browser Tabs Checkout,97.0,True,7499
+pay_901535,pay_901536,cust_00100,order_701118,order_701118,12499,12499,1787647760,1787647779,captured,captured,wallet,wallet,19,Network Timeout Retry,97.0,True,12499
+pay_901319,pay_901320,cust_00028,order_701010,order_701010,49999,49999,1787602388,1787602413,captured,captured,card,card,25,Network Timeout Retry,97.0,True,49999
+pay_901619,pay_901620,cust_00101,order_701160,order_701160,9999,9999,1787573531,1787573561,captured,captured,upi,upi,30,Network Timeout Retry,97.0,True,9999
+pay_902231,pay_902232,cust_00028,order_701481,order_701482,7499,7499,1787618253,1787618265,captured,captured,wallet,wallet,12,Multiple Browser Tabs Checkout,97.0,True,7499
+pay_902495,pay_902496,cust_00029,order_701745,order_701746,199999,199999,1787536802,1787536810,captured,captured,netbanking,netbanking,8,Multiple Browser Tabs Checkout,97.0,True,199999
+pay_902655,pay_902656,cust_00184,order_701905,order_701906,24999,24999,1787657897,1787657910,captured,captured,card,card,13,Multiple Browser Tabs Checkout,97.0,True,24999
+pay_902497,pay_902498,cust_00134,order_701747,order_701748,9999,9999,1787647162,1787647176,captured,captured,wallet,wallet,14,Multiple Browser Tabs Checkout,97.0,True,9999
+pay_902739,pay_902740,cust_00135,order_701989,order_701990,199999,199999,1787587398,1787587412,failed,captured,upi,upi,14,Gateway Retry with Different IDs,97.0,False,0
+pay_901455,pay_901456,cust_00184,order_701078,order_701078,149999,149999,1787658593,1787658615,captured,captured,wallet,wallet,22,Network Timeout Retry,97.0,True,149999
+pay_901549,pay_901550,cust_00184,order_701125,order_701125,7499,7499,1787676181,1787676202,captured,captured,card,card,21,Network Timeout Retry,97.0,True,7499
+pay_902443,pay_902444,cust_00136,order_701693,order_701694,99999,99999,1787604237,1787604247,captured,captured,card,card,10,Multiple Browser Tabs Checkout,97.0,True,99999
+pay_902613,pay_902614,cust_00185,order_701863,order_701864,34999,34999,1787525001,1787525008,captured,captured,card,card,7,Multiple Browser Tabs Checkout,97.0,True,34999
+pay_902417,pay_902418,cust_00182,order_701667,order_701668,74999,74999,1787549873,1787549890,captured,captured,upi,upi,17,Multiple Browser Tabs Checkout,97.0,True,74999
+pay_902219,pay_902220,cust_00104,order_701469,order_701470,7499,7499,1787654908,1787654927,captured,captured,upi,upi,19,Multiple Browser Tabs Checkout,97.0,True,7499
+pay_901267,pay_901268,cust_00182,order_700984,order_700984,149999,149999,1787615317,1787615335,captured,captured,card,card,18,Network Timeout Retry,97.0,True,149999
+pay_902453,pay_902454,cust_00106,order_701703,order_701704,19999,19999,1787533139,1787533148,captured,captured,upi,upi,9,Multiple Browser Tabs Checkout,97.0,True,19999
+pay_901453,pay_901454,cust_00106,order_701077,order_701077,299999,299999,1787583654,1787583674,captured,captured,wallet,wallet,20,Network Timeout Retry,97.0,True,299999
+pay_902347,pay_902348,cust_00029,order_701597,order_701598,149999,149999,1787601206,1787601217,captured,captured,upi,upi,11,Multiple Browser Tabs Checkout,97.0,True,149999
+pay_902559,pay_902560,cust_00106,order_701809,order_701810,19999,19999,1787629703,1787629715,captured,captured,card,card,12,Multiple Browser Tabs Checkout,97.0,True,19999
+pay_902457,pay_902458,cust_00107,order_701707,order_701708,34999,34999,1787535583,1787535592,captured,captured,card,card,9,Multiple Browser Tabs Checkout,97.0,True,34999
+pay_901607,pay_901608,cust_00107,order_701154,order_701154,299999,299999,1787665740,1787665762,captured,captured,card,card,22,Network Timeout Retry,97.0,True,299999
+pay_902501,pay_902502,cust_00030,order_701751,order_701752,24999,24999,1787594401,1787594415,captured,captured,netbanking,netbanking,14,Multiple Browser Tabs Checkout,97.0,True,24999
+pay_901501,pay_901502,cust_00031,order_701101,order_701101,24999,24999,1787516984,1787517000,captured,captured,upi,upi,16,Network Timeout Retry,97.0,True,24999
+pay_902511,pay_902512,cust_00031,order_701761,order_701762,9999,9999,1787584669,1787584677,captured,captured,wallet,wallet,8,Multiple Browser Tabs Checkout,97.0,True,9999
+pay_902325,pay_902326,cust_00132,order_701575,order_701576,299999,299999,1787668883,1787668891,captured,captured,netbanking,netbanking,8,Multiple Browser Tabs Checkout,97.0,True,299999
+pay_901363,pay_901364,cust_00133,order_701032,order_701032,34999,34999,1787634536,1787634551,captured,captured,netbanking,netbanking,15,Network Timeout Retry,97.0,True,34999
+pay_902251,pay_902252,cust_00134,order_701501,order_701502,34999,34999,1787556784,1787556794,captured,captured,wallet,wallet,10,Multiple Browser Tabs Checkout,97.0,True,34999
+pay_902349,pay_902350,cust_00134,order_701599,order_701600,99999,99999,1787566101,1787566110,captured,captured,card,card,9,Multiple Browser Tabs Checkout,97.0,True,99999
+pay_902785,pay_902786,cust_00110,order_702035,order_702036,14999,14999,1787610653,1787610665,failed,captured,card,card,12,Gateway Retry with Different IDs,97.0,False,0
+pay_902321,pay_902322,cust_00110,order_701571,order_701572,199999,199999,1787636065,1787636076,captured,captured,netbanking,netbanking,11,Multiple Browser Tabs Checkout,97.0,True,199999
+pay_902583,pay_902584,cust_00110,order_701833,order_701834,12499,12499,1787652929,1787652943,captured,captured,netbanking,netbanking,14,Multiple Browser Tabs Checkout,97.0,True,12499
+pay_901419,pay_901420,cust_00027,order_701060,order_701060,7499,7499,1787677319,1787677349,captured,captured,card,card,30,Network Timeout Retry,97.0,True,7499
+pay_902455,pay_902456,cust_00129,order_701705,order_701706,12499,12499,1787652835,1787652843,captured,captured,upi,upi,8,Multiple Browser Tabs Checkout,97.0,True,12499
+pay_902811,pay_902812,cust_00033,order_702061,order_702062,9999,9999,1787548411,1787548422,failed,captured,card,card,11,Gateway Retry with Different IDs,97.0,False,0
+pay_902549,pay_902550,cust_00130,order_701799,order_701800,4999,4999,1787560955,1787560972,captured,captured,wallet,wallet,17,Multiple Browser Tabs Checkout,97.0,True,4999
+pay_902467,pay_902468,cust_00033,order_701717,order_701718,12499,12499,1787684977,1787684995,captured,captured,upi,upi,18,Multiple Browser Tabs Checkout,97.0,True,12499
+pay_902657,pay_902658,cust_00130,order_701907,order_701908,7499,7499,1787588167,1787588182,captured,captured,netbanking,netbanking,15,Multiple Browser Tabs Checkout,97.0,True,7499
+pay_902585,pay_902586,cust_00130,order_701835,order_701836,199999,199999,1787590248,1787590263,captured,captured,netbanking,netbanking,15,Multiple Browser Tabs Checkout,97.0,True,199999
+pay_902873,pay_902874,cust_00130,order_702123,order_702124,7499,7499,1787624292,1787624315,failed,captured,upi,upi,23,Gateway Retry with Different IDs,97.0,False,0
+pay_901233,pay_901234,cust_00170,order_700967,order_700967,249999,249999,1787679126,1787679147,captured,captured,netbanking,netbanking,21,Network Timeout Retry,97.0,True,249999
+pay_901541,pay_901542,cust_00034,order_701121,order_701121,9999,9999,1787550360,1787550390,captured,captured,card,card,30,Network Timeout Retry,97.0,True,9999
+pay_902697,pay_902698,cust_00178,order_701947,order_701948,24999,24999,1787638705,1787638723,captured,captured,upi,upi,18,Multiple Browser Tabs Checkout,97.0,True,24999
+pay_901435,pay_901436,cust_00179,order_701068,order_701068,49999,49999,1787617536,1787617565,captured,captured,upi,upi,29,Network Timeout Retry,97.0,True,49999
+pay_902207,pay_902208,cust_00179,order_701457,order_701458,24999,24999,1787624411,1787624427,captured,captured,card,card,16,Multiple Browser Tabs Checkout,97.0,True,24999
+pay_902537,pay_902538,cust_00111,order_701787,order_701788,299999,299999,1787581732,1787581747,captured,captured,card,card,15,Multiple Browser Tabs Checkout,97.0,True,299999
+pay_901511,pay_901512,cust_00180,order_701106,order_701106,49999,49999,1787537184,1787537206,captured,captured,card,card,22,Network Timeout Retry,97.0,True,49999
+pay_902803,pay_902804,cust_00112,order_702053,order_702054,49999,49999,1787516451,1787516468,failed,captured,card,card,17,Gateway Retry with Different IDs,97.0,False,0
+pay_902491,pay_902492,cust_00113,order_701741,order_701742,99999,99999,1787546691,1787546707,captured,captured,card,card,16,Multiple Browser Tabs Checkout,97.0,True,99999
+pay_901335,pay_901336,cust_00180,order_701018,order_701018,249999,249999,1787558340,1787558357,captured,captured,netbanking,netbanking,17,Network Timeout Retry,97.0,True,249999
+pay_902629,pay_902630,cust_00113,order_701879,order_701880,24999,24999,1787664550,1787664556,captured,captured,netbanking,netbanking,6,Multiple Browser Tabs Checkout,97.0,True,24999
+pay_902649,pay_902650,cust_00113,order_701899,order_701900,99999,99999,1787667413,1787667431,captured,captured,netbanking,netbanking,18,Multiple Browser Tabs Checkout,97.0,True,99999
+pay_901373,pay_901374,cust_00180,order_701037,order_701037,199999,199999,1787578526,1787578553,captured,captured,netbanking,netbanking,27,Network Timeout Retry,97.0,True,199999
+pay_902407,pay_902408,cust_00114,order_701657,order_701658,14999,14999,1787654661,1787654679,captured,captured,upi,upi,18,Multiple Browser Tabs Checkout,97.0,True,14999
+pay_902427,pay_902428,cust_00107,order_701677,order_701678,9999,9999,1787672135,1787672147,captured,captured,wallet,wallet,12,Multiple Browser Tabs Checkout,97.0,True,9999
+pay_902275,pay_902276,cust_00108,order_701525,order_701526,12499,12499,1787555196,1787555204,captured,captured,netbanking,netbanking,8,Multiple Browser Tabs Checkout,97.0,True,12499
+pay_902247,pay_902248,cust_00181,order_701497,order_701498,99999,99999,1787587364,1787587384,captured,captured,netbanking,netbanking,20,Multiple Browser Tabs Checkout,97.0,True,99999
+pay_901519,pay_901520,cust_00181,order_701110,order_701110,34999,34999,1787609225,1787609255,captured,captured,netbanking,netbanking,30,Network Timeout Retry,97.0,True,34999
+pay_902249,pay_902250,cust_00178,order_701499,order_701500,9999,9999,1787540166,1787540179,captured,captured,upi,upi,13,Multiple Browser Tabs Checkout,97.0,True,9999
+pay_901475,pay_901476,cust_00108,order_701088,order_701088,14999,14999,1787687889,1787687918,captured,captured,wallet,wallet,29,Network Timeout Retry,97.0,True,14999
+pay_901633,pay_901634,cust_00109,order_701167,order_701167,19999,19999,1787548357,1787548383,captured,captured,netbanking,netbanking,26,Network Timeout Retry,97.0,True,19999
+pay_902621,pay_902622,cust_00128,order_701871,order_701872,299999,299999,1787556581,1787556589,captured,captured,card,card,8,Multiple Browser Tabs Checkout,97.0,True,299999
+pay_902377,pay_902378,cust_00128,order_701627,order_701628,199999,199999,1787679219,1787679234,captured,captured,upi,upi,15,Multiple Browser Tabs Checkout,97.0,True,199999
+pay_902451,pay_902452,cust_00036,order_701701,order_701702,49999,49999,1787579898,1787579918,captured,captured,netbanking,netbanking,20,Multiple Browser Tabs Checkout,97.0,True,49999
+pay_901215,pay_901216,cust_00129,order_700958,order_700958,299999,299999,1787591455,1787591477,captured,captured,upi,upi,22,Network Timeout Retry,97.0,True,299999
+pay_901689,pay_901690,cust_00115,order_701195,order_701195,49999,49999,1787551169,1787551188,captured,captured,upi,upi,19,Network Timeout Retry,97.0,True,49999
+pay_901617,pay_901618,cust_00115,order_701159,order_701159,199999,199999,1787553817,1787553841,captured,captured,card,card,24,Network Timeout Retry,97.0,True,199999
+pay_902389,pay_902390,cust_00115,order_701639,order_701640,19999,19999,1787571837,1787571848,captured,captured,card,card,11,Multiple Browser Tabs Checkout,97.0,True,19999
+pay_902331,pay_902332,cust_00036,order_701581,order_701582,19999,19999,1787608690,1787608710,captured,captured,upi,upi,20,Multiple Browser Tabs Checkout,97.0,True,19999
+pay_902461,pay_902462,cust_00036,order_701711,order_701712,249999,249999,1787669186,1787669201,captured,captured,wallet,wallet,15,Multiple Browser Tabs Checkout,97.0,True,249999
+pay_901235,pay_901236,cust_00115,order_700968,order_700968,74999,74999,1787665311,1787665331,captured,captured,wallet,wallet,20,Network Timeout Retry,97.0,True,74999
+pay_902341,pay_902342,cust_00116,order_701591,order_701592,74999,74999,1787653664,1787653671,captured,captured,netbanking,netbanking,7,Multiple Browser Tabs Checkout,97.0,True,74999
+pay_902797,pay_902798,cust_00117,order_702047,order_702048,199999,199999,1787623235,1787623261,failed,captured,wallet,wallet,26,Gateway Retry with Different IDs,97.0,False,0
+pay_902365,pay_902366,cust_00117,order_701615,order_701616,9999,9999,1787638442,1787638456,captured,captured,upi,upi,14,Multiple Browser Tabs Checkout,97.0,True,9999
+pay_902659,pay_902660,cust_00117,order_701909,order_701910,149999,149999,1787647110,1787647120,captured,captured,card,card,10,Multiple Browser Tabs Checkout,97.0,True,149999
+pay_901631,pay_901632,cust_00111,order_701166,order_701166,19999,19999,1787534886,1787534914,captured,captured,card,card,28,Network Timeout Retry,97.0,True,19999
+pay_902861,pay_902862,cust_00111,order_702111,order_702112,7499,7499,1787536296,1787536320,failed,captured,upi,upi,24,Gateway Retry with Different IDs,97.0,False,0
+pay_901467,pay_901468,cust_00126,order_701084,order_701084,12499,12499,1787518792,1787518808,captured,captured,netbanking,netbanking,16,Network Timeout Retry,97.0,True,12499
+pay_902627,pay_902628,cust_00037,order_701877,order_701878,7499,7499,1787552439,1787552452,captured,captured,upi,upi,13,Multiple Browser Tabs Checkout,97.0,True,7499
+pay_902229,pay_902230,cust_00117,order_701479,order_701480,74999,74999,1787659790,1787659797,captured,captured,upi,upi,7,Multiple Browser Tabs Checkout,97.0,True,74999
+pay_902747,pay_902748,cust_00118,order_701997,order_701998,249999,249999,1787593902,1787593929,failed,captured,wallet,wallet,27,Gateway Retry with Different IDs,97.0,False,0
+pay_902713,pay_902714,cust_00037,order_701963,order_701964,14999,14999,1787569574,1787569592,failed,captured,card,card,18,Gateway Retry with Different IDs,97.0,False,0
+pay_902359,pay_902360,cust_00118,order_701609,order_701610,14999,14999,1787670664,1787670678,captured,captured,upi,upi,14,Multiple Browser Tabs Checkout,97.0,True,14999
+pay_902411,pay_902412,cust_00037,order_701661,order_701662,12499,12499,1787597454,1787597469,captured,captured,netbanking,netbanking,15,Multiple Browser Tabs Checkout,97.0,True,12499
+pay_902607,pay_902608,cust_00119,order_701857,order_701858,34999,34999,1787588366,1787588372,captured,captured,wallet,wallet,6,Multiple Browser Tabs Checkout,97.0,True,34999
+pay_902793,pay_902794,cust_00119,order_702043,order_702044,9999,9999,1787661096,1787661108,failed,captured,upi,upi,12,Gateway Retry with Different IDs,97.0,False,0
+pay_902289,pay_902290,cust_00120,order_701539,order_701540,34999,34999,1787545024,1787545039,captured,captured,wallet,wallet,15,Multiple Browser Tabs Checkout,97.0,True,34999
+pay_902819,pay_902820,cust_00038,order_702069,order_702070,34999,34999,1787519211,1787519231,failed,captured,wallet,wallet,20,Gateway Retry with Different IDs,97.0,False,0
+pay_902543,pay_902544,cust_00126,order_701793,order_701794,24999,24999,1787569434,1787569451,captured,captured,upi,upi,17,Multiple Browser Tabs Checkout,97.0,True,24999
+pay_902571,pay_902572,cust_00126,order_701821,order_701822,7499,7499,1787573496,1787573511,captured,captured,upi,upi,15,Multiple Browser Tabs Checkout,97.0,True,7499
+pay_902477,pay_902478,cust_00032,order_701727,order_701728,299999,299999,1787616979,1787616990,captured,captured,upi,upi,11,Multiple Browser Tabs Checkout,97.0,True,299999
+pay_902631,pay_902632,cust_00126,order_701881,order_701882,49999,49999,1787636335,1787636343,captured,captured,netbanking,netbanking,8,Multiple Browser Tabs Checkout,97.0,True,49999
+pay_902213,pay_902214,cust_00126,order_701463,order_701464,24999,24999,1787652426,1787652440,captured,captured,card,card,14,Multiple Browser Tabs Checkout,97.0,True,24999
+pay_901381,pay_901382,cust_00038,order_701041,order_701041,199999,199999,1787597173,1787597188,captured,captured,upi,upi,15,Network Timeout Retry,97.0,True,199999
+pay_901587,pay_901588,cust_00002,order_701144,order_701144,14999,14999,1787552562,1787552587,captured,captured,upi,upi,25,Network Timeout Retry,97.0,True,14999
+pay_902893,pay_902894,cust_00003,order_702143,order_702144,149999,149999,1787530091,1787530121,failed,captured,card,card,30,Gateway Retry with Different IDs,97.0,False,0
+pay_902373,pay_902374,cust_00038,order_701623,order_701624,19999,19999,1787608730,1787608740,captured,captured,wallet,wallet,10,Multiple Browser Tabs Checkout,97.0,True,19999
+pay_902691,pay_902692,cust_00038,order_701941,order_701942,4999,4999,1787684116,1787684128,captured,captured,netbanking,netbanking,12,Multiple Browser Tabs Checkout,97.0,True,4999
+pay_902645,pay_902646,cust_00003,order_701895,order_701896,299999,299999,1787675714,1787675727,captured,captured,wallet,wallet,13,Multiple Browser Tabs Checkout,97.0,True,299999
+pay_902297,pay_902298,cust_00004,order_701547,order_701548,149999,149999,1787642653,1787642665,captured,captured,wallet,wallet,12,Multiple Browser Tabs Checkout,97.0,True,149999
+pay_902681,pay_902682,cust_00004,order_701931,order_701932,149999,149999,1787649077,1787649096,captured,captured,wallet,wallet,19,Multiple Browser Tabs Checkout,97.0,True,149999
+pay_902315,pay_902316,cust_00198,order_701565,order_701566,9999,9999,1787547399,1787547415,captured,captured,wallet,wallet,16,Multiple Browser Tabs Checkout,97.0,True,9999
+pay_902623,pay_902624,cust_00198,order_701873,order_701874,199999,199999,1787572341,1787572358,captured,captured,netbanking,netbanking,17,Multiple Browser Tabs Checkout,97.0,True,199999
+pay_901605,pay_901606,cust_00198,order_701153,order_701153,19999,19999,1787667469,1787667497,captured,captured,netbanking,netbanking,28,Network Timeout Retry,97.0,True,19999
+pay_902605,pay_902606,cust_00039,order_701855,order_701856,12499,12499,1787557878,1787557892,captured,captured,card,card,14,Multiple Browser Tabs Checkout,97.0,True,12499
+pay_902597,pay_902598,cust_00039,order_701847,order_701848,149999,149999,1787661305,1787661323,captured,captured,netbanking,netbanking,18,Multiple Browser Tabs Checkout,97.0,True,149999
+pay_902225,pay_902226,cust_00121,order_701475,order_701476,299999,299999,1787557376,1787557385,captured,captured,card,card,9,Multiple Browser Tabs Checkout,97.0,True,299999
+pay_901641,pay_901642,cust_00040,order_701171,order_701171,199999,199999,1787534859,1787534875,captured,captured,card,card,16,Network Timeout Retry,97.0,True,199999
+pay_902653,pay_902654,cust_00121,order_701903,order_701904,149999,149999,1787675540,1787675555,captured,captured,wallet,wallet,15,Multiple Browser Tabs Checkout,97.0,True,149999
+pay_902379,pay_902380,cust_00040,order_701629,order_701630,4999,4999,1787627285,1787627299,captured,captured,netbanking,netbanking,14,Multiple Browser Tabs Checkout,97.0,True,4999
+pay_902823,pay_902824,cust_00006,order_702073,order_702074,249999,249999,1787616568,1787616590,failed,captured,wallet,wallet,22,Gateway Retry with Different IDs,97.0,False,0
+pay_902487,pay_902488,cust_00194,order_701737,order_701738,49999,49999,1787683675,1787683683,captured,captured,card,card,8,Multiple Browser Tabs Checkout,97.0,True,49999
+pay_901445,pay_901446,cust_00195,order_701073,order_701073,249999,249999,1787574864,1787574894,captured,captured,upi,upi,30,Network Timeout Retry,97.0,True,249999
+pay_902203,pay_902204,cust_00195,order_701453,order_701454,199999,199999,1787627379,1787627389,captured,captured,netbanking,netbanking,10,Multiple Browser Tabs Checkout,97.0,True,199999
+pay_902531,pay_902532,cust_00195,order_701781,order_701782,7499,7499,1787652425,1787652436,captured,captured,wallet,wallet,11,Multiple Browser Tabs Checkout,97.0,True,7499
+pay_902897,pay_902898,cust_00195,order_702147,order_702148,4999,4999,1787671395,1787671408,failed,captured,upi,upi,13,Gateway Retry with Different IDs,97.0,False,0
+pay_901423,pay_901424,cust_00196,order_701062,order_701062,7499,7499,1787560793,1787560812,captured,captured,card,card,19,Network Timeout Retry,97.0,True,7499
+pay_902237,pay_902238,cust_00196,order_701487,order_701488,4999,4999,1787573416,1787573424,captured,captured,upi,upi,8,Multiple Browser Tabs Checkout,97.0,True,4999
+pay_901687,pay_901688,cust_00040,order_701194,order_701194,24999,24999,1787672643,1787672668,captured,captured,netbanking,netbanking,25,Network Timeout Retry,97.0,True,24999
+pay_902445,pay_902446,cust_00196,order_701695,order_701696,7499,7499,1787609394,1787609409,captured,captured,upi,upi,15,Multiple Browser Tabs Checkout,97.0,True,7499
+pay_901625,pay_901626,cust_00196,order_701163,order_701163,9999,9999,1787612087,1787612117,captured,captured,wallet,wallet,30,Network Timeout Retry,97.0,True,9999
+pay_902603,pay_902604,cust_00176,order_701853,order_701854,74999,74999,1787585574,1787585582,captured,captured,upi,upi,8,Multiple Browser Tabs Checkout,97.0,True,74999
+pay_901485,pay_901486,cust_00197,order_701093,order_701093,149999,149999,1787581934,1787581963,captured,captured,upi,upi,29,Network Timeout Retry,97.0,True,149999
+pay_902263,pay_902264,cust_00176,order_701513,order_701514,249999,249999,1787601411,1787601421,captured,captured,wallet,wallet,10,Multiple Browser Tabs Checkout,97.0,True,249999
+pay_902707,pay_902708,cust_00095,order_701957,order_701958,9999,9999,1787615749,1787615775,failed,captured,card,card,26,Gateway Retry with Different IDs,97.0,False,0
+pay_901775,pay_901776,cust_00197,order_701238,order_701238,9999,9999,1787673078,1787673180,captured,captured,upi,upi,102,Failed UPI Retry,93.5,True,9999
+pay_902075,pay_902076,cust_00192,order_701388,order_701388,14999,14999,1787641062,1787641164,captured,captured,upi,upi,102,Failed UPI Retry,93.5,True,14999
+pay_901609,pay_901610,cust_00192,order_701155,order_701155,99999,99999,1787624977,1787625012,captured,captured,card,card,35,Network Timeout Retry,93.5,True,99999
+pay_901813,pay_901814,cust_00192,order_701257,order_701257,74999,74999,1787577681,1787577715,captured,captured,upi,upi,34,Failed UPI Retry,93.5,True,74999
+pay_901257,pay_901258,cust_00012,order_700979,order_700979,149999,149999,1787555096,1787555136,captured,captured,wallet,wallet,40,Network Timeout Retry,93.5,True,149999
+pay_901739,pay_901740,cust_00011,order_701220,order_701220,299999,299999,1787687521,1787687617,captured,captured,upi,upi,96,Failed UPI Retry,93.5,True,299999
+pay_902729,pay_902730,cust_00011,order_701979,order_701980,34999,34999,1787686309,1787686354,failed,captured,netbanking,netbanking,45,Gateway Retry with Different IDs,93.5,False,0
+pay_901493,pay_901494,cust_00011,order_701097,order_701097,149999,149999,1787559213,1787559248,captured,captured,card,card,35,Network Timeout Retry,93.5,True,149999
+pay_902701,pay_902702,cust_00014,order_701951,order_701952,19999,19999,1787596818,1787596850,failed,captured,upi,upi,32,Gateway Retry with Different IDs,93.5,False,0
+pay_901745,pay_901746,cust_00013,order_701223,order_701223,12499,12499,1787565757,1787565837,captured,captured,upi,upi,80,Failed UPI Retry,93.5,True,12499
+pay_901799,pay_901800,cust_00013,order_701250,order_701250,9999,9999,1787541060,1787541173,captured,captured,upi,upi,113,Failed UPI Retry,93.5,True,9999
+pay_902865,pay_902866,cust_00012,order_702115,order_702116,199999,199999,1787670325,1787670379,failed,captured,netbanking,netbanking,54,Gateway Retry with Different IDs,93.5,False,0
+pay_901853,pay_901854,cust_00018,order_701277,order_701277,14999,14999,1787567330,1787567430,captured,captured,upi,upi,100,Failed UPI Retry,93.5,True,14999
+pay_901463,pay_901464,cust_00018,order_701082,order_701082,9999,9999,1787565483,1787565518,captured,captured,upi,upi,35,Network Timeout Retry,93.5,True,9999
+pay_901877,pay_901878,cust_00017,order_701289,order_701289,9999,9999,1787563904,1787563937,captured,captured,upi,upi,33,Failed UPI Retry,93.5,True,9999
+pay_902013,pay_902014,cust_00016,order_701357,order_701357,19999,19999,1787671147,1787671183,captured,captured,upi,upi,36,Failed UPI Retry,93.5,True,19999
+pay_901553,pay_901554,cust_00016,order_701127,order_701127,19999,19999,1787657487,1787657527,captured,captured,wallet,wallet,40,Network Timeout Retry,93.5,True,19999
+pay_901867,pay_901868,cust_00118,order_701284,order_701284,299999,299999,1787664952,1787665024,captured,captured,upi,upi,72,Failed UPI Retry,93.5,True,299999
+pay_901905,pay_901906,cust_00118,order_701303,order_701303,24999,24999,1787638764,1787638860,captured,captured,upi,upi,96,Failed UPI Retry,93.5,True,24999
+pay_901669,pay_901670,cust_00118,order_701185,order_701185,49999,49999,1787522310,1787522354,captured,captured,card,card,44,Network Timeout Retry,93.5,True,49999
+pay_902863,pay_902864,cust_00125,order_702113,order_702114,14999,14999,1787651069,1787651128,failed,captured,netbanking,netbanking,59,Gateway Retry with Different IDs,93.5,False,0
+pay_902731,pay_902732,cust_00125,order_701981,order_701982,34999,34999,1787534879,1787534935,failed,captured,wallet,wallet,56,Gateway Retry with Different IDs,93.5,False,0
+pay_901325,pay_901326,cust_00124,order_701013,order_701013,199999,199999,1787646332,1787646377,captured,captured,upi,upi,45,Network Timeout Retry,93.5,True,199999
+pay_901829,pay_901830,cust_00124,order_701265,order_701265,149999,149999,1787634440,1787634560,captured,captured,upi,upi,120,Failed UPI Retry,93.5,True,149999
+pay_901281,pay_901282,cust_00124,order_700991,order_700991,14999,14999,1787615259,1787615298,captured,captured,netbanking,netbanking,39,Network Timeout Retry,93.5,True,14999
+pay_901259,pay_901260,cust_00124,order_700980,order_700980,199999,199999,1787576010,1787576050,captured,captured,wallet,wallet,40,Network Timeout Retry,93.5,True,199999
+pay_901975,pay_901976,cust_00124,order_701338,order_701338,24999,24999,1787526856,1787526912,captured,captured,upi,upi,56,Failed UPI Retry,93.5,True,24999
+pay_901863,pay_901864,cust_00123,order_701282,order_701282,299999,299999,1787597435,1787597469,captured,captured,upi,upi,34,Failed UPI Retry,93.5,True,299999
+pay_902111,pay_902112,cust_00122,order_701406,order_701406,149999,149999,1787679299,1787679397,captured,captured,upi,upi,98,Failed UPI Retry,93.5,True,149999
+pay_902115,pay_902116,cust_00122,order_701408,order_701408,14999,14999,1787540523,1787540608,captured,captured,upi,upi,85,Failed UPI Retry,93.5,True,14999
+pay_901935,pay_901936,cust_00121,order_701318,order_701318,299999,299999,1787632167,1787632210,captured,captured,upi,upi,43,Failed UPI Retry,93.5,True,299999
+pay_901843,pay_901844,cust_00001,order_701272,order_701272,7499,7499,1787519586,1787519696,captured,captured,upi,upi,110,Failed UPI Retry,93.5,True,7499
+pay_902163,pay_902164,cust_00200,order_701432,order_701432,7499,7499,1787563356,1787563393,captured,captured,upi,upi,37,Failed UPI Retry,93.5,True,7499
+pay_901793,pay_901794,cust_00117,order_701247,order_701247,24999,24999,1787591797,1787591903,captured,captured,upi,upi,106,Failed UPI Retry,93.5,True,24999
+pay_901465,pay_901466,cust_00117,order_701083,order_701083,74999,74999,1787562466,1787562500,captured,captured,wallet,wallet,34,Network Timeout Retry,93.5,True,74999
+pay_901203,pay_901204,cust_00117,order_700952,order_700952,299999,299999,1787522336,1787522371,captured,captured,card,card,35,Network Timeout Retry,93.5,True,299999
+pay_901961,pay_901962,cust_00117,order_701331,order_701331,34999,34999,1787520671,1787520761,captured,captured,upi,upi,90,Failed UPI Retry,93.5,True,34999
+pay_901759,pay_901760,cust_00116,order_701230,order_701230,4999,4999,1787546351,1787546456,captured,captured,upi,upi,105,Failed UPI Retry,93.5,True,4999
+pay_901897,pay_901898,cust_00129,order_701299,order_701299,9999,9999,1787548309,1787548400,captured,captured,upi,upi,91,Failed UPI Retry,93.5,True,9999
+pay_902715,pay_902716,cust_00128,order_701965,order_701966,249999,249999,1787644665,1787644702,failed,captured,netbanking,netbanking,37,Gateway Retry with Different IDs,93.5,False,0
+pay_901837,pay_901838,cust_00128,order_701269,order_701269,49999,49999,1787641444,1787641537,captured,captured,upi,upi,93,Failed UPI Retry,93.5,True,49999
+pay_901353,pay_901354,cust_00127,order_701027,order_701027,299999,299999,1787600252,1787600291,captured,captured,netbanking,netbanking,39,Network Timeout Retry,93.5,True,299999
+pay_902837,pay_902838,cust_00127,order_702087,order_702088,74999,74999,1787592911,1787592948,failed,captured,netbanking,netbanking,37,Gateway Retry with Different IDs,93.5,False,0
+pay_901839,pay_901840,cust_00127,order_701270,order_701270,199999,199999,1787546529,1787546637,captured,captured,upi,upi,108,Failed UPI Retry,93.5,True,199999
+pay_901717,pay_901718,cust_00126,order_701209,order_701209,34999,34999,1787539203,1787539257,captured,captured,upi,upi,54,Failed UPI Retry,93.5,True,34999
+pay_901951,pay_901952,cust_00120,order_701326,order_701326,7499,7499,1787594166,1787594283,captured,captured,upi,upi,117,Failed UPI Retry,93.5,True,7499
+pay_902059,pay_902060,cust_00120,order_701380,order_701380,49999,49999,1787528960,1787529068,captured,captured,upi,upi,108,Failed UPI Retry,93.5,True,49999
+pay_901869,pay_901870,cust_00119,order_701285,order_701285,199999,199999,1787656129,1787656166,captured,captured,upi,upi,37,Failed UPI Retry,93.5,True,199999
+pay_902869,pay_902870,cust_00118,order_702119,order_702120,249999,249999,1787683862,1787683922,failed,captured,card,card,60,Gateway Retry with Different IDs,93.5,False,0
+pay_902011,pay_902012,cust_00104,order_701356,order_701356,249999,249999,1787537482,1787537549,captured,captured,upi,upi,67,Failed UPI Retry,93.5,True,249999
+pay_901355,pay_901356,cust_00131,order_701028,order_701028,14999,14999,1787553818,1787553851,captured,captured,wallet,wallet,33,Network Timeout Retry,93.5,True,14999
+pay_901247,pay_901248,cust_00130,order_700974,order_700974,99999,99999,1787658263,1787658297,captured,captured,wallet,wallet,34,Network Timeout Retry,93.5,True,99999
+pay_902877,pay_902878,cust_00130,order_702127,order_702128,34999,34999,1787542103,1787542136,failed,captured,card,card,33,Gateway Retry with Different IDs,93.5,False,0
+pay_902889,pay_902890,cust_00110,order_702139,order_702140,24999,24999,1787670627,1787670670,failed,captured,wallet,wallet,43,Gateway Retry with Different IDs,93.5,False,0
+pay_901729,pay_901730,cust_00110,order_701215,order_701215,24999,24999,1787649571,1787649678,captured,captured,upi,upi,107,Failed UPI Retry,93.5,True,24999
+pay_902043,pay_902044,cust_00109,order_701372,order_701372,49999,49999,1787657149,1787657228,captured,captured,upi,upi,79,Failed UPI Retry,93.5,True,49999
+pay_901275,pay_901276,cust_00109,order_700988,order_700988,74999,74999,1787621174,1787621210,captured,captured,netbanking,netbanking,36,Network Timeout Retry,93.5,True,74999
+pay_902041,pay_902042,cust_00109,order_701371,order_701371,74999,74999,1787546510,1787546605,captured,captured,upi,upi,95,Failed UPI Retry,93.5,True,74999
+pay_902071,pay_902072,cust_00108,order_701386,order_701386,19999,19999,1787681429,1787681496,captured,captured,upi,upi,67,Failed UPI Retry,93.5,True,19999
+pay_901573,pay_901574,cust_00114,order_701137,order_701137,299999,299999,1787671390,1787671422,captured,captured,netbanking,netbanking,32,Network Timeout Retry,93.5,True,299999
+pay_901725,pay_901726,cust_00113,order_701213,order_701213,249999,249999,1787622069,1787622187,captured,captured,upi,upi,118,Failed UPI Retry,93.5,True,249999
+pay_902881,pay_902882,cust_00113,order_702131,order_702132,24999,24999,1787557831,1787557871,failed,captured,card,card,40,Gateway Retry with Different IDs,93.5,False,0
+pay_902007,pay_902008,cust_00112,order_701354,order_701354,149999,149999,1787685231,1787685305,captured,captured,upi,upi,74,Failed UPI Retry,93.5,True,149999
+pay_901577,pay_901578,cust_00111,order_701139,order_701139,249999,249999,1787620575,1787620608,captured,captured,netbanking,netbanking,33,Network Timeout Retry,93.5,True,249999
+pay_902039,pay_902040,cust_00117,order_701370,order_701370,299999,299999,1787651768,1787651875,captured,captured,upi,upi,107,Failed UPI Retry,93.5,True,299999
+pay_901277,pay_901278,cust_00102,order_700989,order_700989,199999,199999,1787586847,1787586887,captured,captured,upi,upi,40,Network Timeout Retry,93.5,True,199999
+pay_901733,pay_901734,cust_00101,order_701217,order_701217,74999,74999,1787677724,1787677827,captured,captured,upi,upi,103,Failed UPI Retry,93.5,True,74999
+pay_902187,pay_902188,cust_00101,order_701444,order_701444,74999,74999,1787516081,1787516201,captured,captured,upi,upi,120,Failed UPI Retry,93.5,True,74999
+pay_901679,pay_901680,cust_00100,order_701190,order_701190,299999,299999,1787678588,1787678633,captured,captured,card,card,45,Network Timeout Retry,93.5,True,299999
+pay_900775,pay_900665,cust_00134,order_700738,order_700665,24999,24999,1787614406,1787614468,captured,captured,wallet,netbanking,62,Double-Click Issue,93.5,True,24999
+pay_901871,pay_901872,cust_00134,order_701286,order_701286,14999,14999,1787613063,1787613179,captured,captured,upi,upi,116,Failed UPI Retry,93.5,True,14999
+pay_901559,pay_901560,cust_00133,order_701130,order_701130,7499,7499,1787640751,1787640783,captured,captured,card,card,32,Network Timeout Retry,93.5,True,7499
+pay_902867,pay_902868,cust_00132,order_702117,order_702118,74999,74999,1787637508,1787637546,failed,captured,card,card,38,Gateway Retry with Different IDs,93.5,False,0
+pay_902069,pay_902070,cust_00132,order_701385,order_701385,299999,299999,1787596524,1787596596,captured,captured,upi,upi,72,Failed UPI Retry,93.5,True,299999
+pay_902787,pay_902788,cust_00132,order_702037,order_702038,7499,7499,1787586811,1787586850,failed,captured,wallet,wallet,39,Gateway Retry with Different IDs,93.5,False,0
+pay_901565,pay_901566,cust_00107,order_701133,order_701133,149999,149999,1787647855,1787647888,captured,captured,card,card,33,Network Timeout Retry,93.5,True,149999
+pay_901807,pay_901808,cust_00107,order_701254,order_701254,9999,9999,1787543320,1787543386,captured,captured,upi,upi,66,Failed UPI Retry,93.5,True,9999
+pay_901847,pay_901848,cust_00107,order_701274,order_701274,24999,24999,1787523302,1787523376,captured,captured,upi,upi,74,Failed UPI Retry,93.5,True,24999
+pay_901701,pay_901702,cust_00106,order_701201,order_701201,24999,24999,1787567859,1787567970,captured,captured,upi,upi,111,Failed UPI Retry,93.5,True,24999
+pay_901231,pay_901232,cust_00104,order_700966,order_700966,74999,74999,1787667247,1787667285,captured,captured,card,card,38,Network Timeout Retry,93.5,True,74999
+pay_901309,pay_901310,cust_00104,order_701005,order_701005,74999,74999,1787604907,1787604945,captured,captured,upi,upi,38,Network Timeout Retry,93.5,True,74999
+pay_901937,pay_901938,cust_00099,order_701319,order_701319,4999,4999,1787530322,1787530402,captured,captured,upi,upi,80,Failed UPI Retry,93.5,True,4999
+pay_902023,pay_902024,cust_00098,order_701362,order_701362,24999,24999,1787609637,1787609751,captured,captured,upi,upi,114,Failed UPI Retry,93.5,True,24999
+pay_902067,pay_902068,cust_00137,order_701384,order_701384,199999,199999,1787517304,1787517392,captured,captured,upi,upi,88,Failed UPI Retry,93.5,True,199999
+pay_902833,pay_902834,cust_00136,order_702083,order_702084,4999,4999,1787615043,1787615088,failed,captured,wallet,wallet,45,Gateway Retry with Different IDs,93.5,False,0
+pay_901671,pay_901672,cust_00136,order_701186,order_701186,14999,14999,1787600101,1787600139,captured,captured,netbanking,netbanking,38,Network Timeout Retry,93.5,True,14999
+pay_901823,pay_901824,cust_00135,order_701262,order_701262,24999,24999,1787606100,1787606219,captured,captured,upi,upi,119,Failed UPI Retry,93.5,True,24999
+pay_901629,pay_901630,cust_00135,order_701165,order_701165,12499,12499,1787527821,1787527860,captured,captured,upi,upi,39,Network Timeout Retry,93.5,True,12499
+pay_901429,pay_901430,cust_00135,order_701065,order_701065,249999,249999,1787520378,1787520414,captured,captured,upi,upi,36,Network Timeout Retry,93.5,True,249999
+pay_901913,pay_901914,cust_00134,order_701307,order_701307,199999,199999,1787629313,1787629382,captured,captured,upi,upi,69,Failed UPI Retry,93.5,True,199999
+pay_901269,pay_901270,cust_00134,order_700985,order_700985,4999,4999,1787628546,1787628583,captured,captured,wallet,wallet,37,Network Timeout Retry,93.5,True,4999
+pay_900776,pay_900665,cust_00134,order_700738,order_700665,24999,24999,1787614407,1787614468,captured,captured,wallet,netbanking,61,Double-Click Issue,93.5,True,24999
+pay_901297,pay_901298,cust_00103,order_700999,order_700999,74999,74999,1787638406,1787638440,captured,captured,netbanking,netbanking,34,Network Timeout Retry,93.5,True,74999
+pay_902895,pay_902896,cust_00103,order_702145,order_702146,199999,199999,1787590449,1787590484,failed,captured,upi,upi,35,Gateway Retry with Different IDs,93.5,False,0
+pay_901337,pay_901338,cust_00103,order_701019,order_701019,99999,99999,1787528579,1787528623,captured,captured,netbanking,netbanking,44,Network Timeout Retry,93.5,True,99999
+pay_901583,pay_901584,cust_00102,order_701142,order_701142,4999,4999,1787685296,1787685330,captured,captured,card,card,34,Network Timeout Retry,93.5,True,4999
+pay_901627,pay_901628,cust_00102,order_701164,order_701164,99999,99999,1787612411,1787612449,captured,captured,upi,upi,38,Network Timeout Retry,93.5,True,99999
+pay_901889,pay_901890,cust_00096,order_701295,order_701295,34999,34999,1787658771,1787658839,captured,captured,upi,upi,68,Failed UPI Retry,93.5,True,34999
+pay_901893,pay_901894,cust_00096,order_701297,order_701297,199999,199999,1787521903,1787521958,captured,captured,upi,upi,55,Failed UPI Retry,93.5,True,199999
+pay_901295,pay_901296,cust_00095,order_700998,order_700998,7499,7499,1787640634,1787640678,captured,captured,card,card,44,Network Timeout Retry,93.5,True,7499
+pay_901613,pay_901614,cust_00139,order_701157,order_701157,74999,74999,1787571917,1787571954,captured,captured,upi,upi,37,Network Timeout Retry,93.5,True,74999
+pay_901933,pay_901934,cust_00139,order_701317,order_701317,34999,34999,1787524206,1787524239,captured,captured,upi,upi,33,Failed UPI Retry,93.5,True,34999
+pay_902193,pay_902194,cust_00139,order_701447,order_701447,12499,12499,1787516012,1787516130,captured,captured,upi,upi,118,Failed UPI Retry,93.5,True,12499
+pay_901741,pay_901742,cust_00138,order_701221,order_701221,24999,24999,1787685447,1787685482,captured,captured,upi,upi,35,Failed UPI Retry,93.5,True,24999
+pay_902817,pay_902818,cust_00138,order_702067,order_702068,12499,12499,1787567439,1787567478,failed,captured,card,card,39,Gateway Retry with Different IDs,93.5,False,0
+pay_901461,pay_901462,cust_00137,order_701081,order_701081,199999,199999,1787586791,1787586833,captured,captured,netbanking,netbanking,42,Network Timeout Retry,93.5,True,199999
+pay_901971,pay_901972,cust_00137,order_701336,order_701336,34999,34999,1787584702,1787584784,captured,captured,upi,upi,82,Failed UPI Retry,93.5,True,34999
+pay_901667,pay_901668,cust_00137,order_701184,order_701184,7499,7499,1787549806,1787549851,captured,captured,upi,upi,45,Network Timeout Retry,93.5,True,7499
+pay_901697,pay_901698,cust_00137,order_701199,order_701199,149999,149999,1787547259,1787547300,captured,captured,card,card,41,Network Timeout Retry,93.5,True,149999
+pay_902001,pay_902002,cust_00100,order_701351,order_701351,74999,74999,1787615307,1787615362,captured,captured,upi,upi,55,Failed UPI Retry,93.5,True,74999
+pay_901545,pay_901546,cust_00100,order_701123,order_701123,99999,99999,1787606303,1787606340,captured,captured,wallet,wallet,37,Network Timeout Retry,93.5,True,99999
+pay_902185,pay_902186,cust_00100,order_701443,order_701443,14999,14999,1787541639,1787541711,captured,captured,upi,upi,72,Failed UPI Retry,93.5,True,14999
+pay_902027,pay_902028,cust_00099,order_701364,order_701364,249999,249999,1787675191,1787675274,captured,captured,upi,upi,83,Failed UPI Retry,93.5,True,249999
+pay_901835,pay_901836,cust_00091,order_701268,order_701268,299999,299999,1787537855,1787537957,captured,captured,upi,upi,102,Failed UPI Retry,93.5,True,299999
+pay_901927,pay_901928,cust_00090,order_701314,order_701314,49999,49999,1787570475,1787570523,captured,captured,upi,upi,48,Failed UPI Retry,93.5,True,49999
+pay_901801,pay_901802,cust_00090,order_701251,order_701251,4999,4999,1787540562,1787540596,captured,captured,upi,upi,34,Failed UPI Retry,93.5,True,4999
+pay_901421,pay_901422,cust_00141,order_701061,order_701061,4999,4999,1787648658,1787648689,captured,captured,card,card,31,Network Timeout Retry,93.5,True,4999
+pay_902137,pay_902138,cust_00141,order_701419,order_701419,4999,4999,1787631701,1787631739,captured,captured,upi,upi,38,Failed UPI Retry,93.5,True,4999
+pay_901819,pay_901820,cust_00141,order_701260,order_701260,7499,7499,1787566042,1787566089,captured,captured,upi,upi,47,Failed UPI Retry,93.5,True,7499
+pay_901579,pay_901580,cust_00140,order_701140,order_701140,12499,12499,1787647755,1787647799,captured,captured,wallet,wallet,44,Network Timeout Retry,93.5,True,12499
+pay_901757,pay_901758,cust_00140,order_701229,order_701229,9999,9999,1787583363,1787583434,captured,captured,upi,upi,71,Failed UPI Retry,93.5,True,9999
+pay_901789,pay_901790,cust_00140,order_701245,order_701245,199999,199999,1787516435,1787516528,captured,captured,upi,upi,93,Failed UPI Retry,93.5,True,199999
+pay_902773,pay_902774,cust_00095,order_702023,order_702024,74999,74999,1787590454,1787590491,failed,captured,upi,upi,37,Gateway Retry with Different IDs,93.5,False,0
+pay_902875,pay_902876,cust_00093,order_702125,order_702126,9999,9999,1787637811,1787637869,failed,captured,netbanking,netbanking,58,Gateway Retry with Different IDs,93.5,False,0
+pay_901769,pay_901770,cust_00093,order_701235,order_701235,7499,7499,1787605956,1787606035,captured,captured,upi,upi,79,Failed UPI Retry,93.5,True,7499
+pay_902165,pay_902166,cust_00098,order_701433,order_701433,24999,24999,1787572924,1787572961,captured,captured,upi,upi,37,Failed UPI Retry,93.5,True,24999
+pay_902119,pay_902120,cust_00098,order_701410,order_701410,99999,99999,1787569992,1787570089,captured,captured,upi,upi,97,Failed UPI Retry,93.5,True,99999
+pay_901817,pay_901818,cust_00098,order_701259,order_701259,249999,249999,1787527134,1787527218,captured,captured,upi,upi,84,Failed UPI Retry,93.5,True,249999
+pay_902151,pay_902152,cust_00097,order_701426,order_701426,99999,99999,1787647435,1787647547,captured,captured,upi,upi,112,Failed UPI Retry,93.5,True,99999
+pay_902097,pay_902098,cust_00088,order_701399,order_701399,7499,7499,1787682598,1787682704,captured,captured,upi,upi,106,Failed UPI Retry,93.5,True,7499
+pay_902883,pay_902884,cust_00088,order_702133,order_702134,14999,14999,1787530169,1787530202,failed,captured,upi,upi,33,Gateway Retry with Different IDs,93.5,False,0
+pay_901879,pay_901880,cust_00087,order_701290,order_701290,24999,24999,1787623702,1787623753,captured,captured,upi,upi,51,Failed UPI Retry,93.5,True,24999
+pay_901571,pay_901572,cust_00087,order_701136,order_701136,99999,99999,1787607699,1787607733,captured,captured,upi,upi,34,Network Timeout Retry,93.5,True,99999
+pay_901289,pay_901290,cust_00087,order_700995,order_700995,199999,199999,1787543216,1787543261,captured,captured,card,card,45,Network Timeout Retry,93.5,True,199999
+pay_901911,pay_901912,cust_00086,order_701306,order_701306,34999,34999,1787669092,1787669135,captured,captured,upi,upi,43,Failed UPI Retry,93.5,True,34999
+pay_902153,pay_902154,cust_00145,order_701427,order_701427,199999,199999,1787682567,1787682611,captured,captured,upi,upi,44,Failed UPI Retry,93.5,True,199999
+pay_901849,pay_901850,cust_00144,order_701275,order_701275,199999,199999,1787625601,1787625632,captured,captured,upi,upi,31,Failed UPI Retry,93.5,True,199999
+pay_901313,pay_901314,cust_00144,order_701007,order_701007,299999,299999,1787575485,1787575526,captured,captured,netbanking,netbanking,41,Network Timeout Retry,93.5,True,299999
+pay_901925,pay_901926,cust_00144,order_701313,order_701313,49999,49999,1787533131,1787533230,captured,captured,upi,upi,99,Failed UPI Retry,93.5,True,49999
+pay_901987,pay_901988,cust_00143,order_701344,order_701344,7499,7499,1787657486,1787657538,captured,captured,upi,upi,52,Failed UPI Retry,93.5,True,7499
+pay_901743,pay_901744,cust_00143,order_701222,order_701222,24999,24999,1787604628,1787604738,captured,captured,upi,upi,110,Failed UPI Retry,93.5,True,24999
+pay_901279,pay_901280,cust_00143,order_700990,order_700990,34999,34999,1787579414,1787579446,captured,captured,upi,upi,32,Network Timeout Retry,93.5,True,34999
+pay_902197,pay_902198,cust_00092,order_701449,order_701449,19999,19999,1787633262,1787633343,captured,captured,upi,upi,81,Failed UPI Retry,93.5,True,19999
+pay_901593,pay_901594,cust_00092,order_701147,order_701147,9999,9999,1787561231,1787561274,captured,captured,upi,upi,43,Network Timeout Retry,93.5,True,9999
+pay_902045,pay_902046,cust_00091,order_701373,order_701373,12499,12499,1787547546,1787547653,captured,captured,upi,upi,107,Failed UPI Retry,93.5,True,12499
+pay_901855,pay_901856,cust_00083,order_701278,order_701278,199999,199999,1787516500,1787516617,captured,captured,upi,upi,117,Failed UPI Retry,93.5,True,199999
+pay_901341,pay_901342,cust_00147,order_701021,order_701021,14999,14999,1787679103,1787679139,captured,captured,upi,upi,36,Network Timeout Retry,93.5,True,14999
+pay_901811,pay_901812,cust_00147,order_701256,order_701256,199999,199999,1787612585,1787612673,captured,captured,upi,upi,88,Failed UPI Retry,93.5,True,199999
+pay_901881,pay_901882,cust_00147,order_701291,order_701291,74999,74999,1787582758,1787582864,captured,captured,upi,upi,106,Failed UPI Retry,93.5,True,74999
+pay_902005,pay_902006,cust_00146,order_701353,order_701353,199999,199999,1787673243,1787673311,captured,captured,upi,upi,68,Failed UPI Retry,93.5,True,199999
+pay_902053,pay_902054,cust_00146,order_701377,order_701377,34999,34999,1787637245,1787637289,captured,captured,upi,upi,44,Failed UPI Retry,93.5,True,34999
+pay_901563,pay_901564,cust_00146,order_701132,order_701132,99999,99999,1787611936,1787611968,captured,captured,upi,upi,32,Network Timeout Retry,93.5,True,99999
+pay_901979,pay_901980,cust_00146,order_701340,order_701340,199999,199999,1787574573,1787574691,captured,captured,upi,upi,118,Failed UPI Retry,93.5,True,199999
+pay_901949,pay_901950,cust_00146,order_701325,order_701325,9999,9999,1787531497,1787531616,captured,captured,upi,upi,119,Failed UPI Retry,93.5,True,9999
+pay_901857,pay_901858,cust_00086,order_701279,order_701279,19999,19999,1787583878,1787583980,captured,captured,upi,upi,102,Failed UPI Retry,93.5,True,19999
+pay_902127,pay_902128,cust_00086,order_701414,order_701414,14999,14999,1787561594,1787561636,captured,captured,upi,upi,42,Failed UPI Retry,93.5,True,14999
+pay_901861,pay_901862,cust_00085,order_701281,order_701281,249999,249999,1787573836,1787573952,captured,captured,upi,upi,116,Failed UPI Retry,93.5,True,249999
+pay_901805,pay_901806,cust_00085,order_701253,order_701253,299999,299999,1787530596,1787530639,captured,captured,upi,upi,43,Failed UPI Retry,93.5,True,299999
+pay_901499,pay_901500,cust_00084,order_701100,order_701100,4999,4999,1787652712,1787652745,captured,captured,upi,upi,33,Network Timeout Retry,93.5,True,4999
+pay_901969,pay_901970,cust_00084,order_701335,order_701335,49999,49999,1787627666,1787627734,captured,captured,upi,upi,68,Failed UPI Retry,93.5,True,49999
+pay_902841,pay_902842,cust_00089,order_702091,order_702092,34999,34999,1787603160,1787603207,failed,captured,upi,upi,47,Gateway Retry with Different IDs,93.5,False,0
+pay_902647,pay_900334,cust_00078,order_701897,order_700334,7499,7499,1787566836,1787566944,captured,captured,upi,card,108,Multiple Browser Tabs Checkout,93.5,True,7499
+pay_901495,pay_901496,cust_00077,order_701098,order_701098,12499,12499,1787668804,1787668846,captured,captured,netbanking,netbanking,42,Network Timeout Retry,93.5,True,12499
+pay_901449,pay_901450,cust_00077,order_701075,order_701075,4999,4999,1787653329,1787653363,captured,captured,wallet,wallet,34,Network Timeout Retry,93.5,True,4999
+pay_902055,pay_902056,cust_00149,order_701378,order_701378,34999,34999,1787681629,1787681669,captured,captured,upi,upi,40,Failed UPI Retry,93.5,True,34999
+pay_902065,pay_902066,cust_00149,order_701383,order_701383,14999,14999,1787621374,1787621447,captured,captured,upi,upi,73,Failed UPI Retry,93.5,True,14999
+pay_901323,pay_901324,cust_00148,order_701012,order_701012,14999,14999,1787682375,1787682408,captured,captured,wallet,wallet,33,Network Timeout Retry,93.5,True,14999
+pay_901875,pay_901876,cust_00148,order_701288,order_701288,99999,99999,1787572762,1787572837,captured,captured,upi,upi,75,Failed UPI Retry,93.5,True,99999
+pay_901317,pay_901318,cust_00148,order_701009,order_701009,4999,4999,1787545687,1787545718,captured,captured,netbanking,netbanking,31,Network Timeout Retry,93.5,True,4999
+pay_902051,pay_902052,cust_00148,order_701376,order_701376,19999,19999,1787521223,1787521257,captured,captured,upi,upi,34,Failed UPI Retry,93.5,True,19999
+pay_901873,pay_901874,cust_00081,order_701287,order_701287,49999,49999,1787608042,1787608098,captured,captured,upi,upi,56,Failed UPI Retry,93.5,True,49999
+pay_901491,pay_901492,cust_00080,order_701096,order_701096,299999,299999,1787542849,1787542887,captured,captured,netbanking,netbanking,38,Network Timeout Retry,93.5,True,299999
+pay_901781,pay_901782,cust_00079,order_701241,order_701241,14999,14999,1787641613,1787641700,captured,captured,upi,upi,87,Failed UPI Retry,93.5,True,14999
+pay_901993,pay_901994,cust_00084,order_701347,order_701347,34999,34999,1787626895,1787626932,captured,captured,upi,upi,37,Failed UPI Retry,93.5,True,34999
+pay_901727,pay_901728,cust_00084,order_701214,order_701214,249999,249999,1787594505,1787594566,captured,captured,upi,upi,61,Failed UPI Retry,93.5,True,249999
+pay_901575,pay_901576,cust_00084,order_701138,order_701138,249999,249999,1787586694,1787586729,captured,captured,netbanking,netbanking,35,Network Timeout Retry,93.5,True,249999
+pay_901533,pay_901534,cust_00083,order_701117,order_701117,149999,149999,1787629193,1787629225,captured,captured,card,card,32,Network Timeout Retry,93.5,True,149999
+pay_901965,pay_901966,cust_00073,order_701333,order_701333,199999,199999,1787575682,1787575785,captured,captured,upi,upi,103,Failed UPI Retry,93.5,True,199999
+pay_901657,pay_901658,cust_00073,order_701179,order_701179,12499,12499,1787524614,1787524649,captured,captured,netbanking,netbanking,35,Network Timeout Retry,93.5,True,12499
+pay_901797,pay_901798,cust_00072,order_701249,order_701249,74999,74999,1787624069,1787624125,captured,captured,upi,upi,56,Failed UPI Retry,93.5,True,74999
+pay_901375,pay_901376,cust_00072,order_701038,order_701038,34999,34999,1787614180,1787614213,captured,captured,upi,upi,33,Network Timeout Retry,93.5,True,34999
+pay_901677,pay_901678,cust_00071,order_701189,order_701189,199999,199999,1787623578,1787623621,captured,captured,card,card,43,Network Timeout Retry,93.5,True,199999
+pay_901795,pay_901796,cust_00154,order_701248,order_701248,4999,4999,1787557727,1787557827,captured,captured,upi,upi,100,Failed UPI Retry,93.5,True,4999
+pay_901735,pay_901736,cust_00153,order_701218,order_701218,49999,49999,1787606201,1787606321,captured,captured,upi,upi,120,Failed UPI Retry,93.5,True,49999
+pay_901547,pay_901548,cust_00152,order_701124,order_701124,14999,14999,1787578747,1787578781,captured,captured,card,card,34,Network Timeout Retry,93.5,True,14999
+pay_902133,pay_902134,cust_00151,order_701417,order_701417,199999,199999,1787549124,1787549197,captured,captured,upi,upi,73,Failed UPI Retry,93.5,True,199999
+pay_901239,pay_901240,cust_00150,order_700970,order_700970,249999,249999,1787623132,1787623163,captured,captured,upi,upi,31,Network Timeout Retry,93.5,True,249999
+pay_902073,pay_902074,cust_00075,order_701387,order_701387,9999,9999,1787521545,1787521651,captured,captured,upi,upi,106,Failed UPI Retry,93.5,True,9999
+pay_901831,pay_901832,cust_00074,order_701266,order_701266,24999,24999,1787620649,1787620719,captured,captured,upi,upi,70,Failed UPI Retry,93.5,True,24999
+pay_901783,pay_901784,cust_00074,order_701242,order_701242,99999,99999,1787546665,1787546711,captured,captured,upi,upi,46,Failed UPI Retry,93.5,True,99999
+pay_901989,pay_901990,cust_00079,order_701345,order_701345,24999,24999,1787527469,1787527512,captured,captured,upi,upi,43,Failed UPI Retry,93.5,True,24999
+pay_901747,pay_901748,cust_00078,order_701224,order_701224,199999,199999,1787658454,1787658543,captured,captured,upi,upi,89,Failed UPI Retry,93.5,True,199999
+pay_902648,pay_900334,cust_00078,order_701898,order_700334,7499,7499,1787566846,1787566944,captured,captured,upi,card,98,Multiple Browser Tabs Checkout,93.5,True,7499
+pay_901809,pay_901810,cust_00157,order_701255,order_701255,99999,99999,1787634934,1787635040,captured,captured,upi,upi,106,Failed UPI Retry,93.5,True,99999
+pay_902125,pay_902126,cust_00157,order_701413,order_701413,299999,299999,1787628118,1787628182,captured,captured,upi,upi,64,Failed UPI Retry,93.5,True,299999
+pay_902171,pay_902172,cust_00157,order_701436,order_701436,24999,24999,1787546276,1787546368,captured,captured,upi,upi,92,Failed UPI Retry,93.5,True,24999
+pay_902853,pay_902854,cust_00156,order_702103,order_702104,34999,34999,1787652555,1787652596,failed,captured,card,card,41,Gateway Retry with Different IDs,93.5,False,0
+pay_902703,pay_902704,cust_00156,order_701953,order_701954,99999,99999,1787516367,1787516409,failed,captured,card,card,42,Gateway Retry with Different IDs,93.5,False,0
+pay_901303,pay_901304,cust_00154,order_701002,order_701002,49999,49999,1787621746,1787621782,captured,captured,upi,upi,36,Network Timeout Retry,93.5,True,49999
+pay_902159,pay_902160,cust_00071,order_701430,order_701430,199999,199999,1787589224,1787589339,captured,captured,upi,upi,115,Failed UPI Retry,93.5,True,199999
+pay_901919,pay_901920,cust_00071,order_701310,order_701310,49999,49999,1787570590,1787570676,captured,captured,upi,upi,86,Failed UPI Retry,93.5,True,49999
+pay_901923,pay_901924,cust_00071,order_701312,order_701312,7499,7499,1787518077,1787518186,captured,captured,upi,upi,109,Failed UPI Retry,93.5,True,7499
+pay_901411,pay_901412,cust_00070,order_701056,order_701056,299999,299999,1787650393,1787650438,captured,captured,wallet,wallet,45,Network Timeout Retry,93.5,True,299999
+pay_901721,pay_901722,cust_00070,order_701211,order_701211,24999,24999,1787553898,1787554013,captured,captured,upi,upi,115,Failed UPI Retry,93.5,True,24999
+pay_901887,pay_901888,cust_00070,order_701294,order_701294,24999,24999,1787530440,1787530500,captured,captured,upi,upi,60,Failed UPI Retry,93.5,True,24999
+pay_902771,pay_902772,cust_00069,order_702021,order_702022,74999,74999,1787531031,1787531068,failed,captured,wallet,wallet,37,Gateway Retry with Different IDs,93.5,False,0
+pay_901241,pay_901242,cust_00068,order_700971,order_700971,9999,9999,1787674823,1787674857,captured,captured,netbanking,netbanking,34,Network Timeout Retry,93.5,True,9999
+pay_902107,pay_902108,cust_00068,order_701404,order_701404,199999,199999,1787657056,1787657092,captured,captured,upi,upi,36,Failed UPI Retry,93.5,True,199999
+pay_902717,pay_902718,cust_00073,order_701967,order_701968,299999,299999,1787621355,1787621413,failed,captured,netbanking,netbanking,58,Gateway Retry with Different IDs,93.5,False,0
+pay_901487,pay_901488,cust_00064,order_701094,order_701094,149999,149999,1787549859,1787549897,captured,captured,card,card,38,Network Timeout Retry,93.5,True,149999
+pay_901643,pay_901644,cust_00063,order_701172,order_701172,74999,74999,1787665561,1787665602,captured,captured,upi,upi,41,Network Timeout Retry,93.5,True,74999
+pay_901973,pay_901974,cust_00062,order_701337,order_701337,74999,74999,1787557551,1787557601,captured,captured,upi,upi,50,Failed UPI Retry,93.5,True,74999
+pay_902021,pay_902022,cust_00161,order_701361,order_701361,19999,19999,1787638435,1787638516,captured,captured,upi,upi,81,Failed UPI Retry,93.5,True,19999
+pay_902705,pay_902706,cust_00159,order_701955,order_701956,24999,24999,1787684357,1787684409,failed,captured,netbanking,netbanking,52,Gateway Retry with Different IDs,93.5,False,0
+pay_901859,pay_901860,cust_00158,order_701280,order_701280,4999,4999,1787659218,1787659272,captured,captured,upi,upi,54,Failed UPI Retry,93.5,True,4999
+pay_901707,pay_901708,cust_00158,order_701204,order_701204,14999,14999,1787620089,1787620197,captured,captured,upi,upi,108,Failed UPI Retry,93.5,True,14999
+pay_901943,pay_901944,cust_00158,order_701322,order_701322,19999,19999,1787569431,1787569486,captured,captured,upi,upi,55,Failed UPI Retry,93.5,True,19999
+pay_901457,pay_901458,cust_00068,order_701079,order_701079,7499,7499,1787623497,1787623528,captured,captured,wallet,wallet,31,Network Timeout Retry,93.5,True,7499
+pay_902093,pay_902094,cust_00067,order_701397,order_701397,199999,199999,1787636535,1787636627,captured,captured,upi,upi,92,Failed UPI Retry,93.5,True,199999
+pay_902077,pay_902078,cust_00067,order_701389,order_701389,4999,4999,1787624184,1787624288,captured,captured,upi,upi,104,Failed UPI Retry,93.5,True,4999
+pay_901833,pay_901834,cust_00067,order_701267,order_701267,49999,49999,1787614826,1787614935,captured,captured,upi,upi,109,Failed UPI Retry,93.5,True,49999
+pay_901957,pay_901958,cust_00067,order_701329,order_701329,299999,299999,1787578245,1787578298,captured,captured,upi,upi,53,Failed UPI Retry,93.5,True,299999
+pay_902167,pay_902168,cust_00067,order_701434,order_701434,249999,249999,1787561175,1787561261,captured,captured,upi,upi,86,Failed UPI Retry,93.5,True,249999
+pay_902087,pay_902088,cust_00066,order_701394,order_701394,4999,4999,1787643560,1787643667,captured,captured,upi,upi,107,Failed UPI Retry,93.5,True,4999
+pay_902129,pay_902130,cust_00066,order_701415,order_701415,99999,99999,1787616387,1787616476,captured,captured,upi,upi,89,Failed UPI Retry,93.5,True,99999
+pay_902113,pay_902114,cust_00060,order_701407,order_701407,24999,24999,1787633551,1787633630,captured,captured,upi,upi,79,Failed UPI Retry,93.5,True,24999
+pay_901841,pay_901842,cust_00060,order_701271,order_701271,149999,149999,1787565637,1787565691,captured,captured,upi,upi,54,Failed UPI Retry,93.5,True,149999
+pay_901709,pay_901710,cust_00060,order_701205,order_701205,74999,74999,1787555562,1787555679,captured,captured,upi,upi,117,Failed UPI Retry,93.5,True,74999
+pay_901955,pay_901956,cust_00060,order_701328,order_701328,12499,12499,1787540276,1787540384,captured,captured,upi,upi,108,Failed UPI Retry,93.5,True,12499
+pay_902777,pay_902778,cust_00058,order_702027,order_702028,99999,99999,1787676260,1787676303,failed,captured,upi,upi,43,Gateway Retry with Different IDs,93.5,False,0
+pay_901719,pay_901720,cust_00058,order_701210,order_701210,4999,4999,1787586045,1787586076,captured,captured,upi,upi,31,Failed UPI Retry,93.5,True,4999
+pay_901211,pay_901212,cust_00058,order_700956,order_700956,49999,49999,1787576422,1787576464,captured,captured,wallet,wallet,42,Network Timeout Retry,93.5,True,49999
+pay_901941,pay_901942,cust_00162,order_701321,order_701321,249999,249999,1787634694,1787634781,captured,captured,upi,upi,87,Failed UPI Retry,93.5,True,249999
+pay_901437,pay_901438,cust_00162,order_701069,order_701069,149999,149999,1787605895,1787605930,captured,captured,wallet,wallet,35,Network Timeout Retry,93.5,True,149999
+pay_902899,pay_902900,cust_00162,order_702149,order_702150,149999,149999,1787587897,1787587950,failed,captured,netbanking,netbanking,53,Gateway Retry with Different IDs,93.5,False,0
+pay_902779,pay_902780,cust_00162,order_702029,order_702030,99999,99999,1787565674,1787565711,failed,captured,card,card,37,Gateway Retry with Different IDs,93.5,False,0
+pay_901675,pay_901676,cust_00161,order_701188,order_701188,14999,14999,1787687549,1787687580,captured,captured,upi,upi,31,Network Timeout Retry,93.5,True,14999
+pay_902085,pay_902086,cust_00065,order_701393,order_701393,9999,9999,1787621851,1787621916,captured,captured,upi,upi,65,Failed UPI Retry,93.5,True,9999
+pay_901387,pay_901388,cust_00065,order_701044,order_701044,49999,49999,1787584285,1787584322,captured,captured,card,card,37,Network Timeout Retry,93.5,True,49999
+pay_902143,pay_902144,cust_00065,order_701422,order_701422,12499,12499,1787521323,1787521432,captured,captured,upi,upi,109,Failed UPI Retry,93.5,True,12499
+pay_902741,pay_902742,cust_00064,order_701991,order_701992,199999,199999,1787632411,1787632442,failed,captured,wallet,wallet,31,Gateway Retry with Different IDs,93.5,False,0
+pay_901785,pay_901786,cust_00052,order_701243,order_701243,4999,4999,1787623019,1787623081,captured,captured,upi,upi,62,Failed UPI Retry,93.5,True,4999
+pay_901273,pay_901274,cust_00167,order_700987,order_700987,74999,74999,1787560594,1787560626,captured,captured,netbanking,netbanking,32,Network Timeout Retry,93.5,True,74999
+pay_901865,pay_901866,cust_00166,order_701283,order_701283,9999,9999,1787598643,1787598753,captured,captured,upi,upi,110,Failed UPI Retry,93.5,True,9999
+pay_901753,pay_901754,cust_00166,order_701227,order_701227,34999,34999,1787531069,1787531163,captured,captured,upi,upi,94,Failed UPI Retry,93.5,True,34999
+pay_902755,pay_902756,cust_00165,order_702005,order_702006,14999,14999,1787653361,1787653418,failed,captured,netbanking,netbanking,57,Gateway Retry with Different IDs,93.5,False,0
+pay_901953,pay_901954,cust_00165,order_701327,order_701327,149999,149999,1787647891,1787647981,captured,captured,upi,upi,90,Failed UPI Retry,93.5,True,149999
+pay_902123,pay_902124,cust_00164,order_701412,order_701412,19999,19999,1787680669,1787680754,captured,captured,upi,upi,85,Failed UPI Retry,93.5,True,19999
+pay_902183,pay_902184,cust_00164,order_701442,order_701442,4999,4999,1787676645,1787676760,captured,captured,upi,upi,115,Failed UPI Retry,93.5,True,4999
+pay_901851,pay_901852,cust_00164,order_701276,order_701276,12499,12499,1787634676,1787634738,captured,captured,upi,upi,62,Failed UPI Retry,93.5,True,12499
+pay_901237,pay_901238,cust_00057,order_700969,order_700969,249999,249999,1787619266,1787619306,captured,captured,wallet,wallet,40,Network Timeout Retry,93.5,True,249999
+pay_902175,pay_902176,cust_00056,order_701438,order_701438,74999,74999,1787626610,1787626696,captured,captured,upi,upi,86,Failed UPI Retry,93.5,True,74999
+pay_902147,pay_902148,cust_00056,order_701424,order_701424,74999,74999,1787625702,1787625822,captured,captured,upi,upi,120,Failed UPI Retry,93.5,True,74999
+pay_901891,pay_901892,cust_00056,order_701296,order_701296,49999,49999,1787567681,1787567725,captured,captured,upi,upi,44,Failed UPI Retry,93.5,True,49999
+pay_902019,pay_902020,cust_00061,order_701360,order_701360,24999,24999,1787636785,1787636865,captured,captured,upi,upi,80,Failed UPI Retry,93.5,True,24999
+pay_901981,pay_901982,cust_00061,order_701341,order_701341,9999,9999,1787629940,1787629979,captured,captured,upi,upi,39,Failed UPI Retry,93.5,True,9999
+pay_901791,pay_901792,cust_00061,order_701246,order_701246,12499,12499,1787617196,1787617286,captured,captured,upi,upi,90,Failed UPI Retry,93.5,True,12499
+pay_901683,pay_901684,cust_00169,order_701192,order_701192,9999,9999,1787641566,1787641597,captured,captured,card,card,31,Network Timeout Retry,93.5,True,9999
+pay_902091,pay_902092,cust_00169,order_701396,order_701396,34999,34999,1787579337,1787579389,captured,captured,upi,upi,52,Failed UPI Retry,93.5,True,34999
+pay_902807,pay_902808,cust_00169,order_702057,order_702058,149999,149999,1787567765,1787567814,failed,captured,wallet,wallet,49,Gateway Retry with Different IDs,93.5,False,0
+pay_901777,pay_901778,cust_00169,order_701239,order_701239,249999,249999,1787541376,1787541424,captured,captured,upi,upi,48,Failed UPI Retry,93.5,True,249999
+pay_901661,pay_901662,cust_00169,order_701181,order_701181,19999,19999,1787518738,1787518780,captured,captured,card,card,42,Network Timeout Retry,93.5,True,19999
+pay_901551,pay_901552,cust_00168,order_701126,order_701126,34999,34999,1787596321,1787596356,captured,captured,card,card,35,Network Timeout Retry,93.5,True,34999
+pay_902751,pay_902752,cust_00168,order_702001,order_702002,74999,74999,1787571586,1787571642,failed,captured,wallet,wallet,56,Gateway Retry with Different IDs,93.5,False,0
+pay_902763,pay_902764,cust_00168,order_702013,order_702014,9999,9999,1787567030,1787567067,failed,captured,card,card,37,Gateway Retry with Different IDs,93.5,False,0
+pay_901663,pay_901664,cust_00167,order_701182,order_701182,24999,24999,1787684749,1787684780,captured,captured,upi,upi,31,Network Timeout Retry,93.5,True,24999
+pay_901723,pay_901724,cust_00052,order_701212,order_701212,199999,199999,1787550789,1787550841,captured,captured,upi,upi,52,Failed UPI Retry,93.5,True,199999
+pay_901543,pay_901544,cust_00050,order_701122,order_701122,7499,7499,1787614112,1787614153,captured,captured,card,card,41,Network Timeout Retry,93.5,True,7499
+pay_901917,pay_901918,cust_00054,order_701309,order_701309,19999,19999,1787550097,1787550163,captured,captured,upi,upi,66,Failed UPI Retry,93.5,True,19999
+pay_901825,pay_901826,cust_00054,order_701263,order_701263,74999,74999,1787525495,1787525598,captured,captured,upi,upi,103,Failed UPI Retry,93.5,True,74999
+pay_902003,pay_902004,cust_00053,order_701352,order_701352,99999,99999,1787667060,1787667128,captured,captured,upi,upi,68,Failed UPI Retry,93.5,True,99999
+pay_901201,pay_901202,cust_00053,order_700951,order_700951,49999,49999,1787582503,1787582547,captured,captured,netbanking,netbanking,44,Network Timeout Retry,93.5,True,49999
+pay_902769,pay_902770,cust_00052,order_702019,order_702020,34999,34999,1787668440,1787668480,failed,captured,wallet,wallet,40,Gateway Retry with Different IDs,93.5,False,0
+pay_901931,pay_901932,cust_00044,order_701316,order_701316,7499,7499,1787569247,1787569320,captured,captured,upi,upi,73,Failed UPI Retry,93.5,True,7499
+pay_902079,pay_902080,cust_00044,order_701390,order_701390,74999,74999,1787524361,1787524428,captured,captured,upi,upi,67,Failed UPI Retry,93.5,True,74999
+pay_902109,pay_902110,cust_00043,order_701405,order_701405,34999,34999,1787584344,1787584412,captured,captured,upi,upi,68,Failed UPI Retry,93.5,True,34999
+pay_902063,pay_902064,cust_00172,order_701382,order_701382,7499,7499,1787633649,1787633748,captured,captured,upi,upi,99,Failed UPI Retry,93.5,True,7499
+pay_901921,pay_901922,cust_00172,order_701311,order_701311,7499,7499,1787562556,1787562606,captured,captured,upi,upi,50,Failed UPI Retry,93.5,True,7499
+pay_901803,pay_901804,cust_00171,order_701252,order_701252,74999,74999,1787660250,1787660318,captured,captured,upi,upi,68,Failed UPI Retry,93.5,True,74999
+pay_901999,pay_902000,cust_00170,order_701350,order_701350,9999,9999,1787593715,1787593782,captured,captured,upi,upi,67,Failed UPI Retry,93.5,True,9999
+pay_902789,pay_902790,cust_00170,order_702039,order_702040,149999,149999,1787576864,1787576911,failed,captured,netbanking,netbanking,47,Gateway Retry with Different IDs,93.5,False,0
+pay_902157,pay_902158,cust_00170,order_701429,order_701429,299999,299999,1787528524,1787528612,captured,captured,upi,upi,88,Failed UPI Retry,93.5,True,299999
+pay_902035,pay_902036,cust_00169,order_701368,order_701368,24999,24999,1787683917,1787683964,captured,captured,upi,upi,47,Failed UPI Retry,93.5,True,24999
+pay_902095,pay_902096,cust_00047,order_701398,order_701398,199999,199999,1787606574,1787606608,captured,captured,upi,upi,34,Failed UPI Retry,93.5,True,199999
+pay_901779,pay_901780,cust_00046,order_701240,order_701240,199999,199999,1787638483,1787638566,captured,captured,upi,upi,83,Failed UPI Retry,93.5,True,199999
+pay_901939,pay_901940,cust_00046,order_701320,order_701320,149999,149999,1787618451,1787618556,captured,captured,upi,upi,105,Failed UPI Retry,93.5,True,149999
+pay_901339,pay_901340,cust_00046,order_701020,order_701020,34999,34999,1787576532,1787576575,captured,captured,netbanking,netbanking,43,Network Timeout Retry,93.5,True,34999
+pay_901383,pay_901384,cust_00046,order_701042,order_701042,24999,24999,1787538678,1787538721,captured,captured,wallet,wallet,43,Network Timeout Retry,93.5,True,24999
+pay_902141,pay_902142,cust_00176,order_701421,order_701421,34999,34999,1787576183,1787576249,captured,captured,upi,upi,66,Failed UPI Retry,93.5,True,34999
+pay_902891,pay_902892,cust_00175,order_702141,order_702142,19999,19999,1787591918,1787591977,failed,captured,card,card,59,Gateway Retry with Different IDs,93.5,False,0
+pay_902121,pay_902122,cust_00175,order_701411,order_701411,4999,4999,1787532265,1787532363,captured,captured,upi,upi,98,Failed UPI Retry,93.5,True,4999
+pay_902135,pay_902136,cust_00174,order_701418,order_701418,149999,149999,1787687068,1787687138,captured,captured,upi,upi,70,Failed UPI Retry,93.5,True,149999
+pay_901685,pay_901686,cust_00174,order_701193,order_701193,74999,74999,1787587556,1787587589,captured,captured,upi,upi,33,Network Timeout Retry,93.5,True,74999
+pay_901903,pay_901904,cust_00174,order_701302,order_701302,9999,9999,1787550897,1787550931,captured,captured,upi,upi,34,Failed UPI Retry,93.5,True,9999
+pay_901749,pay_901750,cust_00043,order_701225,order_701225,24999,24999,1787566317,1787566353,captured,captured,upi,upi,36,Failed UPI Retry,93.5,True,24999
+pay_901287,pay_901288,cust_00042,order_700994,order_700994,7499,7499,1787603283,1787603323,captured,captured,upi,upi,40,Network Timeout Retry,93.5,True,7499
+pay_902727,pay_902728,cust_00042,order_701977,order_701978,149999,149999,1787590856,1787590897,failed,captured,wallet,wallet,41,Gateway Retry with Different IDs,93.5,False,0
+pay_902761,pay_902762,cust_00042,order_702011,order_702012,24999,24999,1787564678,1787564736,failed,captured,wallet,wallet,58,Gateway Retry with Different IDs,93.5,False,0
+pay_901773,pay_901774,cust_00041,order_701237,order_701237,24999,24999,1787610541,1787610576,captured,captured,upi,upi,35,Failed UPI Retry,93.5,True,24999
+pay_902029,pay_902030,cust_00040,order_701365,order_701365,14999,14999,1787687801,1787687916,captured,captured,upi,upi,115,Failed UPI Retry,93.5,True,14999
+pay_902859,pay_902860,cust_00045,order_702109,order_702110,249999,249999,1787654859,1787654890,failed,captured,card,card,31,Gateway Retry with Different IDs,93.5,False,0
+pay_902089,pay_902090,cust_00045,order_701395,order_701395,299999,299999,1787617699,1787617748,captured,captured,upi,upi,49,Failed UPI Retry,93.5,True,299999
+pay_902025,pay_902026,cust_00045,order_701363,order_701363,34999,34999,1787539472,1787539573,captured,captured,upi,upi,101,Failed UPI Retry,93.5,True,34999
+pay_902709,pay_902710,cust_00044,order_701959,order_701960,49999,49999,1787676201,1787676240,failed,captured,wallet,wallet,39,Gateway Retry with Different IDs,93.5,False,0
+pay_902057,pay_902058,cust_00037,order_701379,order_701379,149999,149999,1787641808,1787641873,captured,captured,upi,upi,65,Failed UPI Retry,93.5,True,149999
+pay_901713,pay_901714,cust_00035,order_701207,order_701207,49999,49999,1787661654,1787661744,captured,captured,upi,upi,90,Failed UPI Retry,93.5,True,49999
+pay_901253,pay_901254,cust_00034,order_700977,order_700977,299999,299999,1787670437,1787670476,captured,captured,card,card,39,Network Timeout Retry,93.5,True,299999
+pay_901653,pay_901654,cust_00178,order_701177,order_701177,149999,149999,1787580518,1787580561,captured,captured,card,card,43,Network Timeout Retry,93.5,True,149999
+pay_901751,pay_901752,cust_00177,order_701226,order_701226,49999,49999,1787671596,1787671685,captured,captured,upi,upi,89,Failed UPI Retry,93.5,True,49999
+pay_901693,pay_901694,cust_00177,order_701197,order_701197,149999,149999,1787589756,1787589800,captured,captured,upi,upi,44,Network Timeout Retry,93.5,True,149999
+pay_902783,pay_902784,cust_00176,order_702033,order_702034,299999,299999,1787660859,1787660902,failed,captured,netbanking,netbanking,43,Gateway Retry with Different IDs,93.5,False,0
+pay_901377,pay_901378,cust_00176,order_701039,order_701039,12499,12499,1787639998,1787640038,captured,captured,card,card,40,Network Timeout Retry,93.5,True,12499
+pay_901991,pay_901992,cust_00176,order_701346,order_701346,249999,249999,1787618500,1787618578,captured,captured,upi,upi,78,Failed UPI Retry,93.5,True,249999
+pay_901909,pay_901910,cust_00176,order_701305,order_701305,249999,249999,1787618134,1787618175,captured,captured,upi,upi,41,Failed UPI Retry,93.5,True,249999
+pay_902821,pay_902822,cust_00040,order_702071,order_702072,149999,149999,1787681997,1787682037,failed,captured,wallet,wallet,40,Gateway Retry with Different IDs,93.5,False,0
+pay_902099,pay_902100,cust_00040,order_701400,order_701400,249999,249999,1787601141,1787601223,captured,captured,upi,upi,82,Failed UPI Retry,93.5,True,249999
+pay_901443,pay_901444,cust_00040,order_701072,order_701072,14999,14999,1787515457,1787515498,captured,captured,card,card,41,Network Timeout Retry,93.5,True,14999
+pay_901699,pay_901700,cust_00038,order_701200,order_701200,149999,149999,1787647708,1787647751,captured,captured,card,card,43,Network Timeout Retry,93.5,True,149999
+pay_901403,pay_901404,cust_00038,order_701052,order_701052,249999,249999,1787626133,1787626177,captured,captured,upi,upi,44,Network Timeout Retry,93.5,True,249999
+pay_902815,pay_902816,cust_00038,order_702065,order_702066,99999,99999,1787590745,1787590795,failed,captured,upi,upi,50,Gateway Retry with Different IDs,93.5,False,0
+pay_901885,pay_901886,cust_00181,order_701293,order_701293,249999,249999,1787569786,1787569820,captured,captured,upi,upi,34,Failed UPI Retry,93.5,True,249999
+pay_901929,pay_901930,cust_00181,order_701315,order_701315,199999,199999,1787564390,1787564451,captured,captured,upi,upi,61,Failed UPI Retry,93.5,True,199999
+pay_901959,pay_901960,cust_00180,order_701330,order_701330,299999,299999,1787630384,1787630455,captured,captured,upi,upi,71,Failed UPI Retry,93.5,True,299999
+pay_901477,pay_901478,cust_00179,order_701089,order_701089,199999,199999,1787572508,1787572549,captured,captured,card,card,41,Network Timeout Retry,93.5,True,199999
+pay_902155,pay_902156,cust_00179,order_701428,order_701428,9999,9999,1787559217,1787559306,captured,captured,upi,upi,89,Failed UPI Retry,93.5,True,9999
+pay_902813,pay_902814,cust_00179,order_702063,order_702064,12499,12499,1787551596,1787551647,failed,captured,card,card,51,Gateway Retry with Different IDs,93.5,False,0
+pay_901977,pay_901978,cust_00178,order_701339,order_701339,74999,74999,1787589943,1787590028,captured,captured,upi,upi,85,Failed UPI Retry,93.5,True,74999
+pay_902767,pay_902768,cust_00034,order_702017,order_702018,19999,19999,1787659220,1787659262,failed,captured,card,card,42,Gateway Retry with Different IDs,93.5,False,0
+pay_902711,pay_902712,cust_00034,order_701961,order_701962,7499,7499,1787638173,1787638210,failed,captured,netbanking,netbanking,37,Gateway Retry with Different IDs,93.5,False,0
+pay_901357,pay_901358,cust_00033,order_701029,order_701029,4999,4999,1787598095,1787598127,captured,captured,wallet,wallet,32,Network Timeout Retry,93.5,True,4999
+pay_901967,pay_901968,cust_00033,order_701334,order_701334,49999,49999,1787533228,1787533271,captured,captured,upi,upi,43,Failed UPI Retry,93.5,True,49999
+pay_902031,pay_902032,cust_00033,order_701366,order_701366,9999,9999,1787517446,1787517558,captured,captured,upi,upi,112,Failed UPI Retry,93.5,True,9999
+pay_901821,pay_901822,cust_00032,order_701261,order_701261,149999,149999,1787663947,1787664019,captured,captured,upi,upi,72,Failed UPI Retry,93.5,True,149999
+pay_901395,pay_901396,cust_00032,order_701048,order_701048,19999,19999,1787615121,1787615156,captured,captured,upi,upi,35,Network Timeout Retry,93.5,True,19999
+pay_902149,pay_902150,cust_00031,order_701425,order_701425,7499,7499,1787663434,1787663480,captured,captured,upi,upi,46,Failed UPI Retry,93.5,True,7499
+pay_901901,pay_901902,cust_00037,order_701301,order_701301,199999,199999,1787666088,1787666184,captured,captured,upi,upi,96,Failed UPI Retry,93.5,True,199999
+pay_901321,pay_901322,cust_00030,order_701011,order_701011,199999,199999,1787666833,1787666874,captured,captured,netbanking,netbanking,41,Network Timeout Retry,93.5,True,199999
+pay_901883,pay_901884,cust_00030,order_701292,order_701292,249999,249999,1787650630,1787650699,captured,captured,upi,upi,69,Failed UPI Retry,93.5,True,249999
+pay_901985,pay_901986,cust_00030,order_701343,order_701343,74999,74999,1787618443,1787618514,captured,captured,upi,upi,71,Failed UPI Retry,93.5,True,74999
+pay_901907,pay_901908,cust_00030,order_701304,order_701304,4999,4999,1787569178,1787569213,captured,captured,upi,upi,35,Failed UPI Retry,93.5,True,4999
+pay_901755,pay_901756,cust_00029,order_701228,order_701228,9999,9999,1787650006,1787650125,captured,captured,upi,upi,119,Failed UPI Retry,93.5,True,9999
+pay_901963,pay_901964,cust_00029,order_701332,order_701332,19999,19999,1787598152,1787598203,captured,captured,upi,upi,51,Failed UPI Retry,93.5,True,19999
+pay_902017,pay_902018,cust_00029,order_701359,order_701359,249999,249999,1787564207,1787564240,captured,captured,upi,upi,33,Failed UPI Retry,93.5,True,249999
+pay_901945,pay_901946,cust_00183,order_701323,order_701323,199999,199999,1787631367,1787631465,captured,captured,upi,upi,98,Failed UPI Retry,93.5,True,199999
+pay_901715,pay_901716,cust_00183,order_701208,order_701208,99999,99999,1787580061,1787580140,captured,captured,upi,upi,79,Failed UPI Retry,93.5,True,99999
+pay_902049,pay_902050,cust_00183,order_701375,order_701375,49999,49999,1787561967,1787562066,captured,captured,upi,upi,99,Failed UPI Retry,93.5,True,49999
+pay_901761,pay_901762,cust_00183,order_701231,order_701231,299999,299999,1787550335,1787550423,captured,captured,upi,upi,88,Failed UPI Retry,93.5,True,299999
+pay_901765,pay_901766,cust_00183,order_701233,order_701233,199999,199999,1787543779,1787543824,captured,captured,upi,upi,45,Failed UPI Retry,93.5,True,199999
+pay_901555,pay_901556,cust_00182,order_701128,order_701128,4999,4999,1787606856,1787606894,captured,captured,netbanking,netbanking,38,Network Timeout Retry,93.5,True,4999
+pay_901665,pay_901666,cust_00182,order_701183,order_701183,7499,7499,1787599190,1787599224,captured,captured,netbanking,netbanking,34,Network Timeout Retry,93.5,True,7499
+pay_901283,pay_901284,cust_00181,order_700992,order_700992,24999,24999,1787663185,1787663221,captured,captured,upi,upi,36,Network Timeout Retry,93.5,True,24999
+pay_901311,pay_901312,cust_00181,order_701006,order_701006,7499,7499,1787610410,1787610448,captured,captured,card,card,38,Network Timeout Retry,93.5,True,7499
+pay_901995,pay_901996,cust_00024,order_701348,order_701348,12499,12499,1787656624,1787656728,captured,captured,upi,upi,104,Failed UPI Retry,93.5,True,12499
+pay_901767,pay_901768,cust_00024,order_701234,order_701234,7499,7499,1787637477,1787637588,captured,captured,upi,upi,111,Failed UPI Retry,93.5,True,7499
+pay_901895,pay_901896,cust_00024,order_701298,order_701298,34999,34999,1787602877,1787602968,captured,captured,upi,upi,91,Failed UPI Retry,93.5,True,34999
+pay_901763,pay_901764,cust_00024,order_701232,order_701232,14999,14999,1787571441,1787571554,captured,captured,upi,upi,113,Failed UPI Retry,93.5,True,14999
+pay_901815,pay_901816,cust_00024,order_701258,order_701258,199999,199999,1787567159,1787567236,captured,captured,upi,upi,77,Failed UPI Retry,93.5,True,199999
+pay_902103,pay_902104,cust_00186,order_701402,order_701402,99999,99999,1787544347,1787544450,captured,captured,upi,upi,103,Failed UPI Retry,93.5,True,99999
+pay_902885,pay_902886,cust_00184,order_702135,order_702136,199999,199999,1787577760,1787577812,failed,captured,wallet,wallet,52,Gateway Retry with Different IDs,93.5,False,0
+pay_902177,pay_902178,cust_00184,order_701439,order_701439,14999,14999,1787533289,1787533328,captured,captured,upi,upi,39,Failed UPI Retry,93.5,True,14999
+pay_901539,pay_901540,cust_00029,order_701120,order_701120,7499,7499,1787523006,1787523051,captured,captured,card,card,45,Network Timeout Retry,93.5,True,7499
+pay_902173,pay_902174,cust_00028,order_701437,order_701437,9999,9999,1787608862,1787608947,captured,captured,upi,upi,85,Failed UPI Retry,93.5,True,9999
+pay_901245,pay_901246,cust_00028,order_700973,order_700973,4999,4999,1787605765,1787605809,captured,captured,upi,upi,44,Network Timeout Retry,93.5,True,4999
+pay_901705,pay_901706,cust_00028,order_701203,order_701203,9999,9999,1787547365,1787547473,captured,captured,upi,upi,108,Failed UPI Retry,93.5,True,9999
+pay_902827,pay_902828,cust_00027,order_702077,order_702078,99999,99999,1787684696,1787684737,failed,captured,wallet,wallet,41,Gateway Retry with Different IDs,93.5,False,0
+pay_901569,pay_901570,cust_00027,order_701135,order_701135,9999,9999,1787610475,1787610506,captured,captured,upi,upi,31,Network Timeout Retry,93.5,True,9999
+pay_901845,pay_901846,cust_00031,order_701273,order_701273,149999,149999,1787661987,1787662095,captured,captured,upi,upi,108,Failed UPI Retry,93.5,True,149999
+pay_901285,pay_901286,cust_00031,order_700993,order_700993,149999,149999,1787592612,1787592649,captured,captured,upi,upi,37,Network Timeout Retry,93.5,True,149999
+pay_901899,pay_901900,cust_00188,order_701300,order_701300,249999,249999,1787605924,1787605995,captured,captured,upi,upi,71,Failed UPI Retry,93.5,True,249999
+pay_902105,pay_902106,cust_00188,order_701403,order_701403,249999,249999,1787575070,1787575182,captured,captured,upi,upi,112,Failed UPI Retry,93.5,True,249999
+pay_901771,pay_901772,cust_00187,order_701236,order_701236,199999,199999,1787683954,1787684062,captured,captured,upi,upi,108,Failed UPI Retry,93.5,True,199999
+pay_902191,pay_902192,cust_00187,order_701446,order_701446,199999,199999,1787655802,1787655840,captured,captured,upi,upi,38,Failed UPI Retry,93.5,True,199999
+pay_901827,pay_901828,cust_00187,order_701264,order_701264,99999,99999,1787606843,1787606884,captured,captured,upi,upi,41,Failed UPI Retry,93.5,True,99999
+pay_902845,pay_902846,cust_00186,order_702095,order_702096,149999,149999,1787681295,1787681348,failed,captured,wallet,wallet,53,Gateway Retry with Different IDs,93.5,False,0
+pay_902061,pay_902062,cust_00023,order_701381,order_701381,12499,12499,1787597080,1787597194,captured,captured,upi,upi,114,Failed UPI Retry,93.5,True,12499
+pay_902009,pay_902010,cust_00023,order_701355,order_701355,74999,74999,1787516844,1787516939,captured,captured,upi,upi,95,Failed UPI Retry,93.5,True,74999
+pay_902037,pay_902038,cust_00022,order_701369,order_701369,9999,9999,1787626420,1787626503,captured,captured,upi,upi,83,Failed UPI Retry,93.5,True,9999
+pay_902083,pay_902084,cust_00022,order_701392,order_701392,9999,9999,1787602808,1787602873,captured,captured,upi,upi,65,Failed UPI Retry,93.5,True,9999
+pay_902795,pay_902796,cust_00022,order_702045,order_702046,24999,24999,1787569691,1787569747,failed,captured,netbanking,netbanking,56,Gateway Retry with Different IDs,93.5,False,0
+pay_901947,pay_901948,cust_00021,order_701324,order_701324,299999,299999,1787646033,1787646122,captured,captured,upi,upi,89,Failed UPI Retry,93.5,True,299999
+pay_901249,pay_901250,cust_00025,order_700975,order_700975,9999,9999,1787671239,1787671273,captured,captured,wallet,wallet,34,Network Timeout Retry,93.5,True,9999
+pay_902775,pay_902776,cust_00024,order_702025,order_702026,4999,4999,1787683622,1787683675,failed,captured,netbanking,netbanking,53,Gateway Retry with Different IDs,93.5,False,0
+pay_902145,pay_902146,cust_00024,order_701423,order_701423,4999,4999,1787677615,1787677729,captured,captured,upi,upi,114,Failed UPI Retry,93.5,True,4999
+pay_901507,pay_901508,cust_00024,order_701104,order_701104,99999,99999,1787676292,1787676331,captured,captured,netbanking,netbanking,39,Network Timeout Retry,93.5,True,99999
+pay_902199,pay_902200,cust_00015,order_701450,order_701450,99999,99999,1787687725,1787687837,captured,captured,upi,upi,112,Failed UPI Retry,93.5,True,99999
+pay_901229,pay_901230,cust_00015,order_700965,order_700965,9999,9999,1787674840,1787674871,captured,captured,netbanking,netbanking,31,Network Timeout Retry,93.5,True,9999
+pay_901983,pay_901984,cust_00190,order_701342,order_701342,299999,299999,1787638459,1787638551,captured,captured,upi,upi,92,Failed UPI Retry,93.5,True,299999
+pay_901649,pay_901650,cust_00190,order_701175,order_701175,49999,49999,1787550658,1787550689,captured,captured,upi,upi,31,Network Timeout Retry,93.5,True,49999
+pay_901703,pay_901704,cust_00190,order_701202,order_701202,14999,14999,1787541699,1787541753,captured,captured,upi,upi,54,Failed UPI Retry,93.5,True,14999
+pay_902765,pay_902766,cust_00189,order_702015,order_702016,199999,199999,1787671606,1787671654,failed,captured,netbanking,netbanking,48,Gateway Retry with Different IDs,93.5,False,0
+pay_901731,pay_901732,cust_00189,order_701216,order_701216,249999,249999,1787581170,1787581240,captured,captured,upi,upi,70,Failed UPI Retry,93.5,True,249999
+pay_902829,pay_902830,cust_00189,order_702079,order_702080,74999,74999,1787521837,1787521872,failed,captured,netbanking,netbanking,35,Gateway Retry with Different IDs,93.5,False,0
+pay_902081,pay_902082,cust_00189,order_701391,order_701391,74999,74999,1787520158,1787520250,captured,captured,upi,upi,92,Failed UPI Retry,93.5,True,74999
+pay_901523,pay_901524,cust_00188,order_701112,order_701112,34999,34999,1787665373,1787665407,captured,captured,netbanking,netbanking,34,Network Timeout Retry,93.5,True,34999
+pay_901349,pay_901350,cust_00021,order_701025,order_701025,99999,99999,1787621510,1787621549,captured,captured,wallet,wallet,39,Network Timeout Retry,93.5,True,99999
+pay_901401,pay_901402,cust_00021,order_701051,order_701051,24999,24999,1787595577,1787595622,captured,captured,netbanking,netbanking,45,Network Timeout Retry,93.5,True,24999
+pay_902791,pay_902792,cust_00021,order_702041,order_702042,199999,199999,1787535129,1787535181,failed,captured,card,card,52,Gateway Retry with Different IDs,93.5,False,0
+pay_902179,pay_902180,cust_00019,order_701440,order_701440,74999,74999,1787641161,1787641248,captured,captured,upi,upi,87,Failed UPI Retry,93.5,True,74999
+pay_901481,pay_901482,cust_00019,order_701091,order_701091,49999,49999,1787546822,1787546865,captured,captured,wallet,wallet,43,Network Timeout Retry,93.5,True,49999
+pay_902169,pay_902170,cust_00018,order_701435,order_701435,34999,34999,1787684685,1787684740,captured,captured,upi,upi,55,Failed UPI Retry,93.5,True,34999
+pay_902015,pay_902016,cust_00001,order_701358,order_701358,149999,149999,1787612214,1787612289,captured,captured,upi,upi,75,Failed UPI Retry,93.5,True,149999
+pay_901459,pay_901460,cust_00196,order_701080,order_701080,199999,199999,1787564633,1787564671,captured,captured,netbanking,netbanking,38,Network Timeout Retry,93.5,True,199999
+pay_901997,pay_901998,cust_00194,order_701349,order_701349,99999,99999,1787655381,1787655429,captured,captured,upi,upi,48,Failed UPI Retry,93.5,True,99999
+pay_901589,pay_901590,cust_00006,order_701145,order_701145,199999,199999,1787674263,1787674294,captured,captured,netbanking,netbanking,31,Network Timeout Retry,93.5,True,199999
+pay_901915,pay_901916,cust_00006,order_701308,order_701308,74999,74999,1787646509,1787646620,captured,captured,upi,upi,111,Failed UPI Retry,93.5,True,74999
+pay_902839,pay_902840,cust_00006,order_702089,order_702090,9999,9999,1787640930,1787640970,failed,captured,netbanking,netbanking,40,Gateway Retry with Different IDs,93.5,False,0
+pay_901415,pay_901416,cust_00006,order_701058,order_701058,9999,9999,1787629838,1787629883,captured,captured,upi,upi,45,Network Timeout Retry,93.5,True,9999
+pay_901225,pay_901226,cust_00006,order_700963,order_700963,12499,12499,1787537539,1787537572,captured,captured,card,card,33,Network Timeout Retry,93.5,True,12499
+pay_902033,pay_902034,cust_00005,order_701367,order_701367,9999,9999,1787640088,1787640180,captured,captured,upi,upi,92,Failed UPI Retry,93.5,True,9999
+pay_902181,pay_902182,cust_00005,order_701441,order_701441,299999,299999,1787601444,1787601557,captured,captured,upi,upi,113,Failed UPI Retry,93.5,True,299999
+pay_902117,pay_902118,cust_00004,order_701409,order_701409,14999,14999,1787675665,1787675752,captured,captured,upi,upi,87,Failed UPI Retry,93.5,True,14999
+pay_901737,pay_901738,cust_00010,order_701219,order_701219,49999,49999,1787534331,1787534419,captured,captured,upi,upi,88,Failed UPI Retry,93.5,True,49999
+pay_901251,pay_901252,cust_00010,order_700976,order_700976,299999,299999,1787531544,1787531580,captured,captured,card,card,36,Network Timeout Retry,93.5,True,299999
+pay_901359,pay_901360,cust_00009,order_701030,order_701030,49999,49999,1787583475,1787583511,captured,captured,netbanking,netbanking,36,Network Timeout Retry,93.5,True,49999
+pay_902743,pay_902744,cust_00007,order_701993,order_701994,14999,14999,1787583553,1787583600,failed,captured,card,card,47,Gateway Retry with Different IDs,93.5,False,0
+pay_901711,pay_901712,cust_00007,order_701206,order_701206,19999,19999,1787529174,1787529265,captured,captured,upi,upi,91,Failed UPI Retry,93.5,True,19999
+pay_902195,pay_902196,cust_00200,order_701448,order_701448,34999,34999,1787536385,1787536483,captured,captured,upi,upi,98,Failed UPI Retry,93.5,True,34999
+pay_901361,pay_901362,cust_00199,order_701031,order_701031,9999,9999,1787684181,1787684218,captured,captured,wallet,wallet,37,Network Timeout Retry,93.5,True,9999
+pay_901327,pay_901328,cust_00199,order_701014,order_701014,34999,34999,1787670360,1787670402,captured,captured,wallet,wallet,42,Network Timeout Retry,93.5,True,34999
+pay_902131,pay_902132,cust_00198,order_701416,order_701416,99999,99999,1787644884,1787645000,captured,captured,upi,upi,116,Failed UPI Retry,93.5,True,99999
+pay_902189,pay_902190,cust_00198,order_701445,order_701445,34999,34999,1787598063,1787598144,captured,captured,upi,upi,81,Failed UPI Retry,93.5,True,34999
+pay_901489,pay_901490,cust_00198,order_701095,order_701095,7499,7499,1787597145,1787597181,captured,captured,upi,upi,36,Network Timeout Retry,93.5,True,7499
+pay_902161,pay_902162,cust_00198,order_701431,order_701431,199999,199999,1787571325,1787571375,captured,captured,upi,upi,50,Failed UPI Retry,93.5,True,199999
+pay_901695,pay_901696,cust_00198,order_701198,order_701198,9999,9999,1787570304,1787570336,captured,captured,upi,upi,32,Network Timeout Retry,93.5,True,9999
+pay_902101,pay_902102,cust_00198,order_701401,order_701401,24999,24999,1787556558,1787556644,captured,captured,upi,upi,86,Failed UPI Retry,93.5,True,24999
+pay_901787,pay_901788,cust_00004,order_701244,order_701244,34999,34999,1787601431,1787601524,captured,captured,upi,upi,93,Failed UPI Retry,93.5,True,34999
+pay_902805,pay_902806,cust_00004,order_702055,order_702056,9999,9999,1787594957,1787594992,failed,captured,wallet,wallet,35,Gateway Retry with Different IDs,93.5,False,0
+pay_902139,pay_902140,cust_00004,order_701420,order_701420,24999,24999,1787532323,1787532366,captured,captured,upi,upi,43,Failed UPI Retry,93.5,True,24999
+pay_901659,pay_901660,cust_00003,order_701180,order_701180,7499,7499,1787629553,1787629589,captured,captured,wallet,wallet,36,Network Timeout Retry,93.5,True,7499
+pay_901301,pay_901302,cust_00003,order_701001,order_701001,12499,12499,1787549093,1787549133,captured,captured,netbanking,netbanking,40,Network Timeout Retry,93.5,True,12499
+pay_902047,pay_902048,cust_00002,order_701374,order_701374,74999,74999,1787601522,1787601582,captured,captured,upi,upi,60,Failed UPI Retry,93.5,True,74999
+pay_901529,pay_901530,cust_00001,order_701115,order_701115,199999,199999,1787642217,1787642260,captured,captured,wallet,wallet,43,Network Timeout Retry,93.5,True,199999
+pay_901384,pay_902283,cust_00046,order_701042,order_701533,24999,24999,1787538721,1787539012,captured,captured,wallet,netbanking,291,Multiple Browser Tabs Checkout,88.0,True,24999
