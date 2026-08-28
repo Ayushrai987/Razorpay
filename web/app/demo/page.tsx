@@ -5,7 +5,7 @@ import {
   UploadCloud, FileText, Download, CheckCircle, AlertTriangle, RotateCcw,
   Play, Settings, HelpCircle, TrendingUp, Zap, Shield,
   ChevronRight, CreditCard, Wifi, Target,
-  BarChart3, Eye, RefreshCw
+  BarChart3, Eye, RefreshCw, DollarSign
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
