@@ -46,7 +46,7 @@ export default function Navbar() {
       <header
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 h-20 flex items-center ${
           scrolled
-            ? "bg-[#0a081ec0] backdrop-blur-md shadow-[0_4px_30px_rgba(0,0,0,0.4)] border-b border-white/10"
+            ? "bg-night-DEFAULT/80 backdrop-blur-md shadow-[0_4px_30px_rgba(0,0,0,0.4)] border-b border-white/10"
             : "bg-transparent border-b border-transparent"
         }`}
       >
@@ -61,10 +61,10 @@ export default function Navbar() {
               <ShieldCheck className="w-5.5 h-5.5 text-white" />
             </motion.div>
             <div className="leading-tight">
-              <span className="font-poppins font-extrabold text-xl text-white tracking-tight group-hover:drop-shadow-[0_0_8px_rgba(20,184,166,0.6)] transition-all">
+              <span className="font-headings font-extrabold text-xl text-white tracking-tight group-hover:drop-shadow-[0_0_8px_rgba(20,184,166,0.6)] transition-all">
                 Razor<span className="text-[#14b8a6]">Guard</span>
               </span>
-              <span className="block text-[9px] text-[#a0aec0] font-inter tracking-widest uppercase font-bold">
+              <span className="block text-[9px] text-[#a0aec0] font-headings tracking-widest uppercase font-bold">
                 by Razorpay AI
               </span>
             </div>
@@ -77,7 +77,7 @@ export default function Navbar() {
                 <Link
                   key={link.name}
                   href={link.href}
-                  className="relative px-4 py-2 rounded-xl text-sm font-medium text-[#a0aec0] hover:text-white transition-all duration-300 hover:bg-white/5"
+                  className="relative px-4 py-2 rounded-xl text-sm font-medium text-gray-400 hover:text-white transition-all duration-300 hover:bg-white/5"
                 >
                   <span className="relative z-10">{link.name}</span>
                   <motion.span

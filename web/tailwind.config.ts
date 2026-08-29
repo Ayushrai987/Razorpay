@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import plugin from "tailwindcss/plugin";
 
 const config: Config = {
   content: [
@@ -9,21 +10,27 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        night: { DEFAULT: "#0a081e", 100: "#162c43", 200: "#1f2937" },
+        teal: { DEFAULT: "#14b8a6", 100: "#34d4c5", 200: "#5de7dc" },
+        amber: { DEFAULT: "#f59e0b", 100: "#ffb84d", 200: "#ffd280" },
         razorblue: "#528FF0",
         razorteal: "#14b8a6",
         razordark: "#1f2937",
         razorpurple: "#667eea",
         razorlight: "#f9fafb",
+        "primary-hsl": "hsl(210, 100%, 55%)",
+        "secondary-hsl": "hsl(165, 80%, 45%)",
+        "accent-hsl": "hsl(30, 90%, 60%)",
       },
       fontFamily: {
-        inter: ["var(--font-inter)", "sans-serif"],
-        poppins: ["var(--font-poppins)", "sans-serif"],
+        headings: ["var(--font-headings)", "serif"],
+        body: ["var(--font-satoshi)", "sans-serif"],
       },
       animation: {
         "gradient-x": "gradient-x 8s ease infinite",
-        "float": "float 6s ease-in-out infinite",
+        float: "float 6s ease-in-out infinite",
         "pulse-ring": "pulse-ring 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",
-        "blob": "blob 10s infinite",
+        blob: "blob 10s infinite",
         "fade-up": "fade-up 0.6s ease forwards",
       },
       keyframes: {
@@ -58,6 +65,17 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function ({ addUtilities }) {
+      addUtilities({
+        ".glass": {
+          "background-color": "rgba(255,255,255,0.1)",
+          "backdrop-filter": "blur(10px)",
+          "border-radius": "0.5rem",
+        },
+      });
+    }),
+  ],
 };
+
 export default config;

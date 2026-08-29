@@ -92,39 +92,90 @@ export default function Hero() {
   ];
 
   return (
-    <section id="home" className="relative pt-32 pb-20 lg:pt-44 lg:pb-32 bg-[#0f0c29] overflow-hidden border-b border-white/10">
-      
-      {/* 2. a) Animated gradient background and moving shapes */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">
-        {/* Color shifting gradient */}
-        <div className="absolute inset-0 opacity-40 bg-hero-animated" />
-        
-        {/* Moving shapes */}
-        <div className="absolute top-[20%] left-[10%] w-32 h-32 rounded-full border-2 border-white/5 animate-float-slow" />
-        <div className="absolute top-[60%] right-[15%] w-48 h-48 rounded-lg border-2 border-white/5 animate-float-fast" />
-        <div className="absolute bottom-[10%] left-[25%] w-24 h-24 rounded-full bg-gradient-to-tr from-[#667eea]/10 to-[#14b8a6]/5 blur-xl animate-float-slow" />
-        
-        {/* Particles floating effect (Desktop only for performance) */}
-        <div className="hidden lg:block absolute inset-0">
-          <div className="absolute top-1/4 left-1/3 w-2 h-2 rounded-full bg-[#14b8a6]/40 animate-ping" style={{ animationDuration: "3s" }} />
-          <div className="absolute top-2/3 left-1/5 w-1.5 h-1.5 rounded-full bg-[#667eea]/40 animate-pulse" style={{ animationDuration: "4s" }} />
-          <div className="absolute top-1/2 right-1/4 w-2 h-2 rounded-full bg-white/20 animate-ping" style={{ animationDuration: "5s" }} />
-          <div className="absolute bottom-1/4 right-1/3 w-1 h-1 rounded-full bg-[#10b981]/50 animate-pulse" style={{ animationDuration: "2.5s" }} />
-        </div>
+    <section id="home" className="relative pt-32 pb-20 lg:pt-44 lg:pb-32 bg-[#0f0c29] overflow-hidden border-b border-white/10 hero-stagger">
+    
+    {/* 2. a) Animated gradient background and moving shapes */}
+    <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">
+      {/* Color shifting gradient */}
+      <div className="absolute inset-0 opacity-40 bg-hero-animated" />
 
-        {/* Grid pattern overlay */}
-        <div
-          className="absolute inset-0 opacity-[0.03]"
-          style={{
-            backgroundImage: `url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='none' stroke='rgb(255 255 255 / 0.5)'%3e%3cpath d='M0 .5H31.5V32'/%3e%3c/svg%3e")`,
-          }}
-        />
+      {/* Moving shapes */}
+      <div className="absolute top-[20%] left-[10%] w-32 h-32 rounded-full border-2 border-white/5 animate-float-slow" />
+      <div className="absolute top-[60%] right-[15%] w-48 h-48 rounded-lg border-2 border-white/5 animate-float-fast" />
+      <div className="absolute bottom-[10%] left-[25%] w-24 h-24 rounded-full bg-gradient-to-tr from-[#667eea]/10 to-[#14b8a6]/5 blur-xl animate-float-slow" />
+
+      {/* Particles floating effect (Desktop only for performance) */}
+      <div className="hidden lg:block absolute inset-0">
+        <div className="absolute top-1/4 left-1/3 w-2 h-2 rounded-full bg-[#14b8a6]/40 animate-ping" style={{ animationDuration: "3s" }} />
+        <div className="absolute top-2/3 left-1/5 w-1.5 h-1.5 rounded-full bg-[#667eea]/40 animate-pulse" style={{ animationDuration: "4s" }} />
+        <div className="absolute top-1/2 right-1/4 w-2 h-2 rounded-full bg-white/20 animate-ping" style={{ animationDuration: "5s" }} />
+        <div className="absolute bottom-1/4 right-1/3 w-1 h-1 rounded-full bg-[#10b981]/50 animate-pulse" style={{ animationDuration: "2.5s" }} />
       </div>
 
-      <div className="relative max-w-[1536px] mx-auto px-6 sm:px-12 lg:px-16 grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-24 items-center w-full z-10">
+      {/* Grid pattern overlay */}
+      <div
+        className="absolute inset-0 opacity-[0.03]"
+        style={{
+          backgroundImage: `url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='none' stroke='rgb(255 255 255 / 0.5)'%3e%3cpath d='M0 .5H31.5V32'/%3e%3c/svg%3e")`,
+        }}
+      />
+    </div>
+
+    <div className="relative max-w-[1536px] mx-auto px-6 sm:px-12 lg:px-16 grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-24 items-center w-full z-10">
+    
+      {/* Left Column: Headline, subheadline, CTA buttons */}
+      <div className="lg:col-span-6 flex flex-col gap-8 text-left">
         
-        {/* Left Column: Headline, subheadline, CTA buttons */}
-        <div className="lg:col-span-6 flex flex-col gap-8 text-left">
+        <motion.div
+          initial={{ opacity: 0, y: 15 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="w-fit">
+          <span className="section-tag px-5 py-2 text-xs rounded-full">
+            <ShieldCheck className="w-4 h-4 text-[#14b8a6]" />
+            Razorpay Certified Webhook Guard
+          </span>
+        </motion.div>
+
+        {/* Headline - Slide up + Fade in */}
+        <motion.h1
+          initial={{ opacity: 0, y: 25 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold font-headings text-white leading-[1.1] tracking-tight">
+          Protect Your Revenue from <span className="text-gradient">Duplicate Payments</span>
+        </motion.h1>
+
+        {/* Subheadline - Fade in after headline */}
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+          className="text-lg sm:text-xl text-[#a0aec0] font-light max-w-xl font-body">
+          AI-powered detection & automatic refunds for Razorpay
+        </motion.p>
+
+        {/* Description - Fade in */}
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1, delay: 0.4 }}
+          className="text-base text-[#a0aec0] leading-relaxed font-body max-w-xl">
+          Stop losing money to duplicate charges, payment retries, and multi-click checkouts. Our real-time machine learning engine evaluates transaction streams in <strong className="text-white font-semibold">&lt;100ms</strong> to automate client resolution.
+        </motion.p>
+
+        {/* CTA Buttons - 0.3s transitions, hover states */}
+        <motion.div
+          initial={{ opacity: 0, y: 15 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.5 }}
+          className="flex flex-col sm:flex-row items-center gap-5 pt-3">
+          <Link
+            href="/#contact"
+            className="w-full sm:w-auto btn-primary inline-flex items-center justify-center gap-2 px-10 py-5 text-lg rounded-2xl animate-soft-pulse hover:shadow-[0_0_25px_rgba(102,126,234,0.7)]">
+            Start Free Trial
+            <ArrowRight className="w-6 h-6" />
+          </Link>
           
           <motion.div
             initial={{ opacity: 0, y: 15 }}

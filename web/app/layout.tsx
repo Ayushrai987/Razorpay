@@ -1,19 +1,19 @@
 import type { Metadata } from "next";
-import { Inter, Poppins } from "next/font/google";
+import { Playfair_Display, Satoshi } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-const inter = Inter({
+const playfair = Playfair_Display({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700", "800"],
-  variable: "--font-inter",
+  variable: "--font-headings",
 });
 
-const poppins = Poppins({
+const satoshi = Satoshi({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700", "800"],
-  variable: "--font-poppins",
+  variable: "--font-body",
 });
 
 export const metadata: Metadata = {
@@ -35,7 +35,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${inter.variable} ${poppins.variable} font-inter bg-white text-razordark antialiased`}>
+      <body className={`${playfair.variable} ${satoshi.variable} font-body bg-night-DEFAULT text-razordark antialiased`}
+      >
         <Navbar />
         <main>{children}</main>
         <Footer />
