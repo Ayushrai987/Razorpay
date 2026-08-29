@@ -2,220 +2,299 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { motion, useMotionValue, useTransform } from "framer-motion";
-import { ShieldAlert, ArrowRight } from "lucide-react";
-
-interface LiveTx {
-  id: string;
-  amount: string;
-  status: "Secure" | "Refunded" | "Flagged";
-  time: string;
-}
-
-const initialTxs: LiveTx[] = [
-  { id: "pay_N8a2B7cD", amount: "₹154.00", status: "Secure", time: "Just now" },
-  { id: "pay_K7a9P4qL", amount: "₹125.00", status: "Refunded", time: "2m ago" },
-  { id: "pay_M9d1C2eA", amount: "₹45.00", status: "Secure", time: "4m ago" },
-  { id: "pay_J6b8O3pM", amount: "₹125.00", status: "Flagged", time: "4m ago" },
-];
+import { motion, AnimatePresence } from "framer-motion";
+import { UploadCloud, RefreshCw, CheckCircle2, ArrowRight } from "lucide-react";
 
 export default function Demo() {
-  const [txs, setTxs] = useState<LiveTx[]>(initialTxs);
+  const [scanState, setScanState] = useState<"idle" | "scanning" | "complete">("idle");
+  const [progress, setProgress] = useState(0);
+  const [scannedCount, setScannedCount] = useState(0);
+  const [flaggedCount, setFlaggedCount] = useState(0);
+  const [refundCount, setRefundCount] = useState(0);
+  const [confettiActive, setConfettiActive] = useState(false);
 
-  // 3D Mouse Tilt values
-  const x = useMotionValue(200);
-  const y = useMotionValue(200);
-  const rotateX = useTransform(y, [0, 400], [10, -10]);
-  const rotateY = useTransform(x, [0, 400], [-10, 10]);
-
-  function handleMouseMove(event: React.MouseEvent<HTMLDivElement, MouseEvent>) {
-    const rect = event.currentTarget.getBoundingClientRect();
-    const width = rect.width;
-    const height = rect.height;
-    const mouseX = event.clientX - rect.left;
-    const mouseY = event.clientY - rect.top;
-    
-    const normalizedX = (mouseX / width) * 400;
-    const normalizedY = (mouseY / height) * 400;
-    
-    x.set(normalizedX);
-    y.set(normalizedY);
-  }
-
-  function handleMouseLeave() {
-    x.set(200);
-    y.set(200);
-  }
+  // Confetti particles helper
+  const confettiArray = Array.from({ length: 45 });
 
   useEffect(() => {
-    const ids = ["pay_R3x1Q8wE", "pay_A9c2L5mF", "pay_B7d4K3nG", "pay_C6e8M2oH"];
-    let idx = 0;
-    const interval = setInterval(() => {
-      const isDup = Math.random() > 0.6;
-      setTxs(prev => [
-        {
-          id: ids[idx % ids.length],
-          amount: isDup ? "₹125.00" : `₹${(Math.random() * 200 + 50).toFixed(2)}`,
-          status: isDup ? "Refunded" : "Secure",
-          time: "Just now",
-        },
-        ...prev.slice(0, 3),
-      ]);
-      idx++;
-    }, 5000);
-    return () => clearInterval(interval);
-  }, []);
+    if (scanState === "scanning") {
+      const interval = setInterval(() => {
+        setProgress((p) => {
+          if (p >= 100) {
+            clearInterval(interval);
+            setTimeout(() => {
+              setScanState("complete");
+              setConfettiActive(true);
+              // Trigger counters for completed state
+              animateCounter(4921, setScannedCount);
+              animateCounter(1105, setFlaggedCount);
+              animateCounter(79.39, setRefundCount, 2);
+            }, 500);
+            return 100;
+          }
+          return p + 4;
+        });
+      }, 80);
+      return () => clearInterval(interval);
+    }
+  }, [scanState]);
 
-  const badgeStyle = (status: string) => {
-    if (status === "Secure") return "bg-emerald-100 text-emerald-700";
-    if (status === "Refunded") return "bg-blue-100 text-razorblue";
-    return "bg-orange-100 text-orange-700";
+  useEffect(() => {
+    if (confettiActive) {
+      const timer = setTimeout(() => setConfettiActive(false), 5000);
+      return () => clearTimeout(timer);
+    }
+  }, [confettiActive]);
+
+  const animateCounter = (target: number, setter: React.Dispatch<React.SetStateAction<number>>, decimals = 0) => {
+    let current = 0;
+    const step = target / 30;
+    const interval = setInterval(() => {
+      current += step;
+      if (current >= target) {
+        setter(target);
+        clearInterval(interval);
+      } else {
+        setter(parseFloat(current.toFixed(decimals)));
+      }
+    }, 40);
+  };
+
+  const handleStartScan = () => {
+    setProgress(0);
+    setScannedCount(0);
+    setFlaggedCount(0);
+    setRefundCount(0);
+    setScanState("scanning");
   };
 
   return (
-    <section className="py-24 bg-white" id="demo">
-      <div className="max-w-[1536px] mx-auto px-6 sm:px-12 lg:px-16 grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-24 items-center">
-        {/* Left: Text */}
-        <div className="lg:col-span-6 flex flex-col gap-7 text-left">
+    <section className="py-24 bg-[#08061a] relative overflow-hidden" id="demo">
+      {/* Background glowing spot */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-[#14b8a6]/10 rounded-full blur-[100px] pointer-events-none z-0" />
+
+      {/* Confetti Animation Effect */}
+      <AnimatePresence>
+        {confettiActive && (
+          <div className="absolute inset-0 pointer-events-none z-30 overflow-hidden">
+            {confettiArray.map((_, i) => {
+              const left = Math.random() * 100;
+              const delay = Math.random() * 2;
+              const color = ["#667eea", "#14b8a6", "#10b981", "#3b82f6", "#ef4444"][i % 5];
+              return (
+                <motion.div
+                  key={i}
+                  initial={{ y: -20, x: `${left}%`, rotate: 0, opacity: 1 }}
+                  animate={{ y: "100vh", rotate: 360, opacity: 0 }}
+                  exit={{ opacity: 0 }}
+                  transition={{ duration: 3, delay, ease: "easeOut" }}
+                  className="absolute w-2.5 h-2.5 rounded-full"
+                  style={{ backgroundColor: color }}
+                />
+              );
+            })}
+          </div>
+        )}
+      </AnimatePresence>
+
+      <div className="max-w-[1400px] mx-auto px-6 lg:px-12 grid grid-cols-1 lg:grid-cols-12 gap-16 items-center relative z-10">
+        
+        {/* Left Side: Headline & Stats Info */}
+        <div className="lg:col-span-6 flex flex-col gap-6 text-left">
           <motion.div
-            initial={{ opacity: 0, y: 12 }}
+            initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <span className="section-tag">Live Sandbox</span>
-          </motion.div>
-          
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.1 }}
-            className="text-4xl sm:text-5xl lg:text-6xl font-extrabold font-poppins text-gray-900 tracking-tight leading-tight"
-          >
-            See It In Action — <span className="text-gradient">Live Sandbox</span>
-          </motion.h2>
-          
-          <motion.p
-            initial={{ opacity: 0, y: 15 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.15 }}
-            className="text-xl text-gray-600 leading-relaxed font-inter font-light"
-          >
-            Watch RazorGuard detect duplicate charges in real time. The dashboard preview shows an actual live checkout stream — every flagged transaction gets automatically refunded within milliseconds, keeping your books pristine.
-          </motion.p>
-          
-          <motion.div
-            initial={{ opacity: 0, y: 15 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.2 }}
-            className="flex flex-col gap-4 bg-gray-50 rounded-2xl p-6 border border-gray-100"
-          >
-            {[
-              ["1,105", "Duplicates detected in demo sandbox"],
-              ["₹79.39 Cr", "Revenue protected historically"],
-              ["100ms", "Average detection latency threshold"],
-            ].map(([val, label], i) => (
-              <div key={i} className="flex items-center justify-between text-sm font-medium">
-                <span className="text-gray-500">{label}</span>
-                <span className="font-bold text-gray-900 font-poppins text-base">{val}</span>
-              </div>
-            ))}
+            <span className="section-tag">Interactive Preview</span>
           </motion.div>
 
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.3 }}
-          >
-            <Link href="/demo" className="btn-primary inline-flex items-center gap-2 px-8 py-4 text-base">
-              Try Interactive Sandbox
-              <ArrowRight className="w-5 h-5" />
+          <h2 className="text-4xl sm:text-5xl font-extrabold font-poppins text-white tracking-tight">
+            See It In Action
+          </h2>
+          <p className="text-lg text-[#a0aec0] font-light leading-relaxed font-poppins">
+            Watch how RazorGuard detects and refunds duplicates in real-time
+          </p>
+          <p className="text-sm text-[#a0aec0] leading-relaxed font-inter font-light">
+            Upload your payment transaction export file below to run a mock scan. Our ML engine evaluates transaction payloads, browser hashes, and client signatures to isolate duplicate charges.
+          </p>
+
+          {/* Core Demo Info Stripe */}
+          <div className="flex flex-col gap-4 bg-white/5 border border-white/10 rounded-2xl p-6">
+            <div className="flex items-center justify-between text-sm">
+              <span className="text-[#a0aec0]">Engine Accuracy State</span>
+              <span className="font-bold text-white font-poppins">100% Precision</span>
+            </div>
+            <div className="flex items-center justify-between text-sm">
+              <span className="text-[#a0aec0]">Historical Duplicates Detected</span>
+              <span className="font-bold text-white font-poppins">1,105 duplicates detected in demo</span>
+            </div>
+            <div className="flex items-center justify-between text-sm">
+              <span className="text-[#a0aec0]">Scan Speed Metric</span>
+              <span className="font-bold text-[#14b8a6] font-poppins">&lt;100ms/tx</span>
+            </div>
+          </div>
+
+          <div className="pt-2">
+            <Link 
+              href="/demo"
+              className="btn-primary inline-flex items-center gap-2 px-8 py-4 text-sm font-bold tracking-wider uppercase transition-all shadow-lg hover:shadow-[#14b8a6]/20"
+            >
+              Try Live Dashboard
+              <ArrowRight className="w-4.5 h-4.5" />
             </Link>
+          </div>
+        </div>
+
+        {/* Right Side: Demo Card Box (Dark Glassmorphic) */}
+        <div className="lg:col-span-6 w-full">
+          <motion.div 
+            whileHover={{ scale: 1.01 }}
+            className="bg-[#0f0c29]/80 backdrop-blur-xl border border-white/10 rounded-3xl p-8 shadow-[0_20px_50px_rgba(0,0,0,0.5)] transition-all hover:border-[#14b8a6]/40 cursor-default relative overflow-hidden"
+          >
+            {/* Header style */}
+            <div className="flex items-center justify-between mb-6 pb-4 border-b border-white/10 text-xs">
+              <span className="font-mono text-gray-400">LEDGER_SCANNER_PRO.v1</span>
+              <span className="flex items-center gap-1.5 text-[#14b8a6] font-bold">
+                <span className="w-1.5 h-1.5 rounded-full bg-[#14b8a6] animate-pulse" />
+                SANDBOX ACTIVE
+              </span>
+            </div>
+
+            {/* Sandbox screen states */}
+            {scanState === "idle" && (
+              <div className="flex flex-col items-center justify-center py-10 text-center gap-5">
+                <div className="w-16 h-16 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-white/40 group hover:text-white transition-colors duration-300">
+                  <UploadCloud className="w-8 h-8 animate-bounce" />
+                </div>
+                <div>
+                  <h4 className="font-bold font-poppins text-white text-base">Select Transaction File</h4>
+                  <p className="text-xs text-[#a0aec0] mt-1 max-w-xs">Upload your transaction ledger CSV or run the mock transaction scan</p>
+                </div>
+                <button
+                  onClick={handleStartScan}
+                  className="btn-primary px-8 py-3.5 text-xs font-bold uppercase tracking-wider animate-soft-pulse"
+                >
+                  Start Demo Scan
+                </button>
+              </div>
+            )}
+
+            {scanState === "scanning" && (
+              <div className="flex flex-col items-center justify-center py-12 text-center gap-6">
+                <div className="relative">
+                  <RefreshCw className="w-14 h-14 text-[#14b8a6] animate-spin" />
+                  <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-lg">🔍</span>
+                </div>
+                <div className="w-full space-y-2">
+                  <h4 className="font-bold font-poppins text-white text-sm">Processing Transaction Ledgers</h4>
+                  {/* Progress bar */}
+                  <div className="w-full h-1.5 bg-white/5 rounded-full overflow-hidden">
+                    <div 
+                      className="h-full bg-gradient-to-r from-[#667eea] to-[#14b8a6] transition-all duration-100"
+                      style={{ width: `${progress}%` }}
+                    />
+                  </div>
+                  <div className="flex justify-between items-center text-[10px] text-gray-400 font-mono">
+                    <span>STATUS: INGESTING</span>
+                    <span>{progress}%</span>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {scanState === "complete" && (
+              <motion.div 
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.6 }}
+                className="space-y-6"
+              >
+                {/* Status Indicator */}
+                <div className="flex items-center gap-3 bg-[#10b981]/10 border border-[#10b981]/20 p-4 rounded-2xl text-[#10b981] text-xs">
+                  <CheckCircle2 className="w-5 h-5 shrink-0" />
+                  <div>
+                    <h5 className="font-bold font-poppins text-white text-sm">Scan Completed Successfully!</h5>
+                    <p className="text-[11px] text-[#a0aec0] mt-0.5">Found and intercepted duplicate webhooks.</p>
+                  </div>
+                </div>
+
+                {/* Scanned Results display with animated numbers */}
+                <div className="grid grid-cols-3 gap-4">
+                  <div className="bg-white/5 border border-white/5 p-4 rounded-2xl text-center">
+                    <span className="text-[10px] text-gray-400 font-bold uppercase tracking-wider block">Scanned</span>
+                    <span className="text-2xl font-extrabold font-poppins text-white mt-1 block">
+                      {scannedCount.toLocaleString()}
+                    </span>
+                  </div>
+                  <div className="bg-[#ef4444]/5 border border-[#ef4444]/10 p-4 rounded-2xl text-center">
+                    <span className="text-[10px] text-red-400 font-bold uppercase tracking-wider block">Flagged</span>
+                    <span className="text-2xl font-extrabold font-poppins text-[#ef4444] mt-1 block">
+                      {flaggedCount.toLocaleString()}
+                    </span>
+                  </div>
+                  <div className="bg-[#10b981]/5 border border-[#10b981]/10 p-4 rounded-2xl text-center">
+                    <span className="text-[10px] text-[#10b981] font-bold uppercase tracking-wider block">Refunded</span>
+                    <span className="text-xl font-extrabold font-poppins text-[#10b981] mt-1.5 block">
+                      ₹{refundCount}Cr
+                    </span>
+                  </div>
+                </div>
+
+                {/* Progress bars fill animation */}
+                <div className="space-y-3 pt-2">
+                  <div>
+                    <div className="flex justify-between text-xs text-gray-400 font-medium mb-1">
+                      <span>XGBoost Match Accuracy</span>
+                      <span className="text-white font-bold">100%</span>
+                    </div>
+                    <div className="h-1 bg-white/5 rounded-full overflow-hidden">
+                      <motion.div 
+                        initial={{ width: 0 }}
+                        animate={{ width: "100%" }}
+                        transition={{ duration: 1 }}
+                        className="h-full bg-[#667eea]" 
+                      />
+                    </div>
+                  </div>
+                  <div>
+                    <div className="flex justify-between text-xs text-gray-400 font-medium mb-1">
+                      <span>Webhook Safety Check</span>
+                      <span className="text-white font-bold">98.4%</span>
+                    </div>
+                    <div className="h-1 bg-white/5 rounded-full overflow-hidden">
+                      <motion.div 
+                        initial={{ width: 0 }}
+                        animate={{ width: "98.4%" }}
+                        transition={{ duration: 1, delay: 0.1 }}
+                        className="h-full bg-[#14b8a6]" 
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                {/* Action buttons */}
+                <div className="flex gap-4 pt-2">
+                  <button
+                    onClick={handleStartScan}
+                    className="flex-1 bg-white/5 hover:bg-white/10 text-white py-3 rounded-xl border border-white/10 text-xs font-bold tracking-wider uppercase transition-colors"
+                  >
+                    Scan Again
+                  </button>
+                  <Link
+                    href="/demo"
+                    className="flex-1 btn-primary py-3 text-xs font-bold tracking-wider uppercase text-center flex items-center justify-center gap-1.5"
+                  >
+                    Try Live Dashboard
+                    <ArrowRight className="w-3.5 h-3.5" />
+                  </Link>
+                </div>
+              </motion.div>
+            )}
+
           </motion.div>
         </div>
 
-        {/* Right: Live dashboard with 3D Tilt */}
-        <motion.div
-          initial={{ opacity: 0, x: 30 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="lg:col-span-6 relative w-full cursor-pointer select-none"
-          style={{ perspective: 1200 }}
-        >
-          <motion.div
-            style={{ rotateX, rotateY, transformStyle: "preserve-3d" }}
-            onMouseMove={handleMouseMove}
-            onMouseLeave={handleMouseLeave}
-            className="rounded-3xl border border-gray-200 shadow-[0_20px_60px_rgba(0,0,0,0.08)] overflow-hidden bg-white transition-all duration-100"
-          >
-            {/* Browser chrome */}
-            <div className="bg-gray-100 border-b border-gray-200 px-5 py-3.5 flex items-center gap-3">
-              <div className="flex gap-1.5">
-                <div className="w-3 h-3 rounded-full bg-red-400" />
-                <div className="w-3 h-3 rounded-full bg-yellow-400" />
-                <div className="w-3 h-3 rounded-full bg-green-400" />
-              </div>
-              <div className="flex-1 bg-white rounded-md px-3 py-1.5 text-xs text-gray-400 border border-gray-200 flex items-center justify-between">
-                <span>razorguard.io/demo</span>
-                <span className="flex items-center gap-1 text-emerald-600 font-semibold">
-                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
-                  LIVE
-                </span>
-              </div>
-            </div>
-
-            {/* Dashboard */}
-            <div className="p-8 space-y-5">
-              {/* Stats row */}
-              <div className="grid grid-cols-3 gap-4 mb-2">
-                {[
-                  { label: "Today", val: "1,105", sub: "Duplicates" },
-                  { label: "Refunded", val: "100%", sub: "Auto" },
-                  { label: "Saved", val: "₹79.39Cr", sub: "Revenue" },
-                ].map((s, i) => (
-                  <div key={i} className="bg-gray-50 rounded-xl p-4 text-center border border-gray-100">
-                    <div className="font-bold text-lg font-poppins text-gray-900">{s.val}</div>
-                    <div className="text-[11px] text-gray-400 font-medium mt-0.5">{s.sub}</div>
-                  </div>
-                ))}
-              </div>
-
-              {/* Feed */}
-              <div className="text-xs text-gray-400 font-semibold uppercase tracking-wider px-1">Transaction Feed</div>
-              <div className="space-y-3 max-h-56 overflow-hidden">
-                {txs.map((tx, i) => (
-                  <motion.div
-                    key={tx.id + i}
-                    initial={{ opacity: 0, y: -8 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.3 }}
-                    className={`flex items-center justify-between rounded-xl px-4 py-3.5 border ${
-                      tx.status !== "Secure" ? "bg-blue-50 border-blue-100" : "bg-gray-50 border-gray-100"
-                    }`}
-                  >
-                    <div className="flex items-center gap-3">
-                      <ShieldAlert className={`w-5 h-5 ${tx.status !== "Secure" ? "text-razorblue" : "text-emerald-500"}`} />
-                      <div>
-                        <div className="font-mono text-sm font-bold text-gray-700">{tx.id}</div>
-                        <div className="text-[11px] text-gray-450 mt-0.5">{tx.time}</div>
-                      </div>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <span className="font-bold text-sm text-gray-800">{tx.amount}</span>
-                      <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${badgeStyle(tx.status)}`}>
-                        {tx.status}
-                      </span>
-                    </div>
-                  </motion.div>
-                ))}
-              </div>
-            </div>
-          </motion.div>
-        </motion.div>
       </div>
     </section>
   );
