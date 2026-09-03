@@ -15,7 +15,7 @@ import CTA from "@/components/CTA";
 
 export default function HomePage() {
   return (
-    <div className="bg-white">
+    <div className="bg-[#080711]">
       {/* 1. Hero Banner with Interactive Modal & Live Feed Tabs */}
       <Hero />
 

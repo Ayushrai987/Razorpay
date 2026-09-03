@@ -1,1 +1,6 @@
-:root {\n  --color-primary: hsl(210,100%,55%);\n  --color-secondary: hsl(165,80%,45%);\n  --color-accent: hsl(30,90%,60%);\n}
+:root {
+  --color-primary: hsl(210, 100%, 55%);
+  --color-secondary: hsl(165, 80%, 45%);
+  --color-accent: hsl(30, 90%, 60%);
+}
+

@@ -23,8 +23,8 @@ const config: Config = {
         "accent-hsl": "hsl(30, 90%, 60%)",
       },
       fontFamily: {
-        headings: ["var(--font-headings)", "serif"],
-        body: ["var(--font-satoshi)", "sans-serif"],
+        headings: ["var(--font-headings)", "sans-serif"],
+        body: ["var(--font-body)", "sans-serif"],
       },
       animation: {
         "gradient-x": "gradient-x 8s ease infinite",

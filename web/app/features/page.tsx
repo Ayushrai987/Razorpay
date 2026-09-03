@@ -8,31 +8,31 @@ import { motion } from "framer-motion";
 
 export default function FeaturesPage() {
   return (
-    <div className="bg-white">
-      {/* Mini Hero Header */}
-      <section className="relative pt-20 pb-16 overflow-hidden bg-gray-50 border-b border-gray-100">
+    <div className="bg-[#080711]">
+      {/* Header */}
+      <section className="relative pt-28 pb-16 overflow-hidden bg-[#0c0a1a] border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 text-center flex flex-col gap-4 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
           >
-            <span className="section-tag">System Specs</span>
+            <span className="section-tag">Platform Capabilities</span>
           </motion.div>
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
-            className="text-4xl md:text-5xl font-bold font-poppins text-gray-900 tracking-tight"
+            className="text-4xl md:text-5xl font-extrabold font-headings text-white tracking-tight"
           >
-            Powerful Features to Stop Duplicate Charges
+            Engineered for Duplicate Payment Security
           </motion.h1>
           <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
-            className="text-gray-500 text-base max-w-xl mx-auto font-light leading-relaxed"
+            className="text-[#cbd5e1] text-base max-w-xl mx-auto font-normal leading-relaxed"
           >
-            Explore how our machine learning models verify client footprints, prevent double payments, and trigger API refunds.
+            Explore how pattern classification models evaluate transaction signals and execute automated Razorpay reversals.
           </motion.p>
         </div>
       </section>

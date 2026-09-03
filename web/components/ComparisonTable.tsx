@@ -1,127 +1,100 @@
 "use client";
 
-import React, { useState } from "react";
-import { Check, X, Info } from "lucide-react";
+import React from "react";
+import { Check, X } from "lucide-react";
 import { motion } from "framer-motion";
 
 interface Row {
   feature: string;
-  tooltip?: string;
   manual: boolean | string;
   idempotency: boolean | string;
   razorguard: boolean | string;
 }
 
 const rows: Row[] = [
-  { feature: "Detection Speed", tooltip: "How fast duplicates are caught after the event", manual: "24–48 Hours", idempotency: "Immediate", razorguard: "Sub-100ms" },
-  { feature: "Coverage Window", tooltip: "Configurable lookback window for deduplication", manual: "Audit files only", idempotency: "Per-request", razorguard: "2s → 24h config" },
-  { feature: "ML Accuracy", tooltip: "Model precision rate measured on production data", manual: false, idempotency: false, razorguard: "100% precision" },
-  { feature: "Auto-Refund Pipeline", tooltip: "Automatic webhook-triggered refund API calls", manual: false, idempotency: false, razorguard: true },
-  { feature: "Multi-Tab Detection", tooltip: "Browser fingerprint for repeat tab submissions", manual: false, idempotency: false, razorguard: true },
-  { feature: "Network Retry Shield", tooltip: "Catches payment retries caused by timeout failures", manual: false, idempotency: false, razorguard: true },
-  { feature: "Zero False Positives", tooltip: "Guaranteed non-reversal of legitimate transactions", manual: false, idempotency: false, razorguard: true },
-  { feature: "PCI-DSS Compliance", tooltip: "Standards adherence for payment card data security", manual: false, idempotency: "Partial", razorguard: true },
-  { feature: "Webhook Integration", tooltip: "Native Razorpay webhook event binding", manual: false, idempotency: false, razorguard: true },
-  { feature: "Audit Trail Logs", tooltip: "Immutable log of all flagged and refunded events", manual: "Manual only", idempotency: false, razorguard: true },
+  { feature: "Detection Latency Target", manual: "24–48 Hours (Audit)", idempotency: "Immediate", razorguard: "Sub-100ms" },
+  { feature: "Scan Lookback Window", manual: "Static Export Files", idempotency: "Per-request Key", razorguard: "5s → 24h Configurable" },
+  { feature: "Multi-Attribute Signal Matching", manual: false, idempotency: false, razorguard: true },
+  { feature: "Automated Razorpay Refund API", manual: false, idempotency: false, razorguard: true },
+  { feature: "Multi-Tab Checkout Detection", manual: false, idempotency: false, razorguard: true },
+  { feature: "Gateway Timeout Retry Handling", manual: false, idempotency: false, razorguard: true },
+  { feature: "Zero Merchant Code Refactoring", manual: false, idempotency: false, razorguard: true },
+  { feature: "HMAC Signature Verification", manual: false, idempotency: "Partial", razorguard: true },
+  { feature: "Native Webhook Event Ingestion", manual: false, idempotency: false, razorguard: true },
+  { feature: "Structured Audit Log Trails", manual: "Manual Spreadsheets", idempotency: false, razorguard: true },
 ];
 
 function CellValue({ val }: { val: boolean | string }) {
   if (val === true) return (
-    <span className="flex items-center gap-1.5 text-[#10b981] font-bold text-xs">
-      <Check className="w-4 h-4 shrink-0" /> Included
+    <span className="flex items-center gap-1.5 text-[#10b981] font-bold text-xs font-mono">
+      <Check className="w-4 h-4 shrink-0 text-[#10b981]" /> Supported
     </span>
   );
   if (val === false) return (
-    <span className="flex items-center gap-1.5 text-[#ef4444]/70 text-xs">
-      <X className="w-4 h-4 shrink-0" /> Not available
+    <span className="flex items-center gap-1.5 text-[#ef4444] text-xs font-mono">
+      <X className="w-4 h-4 shrink-0 text-[#ef4444]" /> Not Supported
     </span>
   );
-  return <span className="text-[#a0aec0] text-xs font-medium">{val}</span>;
+  return <span className="text-[#cbd5e1] text-xs font-mono font-medium">{val}</span>;
 }
 
 export default function ComparisonTable() {
-  const [tooltip, setTooltip] = useState<number | null>(null);
-
   return (
-    <section className="py-24 bg-[#08061a]" id="comparison">
-      <div className="max-w-[1400px] mx-auto px-6 lg:px-12 flex flex-col items-center gap-12">
+    <section className="py-20 bg-[#080711] border-b border-white/10" id="comparison">
+      <div className="max-w-[1400px] mx-auto px-6 lg:px-12 flex flex-col items-center gap-10">
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto">
           <motion.div
-            initial={{ opacity: 0, y: 12 }}
+            initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <span className="section-tag">Competitor Comparison</span>
+            <span className="section-tag">Architecture Comparison</span>
           </motion.div>
-          <h2 className="mt-4 text-4xl sm:text-5xl font-extrabold font-poppins text-white tracking-tight">
-            How We <span className="bg-gradient-to-r from-[#667eea] to-[#14b8a6] bg-clip-text text-transparent">Compare</span>
+          <h2 className="mt-4 text-3xl sm:text-4xl font-extrabold font-headings text-white tracking-tight">
+            How RazorGuard Compares to Standard Approaches
           </h2>
-          <p className="mt-4 text-[#a0aec0] text-base font-light font-poppins">
-            See how RazorGuard stacks up against manual checks and basic idempotency keys.
+          <p className="mt-3 text-[#cbd5e1] text-sm sm:text-base font-normal">
+            Comparing manual audit processes, basic idempotency keys, and automated webhook deduplication.
           </p>
         </div>
 
         {/* Table Container */}
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
+          initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.7 }}
-          className="w-full bg-[#0f0c29]/50 border border-white/10 rounded-3xl overflow-hidden shadow-2xl"
+          transition={{ duration: 0.5 }}
+          className="w-full bg-[#0f0c22] border border-white/10 rounded-2xl overflow-hidden shadow-2xl"
         >
           <div className="overflow-x-auto">
-            <table className="w-full text-left text-sm">
-              <thead className="border-b border-white/10 text-xs font-mono uppercase tracking-wider">
+            <table className="w-full text-left text-sm" aria-label="Technical Feature Comparison Table">
+              <caption className="sr-only">Comparison of RazorGuard duplicate detection vs manual verification and basic idempotency keys</caption>
+              <thead className="border-b border-white/10 text-xs font-mono uppercase tracking-wider bg-white/5">
                 <tr>
-                  <th className="p-5 font-bold text-[#a0aec0]">Technical Feature</th>
-                  <th className="p-5 font-bold text-[#a0aec0]">Manual Verification</th>
-                  <th className="p-5 font-bold text-[#a0aec0]">Idempotency Keys Only</th>
-                  {/* Glowing RazorGuard column header */}
-                  <th className="p-5 font-bold text-[#14b8a6] bg-gradient-to-b from-[#14b8a6]/15 to-transparent border-l border-[#14b8a6]/20 relative">
+                  <th scope="col" className="p-4 font-bold text-white">Technical Capability</th>
+                  <th scope="col" className="p-4 font-bold text-[#94a3b8]">Manual Reconciliation</th>
+                  <th scope="col" className="p-4 font-bold text-[#94a3b8]">Idempotency Keys Alone</th>
+                  <th scope="col" className="p-4 font-bold text-[#2dd4bf] bg-[#2dd4bf]/10 border-l border-[#2dd4bf]/20">
                     <span className="flex items-center gap-2">
-                      <span className="w-2 h-2 rounded-full bg-[#14b8a6] animate-pulse" />
-                      RazorGuard AI
+                      <span className="w-2 h-2 rounded-full bg-[#2dd4bf] animate-pulse" />
+                      RazorGuard Webhook Shield
                     </span>
-                    <span className="absolute top-2 right-2 bg-[#10b981] text-white text-[9px] font-bold px-1.5 py-0.5 rounded-full">BEST</span>
                   </th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-white/5">
+              <tbody className="divide-y divide-white/5 font-sans">
                 {rows.map((row, idx) => (
-                  <motion.tr
-                    key={idx}
-                    initial={{ opacity: 0, x: -10 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ delay: idx * 0.05 }}
-                    className="hover:bg-white/5 transition-colors group"
-                  >
-                    <td className="p-5 font-semibold text-white font-poppins">
-                      <span className="flex items-center gap-2">
-                        {row.feature}
-                        {row.tooltip && (
-                          <span className="relative">
-                            <Info
-                              className="w-3.5 h-3.5 text-[#a0aec0] cursor-help opacity-0 group-hover:opacity-100 transition-opacity"
-                              onMouseEnter={() => setTooltip(idx)}
-                              onMouseLeave={() => setTooltip(null)}
-                            />
-                            {tooltip === idx && (
-                              <span className="absolute left-5 top-0 z-20 bg-[#0f0c29] border border-white/10 text-[#a0aec0] text-[10px] font-normal px-2 py-1.5 rounded-lg shadow-2xl w-48 pointer-events-none">
-                                {row.tooltip}
-                              </span>
-                            )}
-                          </span>
-                        )}
-                      </span>
-                    </td>
-                    <td className="p-5 text-[#a0aec0]"><CellValue val={row.manual} /></td>
-                    <td className="p-5 text-[#a0aec0]"><CellValue val={row.idempotency} /></td>
-                    <td className="p-5 bg-[#14b8a6]/5 border-l border-[#14b8a6]/10">
+                  <tr key={idx} className="hover:bg-white/5 transition-colors">
+                    <th scope="row" className="p-4 font-semibold text-white font-headings text-xs sm:text-sm">
+                      {row.feature}
+                    </th>
+                    <td className="p-4 text-[#cbd5e1]"><CellValue val={row.manual} /></td>
+                    <td className="p-4 text-[#cbd5e1]"><CellValue val={row.idempotency} /></td>
+                    <td className="p-4 bg-[#2dd4bf]/5 border-l border-[#2dd4bf]/10">
                       <CellValue val={row.razorguard} />
                     </td>
-                  </motion.tr>
+                  </tr>
                 ))}
               </tbody>
             </table>
@@ -131,4 +104,3 @@ export default function ComparisonTable() {
     </section>
   );
 }
-
